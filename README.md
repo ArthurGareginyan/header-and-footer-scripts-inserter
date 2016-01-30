@@ -1,6 +1,6 @@
-# "Header and Footer Scripts Inserter"
+# Header and Footer Scripts Inserter
 
-##Free Premium WorPress Plugin
+**Free Premium WorPress Plugin**
 
 ![screenshot](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter/blob/master/assets/banner-772x250.png)
 

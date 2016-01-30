@@ -1,0 +1,70 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Header and Footer Scripts Inserter\n"
+"POT-Creation-Date: 2016-01-30 11:45+0300\n"
+"PO-Revision-Date: 2016-01-30 11:39+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: header-and-footer-scripts-inserter.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: header-and-footer-scripts-inserter.php:58
+msgid "Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: header-and-footer-scripts-inserter.php:71 inc/settings_page.php:22
+msgid "Header and Footer Scripts Inserter"
+msgstr ""
+
+#: inc/settings_page.php:25
+msgid ""
+"by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+"\"Berserkr\" Gareginyan</a>"
+msgstr ""
+
+#: inc/settings_page.php:42
+msgid "This plugin allows you to easily insert scripts in your website."
+msgstr ""
+
+#: inc/settings_page.php:45
+msgid ""
+"To use, enter your custom scripts, then click \"Save Changes\". It's that "
+"simple!"
+msgstr ""
+
+#: inc/settings_page.php:92 inc/settings_page.php:104
+msgid "Save Changes"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"http://mycyberuniverse.com/my_programs/wp-plugin-header-and-footer-scripts-"
+"inserter.html"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Easily add your scripts to the WordPress website's head or/and footer "
+"section. This is a must have tool for authors and website's owners."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Arthur \"Berserkr\" Gareginyan"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.arthurgareginyan.com"
+msgstr ""

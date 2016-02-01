@@ -1,10 +1,10 @@
 === Header and Footer Scripts Inserter ===
 Contributors: Arthur Gareginyan
-Tags: code, script, javascript, css, html, php, insert, inject, header, footer, 
+Tags: inject, insert, insert scripts, insert javascript, insert js, insert html, insert css, insert custom scripts, insert custom code, html, javascript, php, js, css, code, custom code, script, scripts, custom scripts, meta, meta tags, head, header, head section, head area, footer, footer section, footer area,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.4
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -115,6 +115,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter)
 
 == Changelog ==
+= 1.1 =
+* Added Russian translation.
+* Localization improved.
 = 1.0 =
 * Initial release.
 * Added ready for translation (.pot file included).
@@ -125,6 +128,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+= 1.1 =
+Please update to new version! * Added Russian translation. * Localization improved.
 = 1.0 =
 Please update to first stable release!
 * Added ready for translation (.pot file included).

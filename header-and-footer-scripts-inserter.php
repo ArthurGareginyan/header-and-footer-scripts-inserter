@@ -5,7 +5,7 @@
  * Description: Easily add your scripts to the WordPress website's head or/and footer section. This is a must have tool for authors and website's owners.
  * Author: Arthur "Berserkr" Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 1.0
+ * Version: 1.1
  * License: GPL3
  * Text Domain: HFScriptsIns
  * Domain Path: /languages/

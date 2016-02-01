@@ -1,28 +1,29 @@
-#, fuzzy
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Header and Footer Scripts Inserter\n"
 "POT-Creation-Date: 2016-02-01 23:32+0300\n"
-"PO-Revision-Date: 2016-01-30 11:39+0300\n"
+"PO-Revision-Date: 2016-02-02 00:53+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 1.8.4\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: header-and-footer-scripts-inserter.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: header-and-footer-scripts-inserter.php:58
 msgid "Settings"
-msgstr ""
+msgstr "Настройки"
 
 #. Plugin Name of the plugin/theme
 #: header-and-footer-scripts-inserter.php:71 inc/settings_page.php:22
@@ -34,6 +35,8 @@ msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
 "\"Berserkr\" Gareginyan</a>"
 msgstr ""
+"от <a href=“http://www.arthurgareginyan.com” target=“_blank”>Артур "
+"“Berserkr” Гарегинян</a>"
 
 #: inc/settings_page.php:36
 msgid "About"
@@ -41,55 +44,65 @@ msgstr ""
 
 #: inc/settings_page.php:42
 msgid "This plugin allows you to easily insert scripts in your website."
-msgstr ""
+msgstr "Этот плагин позволяет легко вставлять скрипты в ваш веб-сайте."
 
 #: inc/settings_page.php:45
 msgid ""
 "To use, enter your custom scripts, then click \"Save Changes\". It's that "
 "simple!"
 msgstr ""
+"Для использования, вставьте ваши пользовательские скрипты, затем нажмите "
+"кнопку “Сохранить изменения”. Это так просто!"
 
 #: inc/settings_page.php:51
 msgid "Donate"
-msgstr ""
+msgstr "Пожертвование"
 
 #: inc/settings_page.php:53
 msgid ""
-"If you like this plugin and find it useful, help me to make this plugin "
-"even better and keep it up-to-date."
+"If you like this plugin and find it useful, help me to make this plugin even "
+"better and keep it up-to-date."
 msgstr ""
+"Если вам нравится этот плагин и вы находите его полезным, то помогите мне "
+"сделать его ещё лучше."
 
 #: inc/settings_page.php:59
 msgid "Thanks for your support!"
-msgstr ""
+msgstr "Спасибо за вашу поддержку!"
 
 #: inc/settings_page.php:64
 msgid "Help"
-msgstr ""
+msgstr "Помощь"
 
 #: inc/settings_page.php:67
 msgid "If you want more options then tell me and I will be happy to add it."
 msgstr ""
+"Если вы хотите больше опций, то скажите мне об этом и я буду счастлив "
+"добавить их."
 
 #: inc/settings_page.php:85
 msgid "Header Section"
-msgstr ""
+msgstr "Раздел HEADER"
 
 #: inc/settings_page.php:87
 msgid "You can use the field below to add scripts to Header of your website."
 msgstr ""
+"Используйте поле расположение ниже для того, чтобы добавить скрипты в "
+"верхний колонтитул вашего сайта."
 
 #: inc/settings_page.php:92 inc/settings_page.php:104
 msgid "Save Changes"
-msgstr ""
+msgstr "Сохранить изменения"
 
 #: inc/settings_page.php:97
 msgid "Footer Section"
-msgstr ""
+msgstr "Раздел FOOTER"
 
 #: inc/settings_page.php:99
 msgid "You can use the field below to add scripts to Footer of your website."
 msgstr ""
+"Используйте поле расположение ниже для того, чтобы добавить скрипты в нижний "
+"колонтитул вашего сайта."
 
 #. Plugin URI of the plugin/theme
 msgid ""
@@ -102,10 +115,12 @@ msgid ""
 "Easily add your scripts to the WordPress website's head or/and footer "
 "section. This is a must have tool for authors and website's owners."
 msgstr ""
+"Легко добавляйте ваши скрипты в шапку и/или колонтитул вашего WordPress веб-"
+"сайта. Это необходимый инструмент для авторов и владельцев веб-сайтов."
 
 #. Author of the plugin/theme
 msgid "Arthur \"Berserkr\" Gareginyan"
-msgstr ""
+msgstr "Артур “Берсеркр” Гарегинян"
 
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"

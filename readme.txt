@@ -4,7 +4,7 @@ Tags: inject, insert, insert scripts, insert javascript, insert js, insert html,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.4
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -65,7 +65,7 @@ After installation, a "`Header and Footer Scripts Inserter`" menu item will app
 
 
 == Frequently Asked Questions ==
-= Q. Will this Plugin work on my WordPress.com website? =
+= Q. Will this Plugin work on my WordPress.COM website? =
 A. Sorry, this plugin is available for use only on self-hosted (WordPress.org) websites.
 
 = Q. Can I use this plugin on my language? =
@@ -77,6 +77,12 @@ On the plugin's page you find the fields where you can enter your custom scripts
 
 = Q. How much of scripts I can enter in the field? =
 A. I don't limit the number of characters.
+
+= Q. Does this plugin require modification to the theme? =
+A. Absolutely not. This plugin is added/configured entirely from the website's Admin section.
+
+= Q. It's not working. What could be wrong? =
+A. As with every plugin, it's possible that things don't work. The most common reason for this is that the plugin has a conflict with another plugin you're using. It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, I'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
 
 = Q. Where to report bug if found? =
 A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter) and report.
@@ -115,6 +121,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter)
 
 == Changelog ==
+= 1.2 =
+* Added Polish translation. (Thanks Paweł K.)
+* Localization improved. (Thanks Paweł K.)
+* POT file updated. (Thanks Paweł K.)
 = 1.1 =
 * Added Russian translation.
 * Localization improved.
@@ -128,6 +138,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
+= 1.2 =
+* Added Polish translation. (Thanks Paweł K.)
+* Localization improved. (Thanks Paweł K.)
+* POT file updated. (Thanks Paweł K.)
 = 1.1 =
 Please update to new version! * Added Russian translation. * Localization improved.
 = 1.0 =

@@ -8,7 +8,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 1.1
+ * @since 1.2
  */
 function HFScriptsIns_render_submenu_page() {
 
@@ -85,10 +85,10 @@ function HFScriptsIns_render_submenu_page() {
                                 <h3 class="title"><?php _e( 'Header Section', 'HFScriptsIns' ) ?></h3>
                                 <div class="inside">
                                     <p><?php _e( 'You can use the field below to add scripts to Header of your website.', 'HFScriptsIns' ) ?></p>
-                                    <textarea cols='50' rows='10' name='HFScriptsIns_settings[header_beginning]' placeholder="<!-- Beginning of the <head> tag -->"><?php echo esc_attr( $options[header_beginning] ); ?></textarea>
-                                    <p class='help-text'>Scripts from this field will be printed in the beginning of <b><\head></b> section. Do not place plain text in this!</p>
-                                    <textarea cols='50' rows='10' name='HFScriptsIns_settings[header_end]' placeholder="<!-- End of the <head> tag -->"><?php echo esc_attr( $options[header_end] ); ?></textarea>
-                                    <p class='help-text'>Scripts from this field will be printed in the end of <b><\head></b> section. Do not place plain text in this!</p>
+                                    <textarea cols='50' rows='10' name='HFScriptsIns_settings[header_beginning]' placeholder="<?php _e( '<!-- Beginning of the <head> tag -->', 'HFScriptsIns' ) ?>"><?php echo esc_attr( $options[header_beginning] ); ?></textarea>
+                                    <p class='help-text'><?php _e( 'Scripts from this field will be printed in the beginning of <b>HEAD</b> section. Do not place plain text in this!', 'HFScriptsIns' ) ?></p>
+                                    <textarea cols='50' rows='10' name='HFScriptsIns_settings[header_end]' placeholder="<?php _e( '<!-- End of the <head> tag -->', 'HFScriptsIns' ) ?>"><?php echo esc_attr( $options[header_end] ); ?></textarea>
+                                    <p class='help-text'><?php _e( 'Scripts from this field will be printed in the end of <b>HEAD</b> section. Do not place plain text in this!', 'HFScriptsIns' ) ?></p>
                                     <?php submit_button( __( 'Save Changes', 'HFScriptsIns' ), 'primary', 'submit', true ); ?>
                                 </div>
                             </div>
@@ -97,10 +97,10 @@ function HFScriptsIns_render_submenu_page() {
                                 <h3 class="title"><?php _e( 'Footer Section', 'HFScriptsIns' ) ?></h3>
                                 <div class="inside">
                                     <p><?php _e( 'You can use the field below to add scripts to Footer of your website.', 'HFScriptsIns' ) ?></p>
-                                    <textarea cols='50' rows='10' name='HFScriptsIns_settings[footer_beginning]' placeholder="<!-- Before a footers scripts -->"><?php echo esc_attr( $options[footer_beginning] ); ?></textarea>
-                                    <p class='help-text'>Scripts from this field will be printed before a footers scripts. Do not place plain text in this!</p>
-                                    <textarea cols='50' rows='10' name='HFScriptsIns_settings[footer_end]' placeholder="<!-- After all footers scripts -->"><?php echo esc_attr( $options[footer_end] ); ?></textarea>
-                                    <p class='help-text'>Scripts from this field will be printed after all footers scripts. Do not place plain text in this!</p>
+                                    <textarea cols='50' rows='10' name='HFScriptsIns_settings[footer_beginning]' placeholder="<?php _e( '<!-- Before a footers scripts -->', 'HFScriptsIns' ) ?>"><?php echo esc_attr( $options[footer_beginning] ); ?></textarea>
+                                    <p class='help-text'><?php _e( 'Scripts from this field will be printed before a footers scripts. Do not place plain text in this!', 'HFScriptsIns' ) ?></p>
+                                    <textarea cols='50' rows='10' name='HFScriptsIns_settings[footer_end]' placeholder="<?php _e( '<!-- After all footers scripts -->', 'HFScriptsIns' ) ?>"><?php echo esc_attr( $options[footer_end] ); ?></textarea>
+                                    <p class='help-text'><?php _e( 'Scripts from this field will be printed after all footers scripts. Do not place plain text in this!', 'HFScriptsIns' ) ?></p>
                                     <?php submit_button( __( 'Save Changes', 'HFScriptsIns' ), 'primary', 'submit', true ); ?>
                                 </div>
                             </div>

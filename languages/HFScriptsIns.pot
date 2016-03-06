@@ -79,6 +79,22 @@ msgstr ""
 msgid "You can use the field below to add scripts to Header of your website."
 msgstr ""
 
+#: inc/settings_page.php:88
+msgid "<!-- Beginning of the <head> tag -->"
+msgstr ""
+
+#: inc/settings_page.php:89
+msgid "Scripts from this field will be printed in the beginning of <b>HEAD</b> section. Do not place plain text in this!"
+msgstr ""
+
+#: inc/settings_page.php:90
+msgid "<!-- End of the <head> tag -->"
+msgstr ""
+
+#: inc/settings_page.php:91
+msgid "Scripts from this field will be printed in the end of <b>HEAD</b> section. Do not place plain text in this!"
+msgstr ""
+
 #: inc/settings_page.php:92 inc/settings_page.php:104
 msgid "Save Changes"
 msgstr ""
@@ -89,6 +105,22 @@ msgstr ""
 
 #: inc/settings_page.php:99
 msgid "You can use the field below to add scripts to Footer of your website."
+msgstr ""
+
+#: inc/settings_page.php:100
+msgid "<!-- Before a footers scripts -->"
+msgstr ""
+
+#: inc/settings_page.php:101
+msgid "Scripts from this field will be printed before a footers scripts. Do not place plain text in this!"
+msgstr ""
+
+#: inc/settings_page.php:102
+msgid "<!-- After all footers scripts -->"
+msgstr ""
+
+#: inc/settings_page.php:103
+msgid "Scripts from this field will be printed after all footers scripts. Do not place plain text in this!"
 msgstr ""
 
 #. Plugin URI of the plugin/theme

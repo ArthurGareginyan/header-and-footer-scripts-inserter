@@ -13,18 +13,15 @@ Third-party services like Google Webmaster Tools, Alexa, Pinterest and Google+ r
 
 ## Features
 
-**Current features:**
-
 * Light weight
 * User-friendly
 * No configuration required
 * Inserts scripts in beginning or/and end of header
 * Inserts scripts in beginning or/and end of footer
 * Ready for translation (.pot file included)
+* Russian translation
 
-**Coming soon:**
-
-* (Got more ideas? Tell me!)
+**Got more ideas? Tell me!**
 
 
 ## Contributing
@@ -56,8 +53,6 @@ Arthur Garegnyan aka Berserkr
 
 
 ## Links
-
-* [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-header-and-footer-scripts-inserter.html)
 
 * [Dedicated Plugin Page on WordPress.org](https://wordpress.org/plugins/header-and-footer-scripts-inserter/)
 

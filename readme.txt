@@ -35,8 +35,6 @@ Third-party services like Google Webmaster Tools, Alexa, Pinterest and Google+ r
 
 * (Got more ideas? Tell me!)
 
-For more details please visit - [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-header-and-footer-scripts-inserter.html)
-
 **Please Vote and Enjoy**
 
 * Your votes really make a difference! Thanks.
@@ -88,7 +86,7 @@ A. As with every plugin, it's possible that things don't work. The most common r
 A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter) and report.
 
 = Q. Where to share any ideas or suggestions to make the plugin better? =
-A. Please visit [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-header-and-footer-scripts-inserter.html) and share.
+A. Please send me email [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com).
 
 
 == Screenshots ==
@@ -108,7 +106,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 **Support**
 
 * Did you enjoy this plugin? Please [donate to support ongoing development](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS). Your contribution would be greatly appreciated.
-* Do you have any ideas or suggestions to make the plugin better? I can’t wait to hear them! Please share! [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-header-and-footer-scripts-inserter.html)
+* Do you have any ideas or suggestions to make the plugin better? I can’t wait to hear them! Please share! [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com)
 
 **Please Vote and Enjoy**
 
@@ -117,7 +115,6 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 **Links**
 
 * [Developer Website](http://www.arthurgareginyan.com)
-* [Dedicated Plugin Page](http://mycyberuniverse.com/my_programs/wp-plugin-header-and-footer-scripts-inserter.html)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter)
 
 == Changelog ==

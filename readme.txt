@@ -18,10 +18,7 @@ No need anymore to editing a files of your theme or plugins in order to add cust
 
 Third-party services like Google Webmaster Tools, Alexa, Pinterest and Google+ require you to verify your domain. This makes sure that you are the correct owner of your blog or store before they provide their services to you. You can use this plugin to easily verify your website or domain and get a more effective and efficient sharing results. Example with Pinterest. Once you completed the verification process, people will see a checkmark next to your domain in your Pinterest profile and in pinner search results. That check mark emphasis you have confirmed the ownership of your blog or website on Pinterest. This will help your website to rank better in google and other search engines. You can easily increase your blog traffic using this plugin. "Header and Footer Scripts Inserter" is a simple but effective SEO plugin.
 
-
 = Features =
-
-**Current features:**
 
 * Light weight
 * User-friendly
@@ -29,15 +26,17 @@ Third-party services like Google Webmaster Tools, Alexa, Pinterest and Google+ r
 * Inserts scripts in beginning or/and end of header
 * Inserts scripts in beginning or/and end of footer
 * Ready for translation (.pot file included)
+* Russian translation
+* Polish translation
 
+>**Contribution**
+>
+>Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
+>
+>* Please [donate](http://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+>* Please take the time to [rate and review](https://wordpress.org/support/view/plugin-reviews/header-and-footer-scripts-inserter?rate=5#postform) this plugin.
+>* Please [share with me](mailto:arthurgareginyan@gmail.com) if you have any ideas or suggestions to make this plugin better.
 
-**Coming soon:**
-
-* (Got more ideas? Tell me!)
-
-**Please Vote and Enjoy**
-
-* Your votes really make a difference! Thanks.
 
 == Installation ==
 Install "Header and Footer Scripts Inserter" just as you would any other WordPress Plugin.
@@ -88,11 +87,13 @@ A. Please visit [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareg
 = Q. Where to share any ideas or suggestions to make the plugin better? =
 A. Please send me email [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com).
 
+= Q. I love this plugin! Can I help somehow? =
+A. Yes, any financial contributions are welcome! Just visit my website and click on the donate link, and thank you! [My website](http://www.arthurgareginyan.com/donate.html)
+
 
 == Screenshots ==
-1. Plugin’s page. Section "Header Section".
-2. Plugin’s page. Section "Footer Section".
-3. Plugin’s page with Google Tag Manager code added and saved.
+1. Plugin’s page.
+2. Plugin’s page with Google Tag Manager code added.
 
 == Other Notes ==
 
@@ -103,21 +104,26 @@ A. Please send me email [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gma
 This plugin is open-sourced software licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html) and is distributed free of charge.
 Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request.
 
-**Support**
-
-* Did you enjoy this plugin? Please [donate to support ongoing development](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS). Your contribution would be greatly appreciated.
-* Do you have any ideas or suggestions to make the plugin better? I can’t wait to hear them! Please share! [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com)
-
-**Please Vote and Enjoy**
-
-* Your votes really make a difference! Thanks.
-
 **Links**
 
 * [Developer Website](http://www.arthurgareginyan.com)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter)
 
 == Changelog ==
+= 2.0 =
+* Fixed: "Use of undefined constant header_beginning - assumed 'header_beginning' in settings_page.php".
+* Fixed: "Use of undefined constant header_end - assumed 'header_end' in settings_page.php".
+* Fixed: "Use of undefined constant footer_beginning - assumed 'footer_beginning' in settings_page.php".
+* Fixed: "Use of undefined constant footer_end - assumed 'footer_end' in settings_page.php".
+* Some changes in design of settings page.
+* Constants variables added.
+* Text domain changed to "header-and-footer-scripts-inserter".
+* Added compatibility with the translate.wordpress.org.
+* All images are moved to the directory "images".
+* Image "btn_donateCC_LG.gif" is now located in the "images" directory.
+* Plugin URI changed to GitHub repository.
+* Added my personal ad about freelance.
+* .pot file updated.
 = 1.2 =
 * Added Polish translation. (Thanks Paweł K.)
 * Localization improved. (Thanks Paweł K.)
@@ -135,14 +141,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Upgrade Notice ==
-= 1.2 =
-* Added Polish translation. (Thanks Paweł K.)
-* Localization improved. (Thanks Paweł K.)
-* POT file updated. (Thanks Paweł K.)
-= 1.1 =
-Please update to new version! * Added Russian translation. * Localization improved.
+= 2.0 =
+Please update to new release!
 = 1.0 =
 Please update to first stable release!
-* Added ready for translation (.pot file included).
 = 0.2 =
 Please update to beta version.

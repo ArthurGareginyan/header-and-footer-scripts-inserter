@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Header and Footer Scripts Inserter\n"
-"POT-Creation-Date: 2016-02-01 23:32+0300\n"
+"POT-Creation-Date: 2016-04-09 14:00+0300\n"
 "PO-Revision-Date: 2016-01-30 11:39+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,129 +14,137 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: header-and-footer-scripts-inserter.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: header-and-footer-scripts-inserter.php:58
+#: header-and-footer-scripts-inserter.php:70
 msgid "Settings"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-#: header-and-footer-scripts-inserter.php:71 inc/settings_page.php:22
+#: header-and-footer-scripts-inserter.php:82 inc/settings_page.php:24
 msgid "Header and Footer Scripts Inserter"
 msgstr ""
 
-#: inc/settings_page.php:25
-msgid ""
-"by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
-"\"Berserkr\" Gareginyan</a>"
+#: inc/settings_page.php:27
+msgid "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur \"Berserkr\" Gareginyan</a>"
 msgstr ""
 
-#: inc/settings_page.php:36
+#: inc/settings_page.php:38
 msgid "About"
 msgstr ""
 
-#: inc/settings_page.php:42
+#: inc/settings_page.php:40
 msgid "This plugin allows you to easily insert scripts in your website."
 msgstr ""
 
 #: inc/settings_page.php:45
-msgid ""
-"To use, enter your custom scripts, then click \"Save Changes\". It's that "
-"simple!"
+msgid "Using"
 msgstr ""
 
-#: inc/settings_page.php:51
-msgid "Donate"
+#: inc/settings_page.php:47
+msgid "To use, enter your custom scripts, then click \"Save Changes\". It's that simple!"
 msgstr ""
 
-#: inc/settings_page.php:53
-msgid ""
-"If you like this plugin and find it useful, help me to make this plugin "
-"even better and keep it up-to-date."
-msgstr ""
-
-#: inc/settings_page.php:59
-msgid "Thanks for your support!"
-msgstr ""
-
-#: inc/settings_page.php:64
+#: inc/settings_page.php:52
 msgid "Help"
 msgstr ""
 
-#: inc/settings_page.php:67
+#: inc/settings_page.php:54
 msgid "If you want more options then tell me and I will be happy to add it."
 msgstr ""
 
-#: inc/settings_page.php:85
+#: inc/settings_page.php:60
+msgid "Donate"
+msgstr ""
+
+#: inc/settings_page.php:63
+msgid "If you like this plugin and find it useful, help me to make this plugin even better and keep it up-to-date."
+msgstr ""
+
+#: inc/settings_page.php:67
+msgid "Thanks for your support!"
+msgstr ""
+
+#: inc/settings_page.php:72
+msgid "Freelance"
+msgstr ""
+
+#: inc/settings_page.php:75
+msgid "Hello, my name is Arthur and I'm a freelance web designer and developer."
+msgstr ""
+
+#: inc/settings_page.php:76
+msgid ""
+"Share your thoughts with me. You may have a brilliant idea in your mind and I can make it happen, so let’s get started!"
+msgstr ""
+
+#: inc/settings_page.php:94
 msgid "Header Section"
 msgstr ""
 
-#: inc/settings_page.php:87
+#: inc/settings_page.php:96
 msgid "You can use the field below to add scripts to Header of your website."
 msgstr ""
 
-#: inc/settings_page.php:88
+#: inc/settings_page.php:97
 msgid "<!-- Beginning of the <head> tag -->"
 msgstr ""
 
-#: inc/settings_page.php:89
+#: inc/settings_page.php:98
 msgid "Scripts from this field will be printed in the beginning of <b>HEAD</b> section. Do not place plain text in this!"
 msgstr ""
 
-#: inc/settings_page.php:90
+#: inc/settings_page.php:99
 msgid "<!-- End of the <head> tag -->"
 msgstr ""
 
-#: inc/settings_page.php:91
+#: inc/settings_page.php:100
 msgid "Scripts from this field will be printed in the end of <b>HEAD</b> section. Do not place plain text in this!"
 msgstr ""
 
-#: inc/settings_page.php:92 inc/settings_page.php:104
+#: inc/settings_page.php:101 inc/settings_page.php:113
 msgid "Save Changes"
 msgstr ""
 
-#: inc/settings_page.php:97
+#: inc/settings_page.php:106
 msgid "Footer Section"
 msgstr ""
 
-#: inc/settings_page.php:99
+#: inc/settings_page.php:108
 msgid "You can use the field below to add scripts to Footer of your website."
 msgstr ""
 
-#: inc/settings_page.php:100
+#: inc/settings_page.php:109
 msgid "<!-- Before a footers scripts -->"
 msgstr ""
 
-#: inc/settings_page.php:101
+#: inc/settings_page.php:110
 msgid "Scripts from this field will be printed before a footers scripts. Do not place plain text in this!"
 msgstr ""
 
-#: inc/settings_page.php:102
+#: inc/settings_page.php:111
 msgid "<!-- After all footers scripts -->"
 msgstr ""
 
-#: inc/settings_page.php:103
+#: inc/settings_page.php:112
 msgid "Scripts from this field will be printed after all footers scripts. Do not place plain text in this!"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid ""
-"http://mycyberuniverse.com/my_programs/wp-plugin-header-and-footer-scripts-"
-"inserter.html"
+msgid "https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter"
 msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Easily add your scripts to the WordPress website's head or/and footer "
-"section. This is a must have tool for authors and website's owners."
+"Easily add your scripts to the WordPress website's head or/and footer section. This is a must have tool for authors "
+"and website's owners."
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Arthur \"Berserkr\" Gareginyan"
+msgid "Arthur Gareginyan"
 msgstr ""
 
 #. Author URI of the plugin/theme

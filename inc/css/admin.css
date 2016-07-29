@@ -1,7 +1,7 @@
 /*
  * Header and Footer Scripts Inserter
  * Style sheet for plugin's page
- * @since 2.0
+ * @since 3.0
  * @agareginyan
  */
 
@@ -38,9 +38,19 @@ h3.title {
     border-bottom: 1px solid #eee;
 }
 
-#Header h3,
-#Footer h3 {
-    font-size: 120%;
+/* Messages
+ -------------------------------------------------------------- */
+#setting-error-settings_updated {
+    display: none;
+}
+
+/* CodeMirror Editor
+ -------------------------------------------------------------- */
+.CodeMirror {
+    height: 100% !important;
+    border: 1px solid #ddd;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 textarea {
@@ -58,8 +68,9 @@ p.help-text {
     color: #797979;
     line-height: 15px;
     padding-top: 0px !important;
+    padding-left: 5px;
     margin-top: 0px !important;
-    margin-bottom: 15px !important;
+    margin-bottom: 25px !important;
 }
 
 .postbox a {
@@ -81,6 +92,9 @@ p.help-text {
 #help {
     text-align: center;
 }
+#help p {
+    margin: 0;
+}
 
 #donate {
     text-align: center;
@@ -88,4 +102,15 @@ p.help-text {
 
 #freelance {
     text-align: center;
+}
+
+/* Responsive
+ -------------------------------------------------------------- */
+@media (max-width: 860px) {
+    .inner-sidebar {
+        display: none !important;
+    }
+    #post-body-content {
+        margin-right: 0 !important;
+    }
 }

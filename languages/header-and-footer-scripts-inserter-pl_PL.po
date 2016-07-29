@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Header and Footer Scripts Inserter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-09 14:01+0300\n"
-"PO-Revision-Date: 2016-04-09 14:01+0300\n"
+"POT-Creation-Date: 2016-07-29 21:20+0300\n"
+"PO-Revision-Date: 2016-07-29 21:29+0300\n"
 "Last-Translator: psouu <koko887@wp.pl>\n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -30,31 +30,35 @@ msgid "Settings"
 msgstr "Ustawienia"
 
 #. Plugin Name of the plugin/theme
-#: header-and-footer-scripts-inserter.php:82 inc/settings_page.php:24
-msgid "Header and Footer Scripts Inserter"
+#: header-and-footer-scripts-inserter.php:82 inc/settings_page.php:32
+msgid "Head and Footer Scripts Inserter"
 msgstr "Wstawianie kodu do nagłówka i stopki"
 
-#: inc/settings_page.php:27
+#: inc/settings_page.php:23
+msgid "Scripts updated successfully."
+msgstr ""
+
+#: inc/settings_page.php:35
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
-"\"Berserkr\" Gareginyan</a>"
+"Gareginyan</a>"
 msgstr ""
 "wykonana przez <a href=\"http://www.arthurgareginyan.com\" target=\"_blank"
-"\">Arthura \"Berserkra\" Gareginyana</a>"
+"\">Arthur Gareginyan</a>"
 
-#: inc/settings_page.php:38
+#: inc/settings_page.php:46
 msgid "About"
 msgstr "O wtyczce"
 
-#: inc/settings_page.php:40
+#: inc/settings_page.php:48
 msgid "This plugin allows you to easily insert scripts in your website."
 msgstr "Ta wtyczka pozwala łatwo wstawić kod skryptów na stronę www."
 
-#: inc/settings_page.php:45
+#: inc/settings_page.php:53
 msgid "Using"
 msgstr ""
 
-#: inc/settings_page.php:47
+#: inc/settings_page.php:55
 msgid ""
 "To use, enter your custom scripts, then click \"Save Changes\". It's that "
 "simple!"
@@ -62,19 +66,19 @@ msgstr ""
 "Aby użyć, wprowadź kod skryptów, a następnie kliknij przycisk \"Zapisz\". To "
 "takie proste!"
 
-#: inc/settings_page.php:52
+#: inc/settings_page.php:60
 msgid "Help"
 msgstr "Pomoc"
 
-#: inc/settings_page.php:54
-msgid "If you want more options then tell me and I will be happy to add it."
-msgstr "Jeśli potrzebujesz więcej opcji napisz mi o tym. Chętnie je dodam."
+#: inc/settings_page.php:62
+msgid "Got something to say? Need help?"
+msgstr "Masz coś do powiedzenia? Potrzebujesz pomocy?"
 
-#: inc/settings_page.php:60
+#: inc/settings_page.php:68
 msgid "Donate"
 msgstr "Wesprzyj"
 
-#: inc/settings_page.php:63
+#: inc/settings_page.php:71
 msgid ""
 "If you like this plugin and find it useful, help me to make this plugin even "
 "better and keep it up-to-date."
@@ -82,38 +86,34 @@ msgstr ""
 "Jeśli lubisz tę wtyczkę uważasz że jest przydatna, pomóż mi aby jeszcze "
 "lepsza i bądź na bieżąco z aktualizacjami."
 
-#: inc/settings_page.php:67
+#: inc/settings_page.php:75
 msgid "Thanks for your support!"
 msgstr "Dziękujemy za wsparcie!"
 
-#: inc/settings_page.php:72
+#: inc/settings_page.php:80
 msgid "Freelance"
 msgstr ""
 
-#: inc/settings_page.php:75
+#: inc/settings_page.php:83
 msgid ""
 "Hello, my name is Arthur and I'm a freelance web designer and developer."
 msgstr ""
 
-#: inc/settings_page.php:76
+#: inc/settings_page.php:84
 msgid ""
 "Share your thoughts with me. You may have a brilliant idea in your mind and "
 "I can make it happen, so let’s get started!"
 msgstr ""
 
-#: inc/settings_page.php:94
-msgid "Header Section"
+#: inc/settings_page.php:120
+msgid "Head Section"
 msgstr "Sekcja: Nagłówek"
 
-#: inc/settings_page.php:96
-msgid "You can use the field below to add scripts to Header of your website."
+#: inc/settings_page.php:122
+msgid "You can use the fields below to add scripts to Head of your website."
 msgstr "Pola poniżej można użyć, aby dodać kody skryptów do nagłówka witryny."
 
-#: inc/settings_page.php:97
-msgid "<!-- Beginning of the <head> tag -->"
-msgstr "<!-- Początek sekcji <head> -->"
-
-#: inc/settings_page.php:98
+#: inc/settings_page.php:124
 msgid ""
 "Scripts from this field will be printed in the beginning of <b>HEAD</b> "
 "section. Do not place plain text in this!"
@@ -121,11 +121,7 @@ msgstr ""
 "Skrypty z tego pola zostaną dodane na początku sekcji <b>HEAD</b>. Nie "
 "należy tu umieszczać zwykłego tekstu!"
 
-#: inc/settings_page.php:99
-msgid "<!-- End of the <head> tag -->"
-msgstr "<!-- Koniec sekcji <head> -->"
-
-#: inc/settings_page.php:100
+#: inc/settings_page.php:126
 msgid ""
 "Scripts from this field will be printed in the end of <b>HEAD</b> section. "
 "Do not place plain text in this!"
@@ -133,23 +129,19 @@ msgstr ""
 "Skrypty z tego pola zostaną dodane na końcu sekcji <b>HEAD</b>. Nie należy "
 "tu umieszczać zwykłego tekstu!"
 
-#: inc/settings_page.php:101 inc/settings_page.php:113
+#: inc/settings_page.php:127 inc/settings_page.php:139
 msgid "Save Changes"
 msgstr "Zapisz"
 
-#: inc/settings_page.php:106
+#: inc/settings_page.php:132
 msgid "Footer Section"
 msgstr "Sekcja: Stopka"
 
-#: inc/settings_page.php:108
-msgid "You can use the field below to add scripts to Footer of your website."
+#: inc/settings_page.php:134
+msgid "You can use the fields below to add scripts to Footer of your website."
 msgstr "Pola poniżej można użyć, aby dodać kody skryptów do stopki witryny."
 
-#: inc/settings_page.php:109
-msgid "<!-- Before a footers scripts -->"
-msgstr "<!-- Początek stopki -->"
-
-#: inc/settings_page.php:110
+#: inc/settings_page.php:136
 msgid ""
 "Scripts from this field will be printed before a footers scripts. Do not "
 "place plain text in this!"
@@ -157,11 +149,7 @@ msgstr ""
 "Skrypty z tego pola zostaną dodane przed skryptami ze stopki. Nie należy tu "
 "umieszczać zwykłego tekstu!"
 
-#: inc/settings_page.php:111
-msgid "<!-- After all footers scripts -->"
-msgstr "<!-- Koniec stopki -->"
-
-#: inc/settings_page.php:112
+#: inc/settings_page.php:138
 msgid ""
 "Scripts from this field will be printed after all footers scripts. Do not "
 "place plain text in this!"
@@ -175,19 +163,63 @@ msgstr "https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter"
 
 #. Description of the plugin/theme
 msgid ""
-"Easily add your scripts to the WordPress website's head or/and footer "
-"section. This is a must have tool for authors and website's owners."
+"Easily add your scripts to the WordPress website's head and footer sections. "
+"This is a must have tool for authors and website's owners."
 msgstr ""
 "Łatwe dodawanie kodu skryptów do nagłówka i stopki strony opartej na "
 "WordPressie."
 
 #. Author of the plugin/theme
 msgid "Arthur Gareginyan"
-msgstr ""
+msgstr "Arthur Gareginyan"
 
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr "http://www.arthurgareginyan.com"
+
+#~ msgid "Header and Footer Scripts Inserter"
+#~ msgstr "Wstawianie kodu do nagłówka i stopki"
+
+#~ msgid ""
+#~ "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+#~ "\"Berserkr\" Gareginyan</a>"
+#~ msgstr ""
+#~ "wykonana przez <a href=\"http://www.arthurgareginyan.com\" target=\"_blank"
+#~ "\">Arthura \"Berserkra\" Gareginyana</a>"
+
+#~ msgid "If you want more options then tell me and I will be happy to add it."
+#~ msgstr "Jeśli potrzebujesz więcej opcji napisz mi o tym. Chętnie je dodam."
+
+#~ msgid "Header Section"
+#~ msgstr "Sekcja: Nagłówek"
+
+#~ msgid ""
+#~ "You can use the field below to add scripts to Header of your website."
+#~ msgstr ""
+#~ "Pola poniżej można użyć, aby dodać kody skryptów do nagłówka witryny."
+
+#~ msgid "<!-- Beginning of the <head> tag -->"
+#~ msgstr "<!-- Początek sekcji <head> -->"
+
+#~ msgid "<!-- End of the <head> tag -->"
+#~ msgstr "<!-- Koniec sekcji <head> -->"
+
+#~ msgid ""
+#~ "You can use the field below to add scripts to Footer of your website."
+#~ msgstr "Pola poniżej można użyć, aby dodać kody skryptów do stopki witryny."
+
+#~ msgid "<!-- Before a footers scripts -->"
+#~ msgstr "<!-- Początek stopki -->"
+
+#~ msgid "<!-- After all footers scripts -->"
+#~ msgstr "<!-- Koniec stopki -->"
+
+#~ msgid ""
+#~ "Easily add your scripts to the WordPress website's head or/and footer "
+#~ "section. This is a must have tool for authors and website's owners."
+#~ msgstr ""
+#~ "Łatwe dodawanie kodu skryptów do nagłówka i stopki strony opartej na "
+#~ "WordPressie."
 
 #~ msgid "Arthur \"Berserkr\" Gareginyan"
 #~ msgstr "Arthur \"Berserkr\" Gareginyan"

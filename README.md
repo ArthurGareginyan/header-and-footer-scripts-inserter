@@ -18,6 +18,7 @@ Third-party services like Google Webmaster Tools, Alexa, Pinterest and Google+ r
 * Inserts scripts in beginning or/and end of <head> tag
 * Inserts scripts in beginning or/and end of footer
 * Ready for translation (.pot file included)
+* Published on [WordPess.org](http://wordpess.org/)
 
 **Got more ideas? Tell me!**
 

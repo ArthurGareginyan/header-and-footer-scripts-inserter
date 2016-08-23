@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Header and Footer Scripts Inserter\n"
-"POT-Creation-Date: 2016-07-29 21:00+0300\n"
-"PO-Revision-Date: 2016-07-29 21:20+0300\n"
+"POT-Creation-Date: 2016-08-23 07:15+0300\n"
+"PO-Revision-Date: 2016-08-23 07:15+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -26,15 +26,15 @@ msgid "Settings"
 msgstr "Настройки"
 
 #. Plugin Name of the plugin/theme
-#: header-and-footer-scripts-inserter.php:82 inc/settings_page.php:32
+#: header-and-footer-scripts-inserter.php:82 inc/php/settings_page.php:32
 msgid "Head and Footer Scripts Inserter"
 msgstr ""
 
-#: inc/settings_page.php:23
+#: inc/php/settings_page.php:23
 msgid "Scripts updated successfully."
 msgstr "Скрипты успешно обновлены."
 
-#: inc/settings_page.php:35
+#: inc/php/settings_page.php:35
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
 "Gareginyan</a>"
@@ -42,19 +42,19 @@ msgstr ""
 "от <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Артур "
 "Гарегинян</a>"
 
-#: inc/settings_page.php:46
+#: inc/php/settings_page.php:46
 msgid "About"
 msgstr "О платине"
 
-#: inc/settings_page.php:48
+#: inc/php/settings_page.php:48
 msgid "This plugin allows you to easily insert scripts in your website."
 msgstr "Этот плагин позволяет легко вставлять скрипты в ваш веб-сайте."
 
-#: inc/settings_page.php:53
+#: inc/php/settings_page.php:53
 msgid "Using"
 msgstr "Использование:"
 
-#: inc/settings_page.php:55
+#: inc/php/settings_page.php:55
 msgid ""
 "To use, enter your custom scripts, then click \"Save Changes\". It's that "
 "simple!"
@@ -62,58 +62,45 @@ msgstr ""
 "Для использования, вставьте ваши пользовательские скрипты, затем нажмите "
 "кнопку “Сохранить изменения”. Это так просто!"
 
-#: inc/settings_page.php:60
+#: inc/php/settings_page.php:60
 msgid "Help"
 msgstr "Помощь"
 
-#: inc/settings_page.php:62
+#: inc/php/settings_page.php:62
 msgid "Got something to say? Need help?"
 msgstr "Есть что сказать? Нужна помощь?"
 
-#: inc/settings_page.php:68
+#: inc/php/settings_page.php:68
 msgid "Donate"
 msgstr "Пожертвование"
 
-#: inc/settings_page.php:71
+#: inc/php/settings_page.php:70
 msgid ""
-"If you like this plugin and find it useful, help me to make this plugin even "
-"better and keep it up-to-date."
+"If you like this plugin and find it useful, please help me to make this "
+"plugin even better and keep it up-to-date."
 msgstr ""
-"Если вам нравится этот плагин и вы находите его полезным, то помогите мне "
-"сделать его ещё лучше."
+"Если вам нравится этот плагин и вы находите его полезным, то пожалуйста "
+"помогите мне сделать его ещё лучше."
 
-#: inc/settings_page.php:75
+#: inc/php/settings_page.php:74
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
-#: inc/settings_page.php:80
-msgid "Freelance"
-msgstr "Фриланс"
+#: inc/php/settings_page.php:79
+msgid "Advertisement"
+msgstr "Реклама"
 
-#: inc/settings_page.php:83
-msgid ""
-"Hello, my name is Arthur and I'm a freelance web designer and developer."
-msgstr "Привет, меня зовут Артур и Я внештатный веб-дизайнер и разработчик."
-
-#: inc/settings_page.php:84
-msgid ""
-"Share your thoughts with me. You may have a brilliant idea in your mind and "
-"I can make it happen, so let’s get started!"
-msgstr ""
-"Поделитесь со мной своими мыслями. У вас может быть блестящая идея в уме, а "
-"я могу сделать её явью, так что давайте начнём!"
-
-#: inc/settings_page.php:120
+#: inc/php/settings_page.php:116
 msgid "Head Section"
 msgstr "Верхний колонтитул (HEAD)"
 
-#: inc/settings_page.php:122
+#: inc/php/settings_page.php:118
 msgid "You can use the fields below to add scripts to Head of your website."
 msgstr ""
 "Используйте поле расположенное ниже для того, чтобы добавить скрипты в "
 "верхний колонтитул вашего вебсайта."
 
-#: inc/settings_page.php:124
+#: inc/php/settings_page.php:120
 msgid ""
 "Scripts from this field will be printed in the beginning of <b>HEAD</b> "
 "section. Do not place plain text in this!"
@@ -121,7 +108,7 @@ msgstr ""
 "Скрипты этой области будут напечатаны в начале верхнего колонтитула. Не "
 "помещайте сюда обычный текст!"
 
-#: inc/settings_page.php:126
+#: inc/php/settings_page.php:122
 msgid ""
 "Scripts from this field will be printed in the end of <b>HEAD</b> section. "
 "Do not place plain text in this!"
@@ -129,21 +116,21 @@ msgstr ""
 "Скрипты этой области будут напечатаны в конце верхнего колонтитула. Не "
 "помещайте сюда обычный текст!"
 
-#: inc/settings_page.php:127 inc/settings_page.php:139
+#: inc/php/settings_page.php:123 inc/php/settings_page.php:135
 msgid "Save Changes"
 msgstr "Сохранить Изменения"
 
-#: inc/settings_page.php:132
+#: inc/php/settings_page.php:128
 msgid "Footer Section"
 msgstr "Нижний колонтитул (FOOTER)"
 
-#: inc/settings_page.php:134
+#: inc/php/settings_page.php:130
 msgid "You can use the fields below to add scripts to Footer of your website."
 msgstr ""
 "Используйте поле расположенное ниже для того, чтобы добавить скрипты в "
 "нижний колонтитул вашего вебсайта."
 
-#: inc/settings_page.php:136
+#: inc/php/settings_page.php:132
 msgid ""
 "Scripts from this field will be printed before a footers scripts. Do not "
 "place plain text in this!"
@@ -151,7 +138,7 @@ msgstr ""
 "Скрипты из этой области будут напечатаны в начале нижнего колонтитула. Не "
 "помещайте сюда обычный текст!"
 
-#: inc/settings_page.php:138
+#: inc/php/settings_page.php:134
 msgid ""
 "Scripts from this field will be printed after all footers scripts. Do not "
 "place plain text in this!"
@@ -179,6 +166,30 @@ msgstr "Артур Гарегинян"
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr ""
+
+#~ msgid "Advertising"
+#~ msgstr "Реклама"
+
+#~ msgid ""
+#~ "If you like this plugin and find it useful, help me to make this plugin "
+#~ "even better and keep it up-to-date."
+#~ msgstr ""
+#~ "Если вам нравится этот плагин и вы находите его полезным, то помогите мне "
+#~ "сделать его ещё лучше."
+
+#~ msgid "Freelance"
+#~ msgstr "Фриланс"
+
+#~ msgid ""
+#~ "Hello, my name is Arthur and I'm a freelance web designer and developer."
+#~ msgstr "Привет, меня зовут Артур и Я внештатный веб-дизайнер и разработчик."
+
+#~ msgid ""
+#~ "Share your thoughts with me. You may have a brilliant idea in your mind "
+#~ "and I can make it happen, so let’s get started!"
+#~ msgstr ""
+#~ "Поделитесь со мной своими мыслями. У вас может быть блестящая идея в уме, "
+#~ "а я могу сделать её явью, так что давайте начнём!"
 
 #~ msgid ""
 #~ "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "

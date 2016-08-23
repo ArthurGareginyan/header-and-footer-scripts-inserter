@@ -1,7 +1,7 @@
 /*
  * Header and Footer Scripts Inserter
  * Style sheet for plugin's page
- * @since 3.0
+ * @since 3.0.1
  * @agareginyan
  */
 
@@ -100,7 +100,7 @@ p.help-text {
     text-align: center;
 }
 
-#freelance {
+#advertisement {
     text-align: center;
 }
 

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Header and Footer Scripts Inserter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-29 21:20+0300\n"
-"PO-Revision-Date: 2016-07-29 21:29+0300\n"
+"POT-Creation-Date: 2016-08-23 07:16+0300\n"
+"PO-Revision-Date: 2016-08-23 07:16+0300\n"
 "Last-Translator: psouu <koko887@wp.pl>\n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -30,15 +30,15 @@ msgid "Settings"
 msgstr "Ustawienia"
 
 #. Plugin Name of the plugin/theme
-#: header-and-footer-scripts-inserter.php:82 inc/settings_page.php:32
+#: header-and-footer-scripts-inserter.php:82 inc/php/settings_page.php:32
 msgid "Head and Footer Scripts Inserter"
 msgstr "Wstawianie kodu do nagłówka i stopki"
 
-#: inc/settings_page.php:23
+#: inc/php/settings_page.php:23
 msgid "Scripts updated successfully."
 msgstr ""
 
-#: inc/settings_page.php:35
+#: inc/php/settings_page.php:35
 msgid ""
 "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
 "Gareginyan</a>"
@@ -46,19 +46,19 @@ msgstr ""
 "wykonana przez <a href=\"http://www.arthurgareginyan.com\" target=\"_blank"
 "\">Arthur Gareginyan</a>"
 
-#: inc/settings_page.php:46
+#: inc/php/settings_page.php:46
 msgid "About"
 msgstr "O wtyczce"
 
-#: inc/settings_page.php:48
+#: inc/php/settings_page.php:48
 msgid "This plugin allows you to easily insert scripts in your website."
 msgstr "Ta wtyczka pozwala łatwo wstawić kod skryptów na stronę www."
 
-#: inc/settings_page.php:53
+#: inc/php/settings_page.php:53
 msgid "Using"
 msgstr ""
 
-#: inc/settings_page.php:55
+#: inc/php/settings_page.php:55
 msgid ""
 "To use, enter your custom scripts, then click \"Save Changes\". It's that "
 "simple!"
@@ -66,54 +66,43 @@ msgstr ""
 "Aby użyć, wprowadź kod skryptów, a następnie kliknij przycisk \"Zapisz\". To "
 "takie proste!"
 
-#: inc/settings_page.php:60
+#: inc/php/settings_page.php:60
 msgid "Help"
 msgstr "Pomoc"
 
-#: inc/settings_page.php:62
+#: inc/php/settings_page.php:62
 msgid "Got something to say? Need help?"
 msgstr "Masz coś do powiedzenia? Potrzebujesz pomocy?"
 
-#: inc/settings_page.php:68
+#: inc/php/settings_page.php:68
 msgid "Donate"
 msgstr "Wesprzyj"
 
-#: inc/settings_page.php:71
+#: inc/php/settings_page.php:70
 msgid ""
-"If you like this plugin and find it useful, help me to make this plugin even "
-"better and keep it up-to-date."
+"If you like this plugin and find it useful, please help me to make this "
+"plugin even better and keep it up-to-date."
 msgstr ""
 "Jeśli lubisz tę wtyczkę uważasz że jest przydatna, pomóż mi aby jeszcze "
 "lepsza i bądź na bieżąco z aktualizacjami."
 
-#: inc/settings_page.php:75
+#: inc/php/settings_page.php:74
 msgid "Thanks for your support!"
 msgstr "Dziękujemy za wsparcie!"
 
-#: inc/settings_page.php:80
-msgid "Freelance"
-msgstr ""
+#: inc/php/settings_page.php:79
+msgid "Advertisement"
+msgstr "Reklama"
 
-#: inc/settings_page.php:83
-msgid ""
-"Hello, my name is Arthur and I'm a freelance web designer and developer."
-msgstr ""
-
-#: inc/settings_page.php:84
-msgid ""
-"Share your thoughts with me. You may have a brilliant idea in your mind and "
-"I can make it happen, so let’s get started!"
-msgstr ""
-
-#: inc/settings_page.php:120
+#: inc/php/settings_page.php:116
 msgid "Head Section"
 msgstr "Sekcja: Nagłówek"
 
-#: inc/settings_page.php:122
+#: inc/php/settings_page.php:118
 msgid "You can use the fields below to add scripts to Head of your website."
 msgstr "Pola poniżej można użyć, aby dodać kody skryptów do nagłówka witryny."
 
-#: inc/settings_page.php:124
+#: inc/php/settings_page.php:120
 msgid ""
 "Scripts from this field will be printed in the beginning of <b>HEAD</b> "
 "section. Do not place plain text in this!"
@@ -121,7 +110,7 @@ msgstr ""
 "Skrypty z tego pola zostaną dodane na początku sekcji <b>HEAD</b>. Nie "
 "należy tu umieszczać zwykłego tekstu!"
 
-#: inc/settings_page.php:126
+#: inc/php/settings_page.php:122
 msgid ""
 "Scripts from this field will be printed in the end of <b>HEAD</b> section. "
 "Do not place plain text in this!"
@@ -129,19 +118,19 @@ msgstr ""
 "Skrypty z tego pola zostaną dodane na końcu sekcji <b>HEAD</b>. Nie należy "
 "tu umieszczać zwykłego tekstu!"
 
-#: inc/settings_page.php:127 inc/settings_page.php:139
+#: inc/php/settings_page.php:123 inc/php/settings_page.php:135
 msgid "Save Changes"
 msgstr "Zapisz"
 
-#: inc/settings_page.php:132
+#: inc/php/settings_page.php:128
 msgid "Footer Section"
 msgstr "Sekcja: Stopka"
 
-#: inc/settings_page.php:134
+#: inc/php/settings_page.php:130
 msgid "You can use the fields below to add scripts to Footer of your website."
 msgstr "Pola poniżej można użyć, aby dodać kody skryptów do stopki witryny."
 
-#: inc/settings_page.php:136
+#: inc/php/settings_page.php:132
 msgid ""
 "Scripts from this field will be printed before a footers scripts. Do not "
 "place plain text in this!"
@@ -149,7 +138,7 @@ msgstr ""
 "Skrypty z tego pola zostaną dodane przed skryptami ze stopki. Nie należy tu "
 "umieszczać zwykłego tekstu!"
 
-#: inc/settings_page.php:138
+#: inc/php/settings_page.php:134
 msgid ""
 "Scripts from this field will be printed after all footers scripts. Do not "
 "place plain text in this!"
@@ -176,6 +165,16 @@ msgstr "Arthur Gareginyan"
 #. Author URI of the plugin/theme
 msgid "http://www.arthurgareginyan.com"
 msgstr "http://www.arthurgareginyan.com"
+
+#~ msgid "Advertising"
+#~ msgstr "Reklama"
+
+#~ msgid ""
+#~ "If you like this plugin and find it useful, help me to make this plugin "
+#~ "even better and keep it up-to-date."
+#~ msgstr ""
+#~ "Jeśli lubisz tę wtyczkę uważasz że jest przydatna, pomóż mi aby jeszcze "
+#~ "lepsza i bądź na bieżąco z aktualizacjami."
 
 #~ msgid "Header and Footer Scripts Inserter"
 #~ msgstr "Wstawianie kodu do nagłówka i stopki"

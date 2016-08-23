@@ -4,7 +4,7 @@ Tags: inject, insert, insert scripts, insert javascript, insert js, insert html,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.6
-Stable tag: 3.0
+Stable tag: 3.0.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -25,11 +25,13 @@ Third-party services like Google Webmaster Tools, Alexa, Pinterest and Google+ r
 * No configuration required
 * Inserts scripts in beginning or/and end of <head> tag
 * Inserts scripts in beginning or/and end of footer
-* Ready for translation (.pot file included)
+* Ready for translation (POT file included)
 
 = Translation =
 
-* English
+Please keep in mind that not all translations are up to date. You are welcome to contribute!
+
+* English (default)
 * Russian
 * Polish
 
@@ -45,7 +47,7 @@ Third-party services like Google Webmaster Tools, Alexa, Pinterest and Google+ r
 >
 >* [Donate](http://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
 >* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/header-and-footer-scripts-inserter?rate=5#postform) this plugin.
->* [Share with me](mailto:arthurgareginyan@gmail.com) if you have any ideas or suggestions to make this plugin better.
+>* [Share with me](mailto:arthurgareginyan@gmail.com) or view the [GitHub Repo](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter) if you have any ideas or suggestions to make this plugin better.
 
 
 == Installation ==
@@ -102,8 +104,8 @@ A. Yes, any financial contributions are welcome! Just visit my website and click
 
 
 == Screenshots ==
-1. Plugin’s page.
-2. Plugin’s page with Google Tag Manager code added.
+1. Plugin page.
+2. Plugin page with Google Tag Manager code added.
 3. Success message.
 
 == Other Notes ==
@@ -125,6 +127,13 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter)
 
 == Changelog ==
+= 3.0.1 =
+* POT file updated.
+* Russian translation updated.
+* Polish translation updated.
+* Image "thanks.png" removed.
+* Advertisement replaced by new.
+* Added the subject with plugin name to email address on settings page.
 = 3.0 =
 * Plugin renamed to "Head and Footer Scripts Inserter".
 * Styles of settings page optimized for mobile devices.

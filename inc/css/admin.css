@@ -1,7 +1,7 @@
 /*
  * Header and Footer Scripts Inserter
- * Style sheet for plugin's page
- * @since 3.0.1
+ * Style sheet for plugin page
+ * @since 3.0.2
  * @agareginyan
  */
 
@@ -19,7 +19,6 @@ h2 {
     text-align: center;
     font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
 }
-
 h2 span {
     margin-top: 1px;
     font-size: 0.6em;
@@ -27,7 +26,6 @@ h2 span {
     display: inline;
     padding: 0;
 }
-
 h2 span a {
     display: inline;
     padding: 0;
@@ -81,27 +79,15 @@ p.help-text {
     position: relative;
 }
 
-#about {
+#about,
+#help,
+#donate,
+#advertisement{
     text-align: center;
 }
 
-#using {
-    text-align: center;
-}
-
-#help {
-    text-align: center;
-}
 #help p {
     margin: 0;
-}
-
-#donate {
-    text-align: center;
-}
-
-#advertisement {
-    text-align: center;
 }
 
 /* Responsive
@@ -113,4 +99,15 @@ p.help-text {
     #post-body-content {
         margin-right: 0 !important;
     }
+}
+
+/* <pre> and <code> tag in "Using" section
+ -------------------------------------------------------------- */
+#Using pre {
+    border: 1px solid grey;
+    padding: 3px 5px 2px;
+    margin: 0 10px 0 10px;
+}
+#Using code {
+    background: 0;
 }

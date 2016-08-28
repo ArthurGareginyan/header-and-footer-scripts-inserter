@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Header and Footer Scripts Inserter\n"
-"POT-Creation-Date: 2016-08-23 07:15+0300\n"
-"PO-Revision-Date: 2016-08-23 07:15+0300\n"
+"POT-Creation-Date: 2016-08-25 19:01+0300\n"
+"PO-Revision-Date: 2016-08-25 22:30+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -51,30 +51,18 @@ msgid "This plugin allows you to easily insert scripts in your website."
 msgstr "Этот плагин позволяет легко вставлять скрипты в ваш веб-сайте."
 
 #: inc/php/settings_page.php:53
-msgid "Using"
-msgstr "Использование:"
-
-#: inc/php/settings_page.php:55
-msgid ""
-"To use, enter your custom scripts, then click \"Save Changes\". It's that "
-"simple!"
-msgstr ""
-"Для использования, вставьте ваши пользовательские скрипты, затем нажмите "
-"кнопку “Сохранить изменения”. Это так просто!"
-
-#: inc/php/settings_page.php:60
 msgid "Help"
 msgstr "Помощь"
 
-#: inc/php/settings_page.php:62
+#: inc/php/settings_page.php:55
 msgid "Got something to say? Need help?"
 msgstr "Есть что сказать? Нужна помощь?"
 
-#: inc/php/settings_page.php:68
+#: inc/php/settings_page.php:61
 msgid "Donate"
 msgstr "Пожертвование"
 
-#: inc/php/settings_page.php:70
+#: inc/php/settings_page.php:63
 msgid ""
 "If you like this plugin and find it useful, please help me to make this "
 "plugin even better and keep it up-to-date."
@@ -82,25 +70,25 @@ msgstr ""
 "Если вам нравится этот плагин и вы находите его полезным, то пожалуйста "
 "помогите мне сделать его ещё лучше."
 
-#: inc/php/settings_page.php:74
+#: inc/php/settings_page.php:67
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
-#: inc/php/settings_page.php:79
+#: inc/php/settings_page.php:72
 msgid "Advertisement"
 msgstr "Реклама"
 
-#: inc/php/settings_page.php:116
+#: inc/php/settings_page.php:109
 msgid "Head Section"
 msgstr "Верхний колонтитул (HEAD)"
 
-#: inc/php/settings_page.php:118
+#: inc/php/settings_page.php:111
 msgid "You can use the fields below to add scripts to Head of your website."
 msgstr ""
 "Используйте поле расположенное ниже для того, чтобы добавить скрипты в "
 "верхний колонтитул вашего вебсайта."
 
-#: inc/php/settings_page.php:120
+#: inc/php/settings_page.php:113
 msgid ""
 "Scripts from this field will be printed in the beginning of <b>HEAD</b> "
 "section. Do not place plain text in this!"
@@ -108,7 +96,7 @@ msgstr ""
 "Скрипты этой области будут напечатаны в начале верхнего колонтитула. Не "
 "помещайте сюда обычный текст!"
 
-#: inc/php/settings_page.php:122
+#: inc/php/settings_page.php:115
 msgid ""
 "Scripts from this field will be printed in the end of <b>HEAD</b> section. "
 "Do not place plain text in this!"
@@ -116,21 +104,21 @@ msgstr ""
 "Скрипты этой области будут напечатаны в конце верхнего колонтитула. Не "
 "помещайте сюда обычный текст!"
 
-#: inc/php/settings_page.php:123 inc/php/settings_page.php:135
+#: inc/php/settings_page.php:116 inc/php/settings_page.php:128
 msgid "Save Changes"
 msgstr "Сохранить Изменения"
 
-#: inc/php/settings_page.php:128
+#: inc/php/settings_page.php:121
 msgid "Footer Section"
 msgstr "Нижний колонтитул (FOOTER)"
 
-#: inc/php/settings_page.php:130
+#: inc/php/settings_page.php:123
 msgid "You can use the fields below to add scripts to Footer of your website."
 msgstr ""
 "Используйте поле расположенное ниже для того, чтобы добавить скрипты в "
 "нижний колонтитул вашего вебсайта."
 
-#: inc/php/settings_page.php:132
+#: inc/php/settings_page.php:125
 msgid ""
 "Scripts from this field will be printed before a footers scripts. Do not "
 "place plain text in this!"
@@ -138,13 +126,37 @@ msgstr ""
 "Скрипты из этой области будут напечатаны в начале нижнего колонтитула. Не "
 "помещайте сюда обычный текст!"
 
-#: inc/php/settings_page.php:134
+#: inc/php/settings_page.php:127
 msgid ""
 "Scripts from this field will be printed after all footers scripts. Do not "
 "place plain text in this!"
 msgstr ""
 "Скрипты из этой области будут напечатаны в конце нижнего колонтитула. Не "
 "помещайте сюда обычный текст!"
+
+#: inc/php/settings_page.php:133
+msgid "Using"
+msgstr "Использование:"
+
+#: inc/php/settings_page.php:135
+msgid ""
+"To use, enter your custom scripts, then click \"Save Changes\". It's that "
+"simple!"
+msgstr ""
+"Для использования, вставьте ваши пользовательские скрипты, затем нажмите "
+"кнопку “Сохранить изменения”. Это так просто!"
+
+#: inc/php/settings_page.php:136
+msgid ""
+"Note that this fields are for inserting HTML code, so JavaScript and CSS "
+"code must be wrapped in the corresponding HTML tag. For JavaScript code use "
+"the `&lt;script&gt;` tag, and for CSS code use the `&lt;style&gt;` tag. "
+"Example:"
+msgstr ""
+"Обратите внимание на то, что эти поля рассчитаны на добавление HTML кода, а "
+"JavaScript и CSS код необходимо обернуть в соотвествующий HTML тег. Для "
+"JavaScript кода используйте `&lt;script&gt;` тег, а для CSS кода используйте "
+"`&lt;style&gt;` тег. Пример:"
 
 #. Plugin URI of the plugin/theme
 msgid "https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter"

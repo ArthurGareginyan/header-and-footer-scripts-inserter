@@ -127,6 +127,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter)
 
 == Changelog ==
+= 3.0.2 =
+* Added improved section with using explanation to plugin settings page.
+* admin.css improved.
 = 3.0.1 =
 * POT file updated.
 * Russian translation updated.

@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.0.1
+ * @since 3.0.2
  */
 function HFScriptsIns_render_submenu_page() {
 
@@ -46,13 +46,6 @@ function HFScriptsIns_render_submenu_page() {
                         <h3 class="title"><?php _e( 'About', 'header-and-footer-scripts-inserter' ); ?></a></h3>
                         <div class="inside">
                             <p><?php _e( 'This plugin allows you to easily insert scripts in your website.', 'header-and-footer-scripts-inserter' ); ?></p>
-                        </div>
-                    </div>
-
-                    <div id="using" class="postbox">
-                        <h3 class="title"><?php _e( 'Using', 'header-and-footer-scripts-inserter' ); ?></a></h3>
-                        <div class="inside">
-                            <p><?php _e( 'To use, enter your custom scripts, then click "Save Changes". It\'s that simple!', 'header-and-footer-scripts-inserter' ); ?></p>
                         </div>
                     </div>
 
@@ -136,7 +129,28 @@ function HFScriptsIns_render_submenu_page() {
                                 </div>
                             </div>
 
+                            <div class="postbox" id="Using">
+                                <h3 class="title"><?php _e( 'Using', 'header-and-footer-scripts-inserter' ); ?></h3>
+                                <div class="inside">
+                                    <p><?php _e( 'To use, enter your custom scripts, then click "Save Changes". It\'s that simple!', 'header-and-footer-scripts-inserter' ); ?></p>
+                                    <p><?php _e( 'Note that this fields are for inserting HTML code, so JavaScript and CSS code must be wrapped in the corresponding HTML tag. For JavaScript code use the `&lt;script&gt;` tag, and for CSS code use the `&lt;style&gt;` tag. Example:', 'header-and-footer-scripts-inserter' ); ?></p>
+<?php $ExampleCode = '&lt;script&gt;
+    function myFunction() {
+        document.getElementById(&quot;demo&quot;).innerHTML = &quot;Hello World!&quot;;
+    }
+&lt;/script&gt;
+    
+&lt;style&gt;
+    .example {
+    color: #000;
+    }
+&lt;/style&gt;'; ?>
+                                    <pre><code><?php echo $ExampleCode; ?></code></pre>
+                                </div>
+                            </div>
+
                         </form>
+
                     </div>
                 </div>
             </div>

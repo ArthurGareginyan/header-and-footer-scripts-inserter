@@ -119,7 +119,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Credits**
 
-[CodeMirror](https://codemirror.net/) is an open-source project shared under a [MIT license](https://codemirror.net/LICENSE).
+[CodeMirror](https://codemirror.net/) is an open-source project shared under the [MIT license](https://codemirror.net/LICENSE).
 
 **Links**
 
@@ -127,6 +127,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter)
 
 == Changelog ==
+= 3.1 =
+* Style sheet of settings page improved and better commented.
+* The "main.js" file renamed to "admin.js".
+* JS code improved.
 = 3.0.2 =
 * Added improved section with using explanation to plugin settings page.
 * admin.css improved.

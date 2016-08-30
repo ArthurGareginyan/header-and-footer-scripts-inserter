@@ -1,20 +1,13 @@
 /*
- * Header and Footer Scripts Inserter
- * Style sheet for plugin page
- * @since 3.0.2
- * @agareginyan
+ * Style sheet for plugin settings page
+ *
+ * Copyright (c) 2016 Arthur Gareginyan ( http://www.arthurgareginyan.com ).
+ * All Rights Reserved.
  */
 
 
-.aligncenter {
-    text-align: center;
-}
-
-.form-table {
-    clear: none;
-    margin-top: 30px;
-}
-
+/* Titles
+ -------------------------------------------------------------- */
 h2 {
     text-align: center;
     font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
@@ -42,6 +35,43 @@ h3.title {
     display: none;
 }
 
+/* Sidebar
+ -------------------------------------------------------------- */
+#side-sortables {
+    position: relative;
+}
+
+#side-sortables .postbox {
+    text-align: center;
+}
+
+#side-sortables #help p {
+    margin: 0;
+}
+
+/* Responsive page
+ -------------------------------------------------------------- */
+@media (max-width: 860px) {
+    .inner-sidebar {
+        display: none !important;
+    }
+    #post-body-content {
+        margin-right: 0 !important;
+    }
+}
+
+/* Help text
+ -------------------------------------------------------------- */
+td.help-text {
+    font-style: italic;
+    font-size: 12px !important;
+    float: left;
+    clear: left;
+    color: #797979;
+    line-height: 15px;
+    padding-top: 0px !important;
+}
+
 /* CodeMirror Editor
  -------------------------------------------------------------- */
 .CodeMirror {
@@ -51,54 +81,15 @@ h3.title {
     margin-right: 5px;
 }
 
-textarea {
-    width: 100%;
-}
-
-.inner-sidebar h3.title {
-    text-align: center;
-}
-
-p.help-text {
-    font-style: italic;
-    font-size: 12px !important;
-    clear: left;
-    color: #797979;
-    line-height: 15px;
-    padding-top: 0px !important;
-    padding-left: 5px;
-    margin-top: 0px !important;
-    margin-bottom: 25px !important;
+/* Other
+ -------------------------------------------------------------- */
+.form-table {
+    clear: none;
+    margin-top: 30px;
 }
 
 .postbox a {
     text-decoration: none;
-}
-
-#side-sortables {
-    position: relative;
-}
-
-#about,
-#help,
-#donate,
-#advertisement{
-    text-align: center;
-}
-
-#help p {
-    margin: 0;
-}
-
-/* Responsive
- -------------------------------------------------------------- */
-@media (max-width: 860px) {
-    .inner-sidebar {
-        display: none !important;
-    }
-    #post-body-content {
-        margin-right: 0 !important;
-    }
 }
 
 /* <pre> and <code> tag in "Using" section

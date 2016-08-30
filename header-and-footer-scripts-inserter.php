@@ -5,7 +5,7 @@
  * Description: Easily add your scripts to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 3.0.2
+ * Version: 3.1
  * License: GPL3
  * Text Domain: header-and-footer-scripts-inserter
  * Domain Path: /languages/
@@ -93,7 +93,7 @@ require_once( HFSINS_PATH . 'inc/php/settings_page.php' );
 /**
  *  Load scripts and style sheet for settings page
  *
- * @since 3.0
+ * @since 3.1
  */
 function HFScriptsIns_load_scripts($hook) {
 
@@ -102,20 +102,21 @@ function HFScriptsIns_load_scripts($hook) {
         return;
     }
 
-    // CodeMirror
-    wp_enqueue_style('codemirror_style', HFSINS_URL . 'inc/lib/codemirror/codemirror.css');
-    wp_enqueue_script('codemirror', HFSINS_URL . 'inc/lib/codemirror/codemirror.js');
-    wp_enqueue_script('codemirror-htmlmixed', HFSINS_URL . 'inc/lib/codemirror/mode/htmlmixed.js');
-    wp_enqueue_script('codemirror-javascript', HFSINS_URL . 'inc/lib/codemirror/mode/javascript.js');
-    wp_enqueue_script('codemirror-xml', HFSINS_URL . 'inc/lib/codemirror/mode/xml.js');
-    wp_enqueue_script('codemirror-css', HFSINS_URL . 'inc/lib/codemirror/mode/css.js');
-    wp_enqueue_script('codemirror-active-line', HFSINS_URL . 'inc/lib/codemirror/addons/active-line.js');
-    
-    // JS functions
-    wp_enqueue_script('js-functions', HFSINS_URL . 'inc/js/main.js', array(), false, true);
-
     // Style sheet
-    wp_enqueue_style('styles', HFSINS_URL . 'inc/css/admin.css');
+    wp_enqueue_style( 'admin-css', HFSINS_URL . 'inc/css/admin.css' );
+
+    // JavaScript
+    wp_enqueue_script( 'admin-js', HFSINS_URL . 'inc/js/admin.js', array(), false, true );
+
+    // CodeMirror
+    wp_enqueue_style( 'codemirror-css', HFSINS_URL . 'inc/lib/codemirror/codemirror.css' );
+    wp_enqueue_script( 'codemirror-js', HFSINS_URL . 'inc/lib/codemirror/codemirror.js' );
+    wp_enqueue_script( 'codemirror-mode-htmlmixed', HFSINS_URL . 'inc/lib/codemirror/mode/htmlmixed.js' );
+    wp_enqueue_script( 'codemirror-mode-javascript', HFSINS_URL . 'inc/lib/codemirror/mode/javascript.js' );
+    wp_enqueue_script( 'codemirror-mode-xml', HFSINS_URL . 'inc/lib/codemirror/mode/xml.js' );
+    wp_enqueue_script( 'codemirror-mode-css', HFSINS_URL . 'inc/lib/codemirror/mode/css.js' );
+    wp_enqueue_script( 'codemirror-mode-active-line', HFSINS_URL . 'inc/lib/codemirror/addons/active-line.js' );
+
 }
 add_action('admin_enqueue_scripts', 'HFScriptsIns_load_scripts');
 

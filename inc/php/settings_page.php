@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Page
  *
- * @since 3.0.2
+ * @since 3.3
  */
 function HFScriptsIns_render_submenu_page() {
 
@@ -20,7 +20,7 @@ function HFScriptsIns_render_submenu_page() {
         // Successful message
         ?>
             <div id="message" class="updated">
-                <p><?php _e( 'Scripts updated successfully.', 'header-and-footer-scripts-inserter' ); ?></p>
+                <p><?php _e( 'Scripts updated successfully.', HFSINS_TEXT ); ?></p>
             </div>
         <?php
     }
@@ -29,10 +29,10 @@ function HFScriptsIns_render_submenu_page() {
 	?>
 	<div class="wrap">
 		<h2>
-            <?php _e( 'Head and Footer Scripts Inserter', 'header-and-footer-scripts-inserter' ); ?>
+            <?php _e( 'Head and Footer Scripts Inserter', HFSINS_TEXT ); ?>
             <br/>
             <span>
-                <?php _e( 'by <a href="http://www.arthurgareginyan.com" target="_blank">Arthur Gareginyan</a>', 'header-and-footer-scripts-inserter' ); ?>
+                <?php _e( 'by <a href="http://www.arthurgareginyan.com" target="_blank">Arthur Gareginyan</a>', HFSINS_TEXT ); ?>
             <span/>
 		</h2>
 
@@ -43,37 +43,34 @@ function HFScriptsIns_render_submenu_page() {
                 <div id="side-sortables" class="meta-box-sortabless ui-sortable">
 
                     <div id="about" class="postbox">
-                        <h3 class="title"><?php _e( 'About', 'header-and-footer-scripts-inserter' ); ?></a></h3>
+                        <h3 class="title"><?php _e( 'About', HFSINS_TEXT ); ?></a></h3>
                         <div class="inside">
-                            <p><?php _e( 'This plugin allows you to easily insert scripts in your website.', 'header-and-footer-scripts-inserter' ); ?></p>
+                            <p><?php _e( 'This plugin allows you to easily insert scripts in your website.', HFSINS_TEXT ); ?></p>
                         </div>
                     </div>
 
                     <div id="help" class="postbox">
-                        <h3 class="title"><?php _e( 'Help', 'header-and-footer-scripts-inserter' ); ?></h3>
+                        <h3 class="title"><?php _e( 'Help', HFSINS_TEXT ); ?></h3>
                         <div class="inside">
-                            <p><?php _e( 'Got something to say? Need help?', 'header-and-footer-scripts-inserter' ); ?></p>
+                            <p><?php _e( 'Got something to say? Need help?', HFSINS_TEXT ); ?></p>
                             <p><a href="mailto:arthurgareginyan@gmail.com?subject=Head and Footer Scripts Inserter">arthurgareginyan@gmail.com</a></p>
                         </div>
                     </div>
 
                     <div id="donate" class="postbox">
-                        <h3 class="title"><?php _e( 'Donate', 'header-and-footer-scripts-inserter' ); ?></h3>
+                        <h3 class="title"><?php _e( 'Donate', HFSINS_TEXT ); ?></h3>
                         <div class="inside">
-                            <p><?php _e( 'If you like this plugin and find it useful, please help me to make this plugin even better and keep it up-to-date.', 'header-and-footer-scripts-inserter' ); ?></p>
+                            <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', HFSINS_TEXT ); ?></p>
                             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" rel="nofollow">
                                 <img src="<?php echo plugins_url('../img/btn_donateCC_LG.gif', __FILE__); ?>" alt="Make a donation">
                             </a>
-                            <p><?php _e( 'Thanks for your support!', 'header-and-footer-scripts-inserter' ); ?></p>
+                            <p><?php _e( 'Thanks for your support!', HFSINS_TEXT ); ?></p>
                         </div>
                     </div>
 
-                    <div id="advertisement" class="postbox">
-                        <h3 class="title"><?php _e( 'Advertisement', 'header-and-footer-scripts-inserter' ); ?></h3>
-                        <div class="inside">
-                            <a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=36439_5_1_21" target="_blank" rel="nofollow"><img style="border:0px" src="http://www.elegantthemes.com/affiliates/media/banners/divi_250x250.jpg" width="250" height="250" alt="Divi WordPress Theme"></a>
-                        </div>
-                    </div>
+                    <a href="//www.iconfinder.com/?ref=ArthurGareginyan" target="_blank" rel="nofollow">
+                        <img style="border:0px" src="<?php echo plugins_url('../img/banner.png', __FILE__); ?>" width="280" height="180" alt="">
+                    </a>
 
                 </div>
             </div>
@@ -106,34 +103,34 @@ function HFScriptsIns_render_submenu_page() {
                             ?>
 
                             <div class="postbox" id="Head">
-                                <h3 class="title"><?php _e( 'Head Section', 'header-and-footer-scripts-inserter' ); ?></h3>
+                                <h3 class="title"><?php _e( 'Head Section', HFSINS_TEXT ); ?></h3>
                                 <div class="inside">
-                                    <p><?php _e( 'You can use the fields below to add scripts to Head of your website.', 'header-and-footer-scripts-inserter' ); ?></p>
+                                    <p><?php _e( 'You can use the fields below to add scripts to Head of your website.', HFSINS_TEXT ); ?></p>
                                     <textarea name="HFScriptsIns_settings[header_beginning]" id="HFScriptsIns_settings[header_beginning]" ><?php echo $header_beginning; ?></textarea>
-                                    <p class='help-text'><?php _e( 'Scripts from this field will be printed in the beginning of <b>HEAD</b> section. Do not place plain text in this!', 'header-and-footer-scripts-inserter' ); ?></p>
+                                    <p class='help-text'><?php _e( 'Scripts from this field will be printed in the beginning of <b>HEAD</b> section. Do not place plain text in this!', HFSINS_TEXT ); ?></p>
                                     <textarea name="HFScriptsIns_settings[header_end]" id="HFScriptsIns_settings[header_end]" ><?php echo $header_end; ?></textarea>
-                                    <p class='help-text'><?php _e( 'Scripts from this field will be printed in the end of <b>HEAD</b> section. Do not place plain text in this!', 'header-and-footer-scripts-inserter' ); ?></p>
-                                    <?php submit_button( __( 'Save Changes', 'header-and-footer-scripts-inserter' ), 'primary', 'submit', true ); ?>
+                                    <p class='help-text'><?php _e( 'Scripts from this field will be printed in the end of <b>HEAD</b> section. Do not place plain text in this!', HFSINS_TEXT ); ?></p>
+                                    <?php submit_button( __( 'Save Changes', HFSINS_TEXT ), 'primary', 'submit', true ); ?>
                                 </div>
                             </div>
 
                             <div class="postbox" id="Footer">
-                                <h3 class="title"><?php _e( 'Footer Section', 'header-and-footer-scripts-inserter' ); ?></h3>
+                                <h3 class="title"><?php _e( 'Footer Section', HFSINS_TEXT ); ?></h3>
                                 <div class="inside">
-                                    <p><?php _e( 'You can use the fields below to add scripts to Footer of your website.', 'header-and-footer-scripts-inserter' ); ?></p>
+                                    <p><?php _e( 'You can use the fields below to add scripts to Footer of your website.', HFSINS_TEXT ); ?></p>
                                     <textarea name="HFScriptsIns_settings[footer_beginning]" id="HFScriptsIns_settings[footer_beginning]" ><?php echo $footer_beginning; ?></textarea>
-                                    <p class='help-text'><?php _e( 'Scripts from this field will be printed before a footers scripts. Do not place plain text in this!', 'header-and-footer-scripts-inserter' ); ?></p>
+                                    <p class='help-text'><?php _e( 'Scripts from this field will be printed before a footers scripts. Do not place plain text in this!', HFSINS_TEXT ); ?></p>
                                     <textarea name="HFScriptsIns_settings[footer_end]" id="HFScriptsIns_settings[footer_end]" ><?php echo $footer_end; ?></textarea>
-                                    <p class='help-text'><?php _e( 'Scripts from this field will be printed after all footers scripts. Do not place plain text in this!', 'header-and-footer-scripts-inserter' ); ?></p>
-                                    <?php submit_button( __( 'Save Changes', 'header-and-footer-scripts-inserter' ), 'primary', 'submit', true ); ?>
+                                    <p class='help-text'><?php _e( 'Scripts from this field will be printed after all footers scripts. Do not place plain text in this!', HFSINS_TEXT ); ?></p>
+                                    <?php submit_button( __( 'Save Changes', HFSINS_TEXT ), 'primary', 'submit', true ); ?>
                                 </div>
                             </div>
 
                             <div class="postbox" id="Using">
-                                <h3 class="title"><?php _e( 'Using', 'header-and-footer-scripts-inserter' ); ?></h3>
+                                <h3 class="title"><?php _e( 'Using', HFSINS_TEXT ); ?></h3>
                                 <div class="inside">
-                                    <p><?php _e( 'To use, enter your custom scripts, then click "Save Changes". It\'s that simple!', 'header-and-footer-scripts-inserter' ); ?></p>
-                                    <p><?php _e( 'Note that this fields are for inserting HTML code, so JavaScript and CSS code must be wrapped in the corresponding HTML tag. For JavaScript code use the `&lt;script&gt;` tag, and for CSS code use the `&lt;style&gt;` tag. Example:', 'header-and-footer-scripts-inserter' ); ?></p>
+                                    <p><?php _e( 'To use, enter your custom scripts, then click "Save Changes". It\'s that simple!', HFSINS_TEXT ); ?></p>
+                                    <p><?php _e( 'Note that this fields are for inserting HTML code, so JavaScript and CSS code must be wrapped in the corresponding HTML tag. For JavaScript code use the `&lt;script&gt;` tag, and for CSS code use the `&lt;style&gt;` tag. Example:', HFSINS_TEXT ); ?></p>
 <?php $ExampleCode = '&lt;script&gt;
     function myFunction() {
         document.getElementById(&quot;demo&quot;).innerHTML = &quot;Hello World!&quot;;

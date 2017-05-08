@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Header and Footer Scripts Inserter\n"
-"POT-Creation-Date: 2016-11-01 18:40+0300\n"
+"POT-Creation-Date: 2017-05-07 13:23+0300\n"
 "PO-Revision-Date: 2016-01-30 11:39+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,106 +14,277 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: header-and-footer-scripts-inserter.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
-"esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: header-and-footer-scripts-inserter.php:73
+#: inc/php/core.php:31
 msgid "Settings"
 msgstr ""
 
-#. Plugin Name of the plugin/theme
-#: header-and-footer-scripts-inserter.php:85 inc/php/settings_page.php:32
-msgid "Head and Footer Scripts Inserter"
-msgstr ""
-
-#: inc/php/settings_page.php:23
-msgid "Scripts updated successfully."
-msgstr ""
-
-#: inc/php/settings_page.php:35
-msgid "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur Gareginyan</a>"
-msgstr ""
-
-#: inc/php/settings_page.php:46
-msgid "About"
-msgstr ""
-
-#: inc/php/settings_page.php:48
-msgid "This plugin allows you to easily insert scripts in your website."
-msgstr ""
-
-#: inc/php/settings_page.php:53
-msgid "Help"
-msgstr ""
-
-#: inc/php/settings_page.php:55
-msgid "Got something to say? Need help?"
-msgstr ""
-
-#: inc/php/settings_page.php:61
+#: inc/php/core.php:47
 msgid "Donate"
 msgstr ""
 
-#: inc/php/settings_page.php:63
-msgid ""
-"I'm an independent developer, without a regular income, so every little contribution helps cover my costs and lets me "
-"spend more time building things for people like you to enjoy."
+#. Plugin Name of the plugin/theme
+#: inc/php/core.php:62 inc/php/page.php:26
+msgid "Head and Footer Scripts Inserter"
 msgstr ""
 
-#: inc/php/settings_page.php:67
+#: inc/php/messages.php:30
+msgid "Hello. I'm Arthur, the author of this plugin."
+msgstr ""
+
+#: inc/php/messages.php:32
+#, php-format
+msgid "Thank you for installing my plugin! I hope you will love it %s"
+msgstr ""
+
+#: inc/php/messages.php:67
+msgid "You have installed an old version of this plugin."
+msgstr ""
+
+#: inc/php/messages.php:68
+msgid "Please update the plugin to the latest version, and all will be fine."
+msgstr ""
+
+#: inc/php/messages.php:92
+msgid "Scripts updated successfully."
+msgstr ""
+
+#: inc/php/page.php:29
+#, php-format
+msgid "by %s Arthur Gareginyan %s"
+msgstr ""
+
+#: inc/php/page.php:41
+msgid "Main"
+msgstr ""
+
+#: inc/php/page.php:42 inc/php/page.php:62
+msgid "Usage"
+msgstr ""
+
+#: inc/php/page.php:43
+msgid "F.A.Q."
+msgstr ""
+
+#: inc/php/page.php:44 inc/php/page.php:173
+msgid "Author"
+msgstr ""
+
+#: inc/php/page.php:45 inc/php/page.php:182 inc/php/settings.php:28 inc/php/settings.php:101
+msgid "Support"
+msgstr ""
+
+#: inc/php/page.php:46
+msgid "Family"
+msgstr ""
+
+#: inc/php/page.php:64
+msgid "To add the script to your website, simply follow these steps:"
+msgstr ""
+
+#: inc/php/page.php:66
+msgid "Go to the \"Main\" tab."
+msgstr ""
+
+#: inc/php/page.php:67
+msgid "Add your scripts to the field and click the \"Save Changes\" button."
+msgstr ""
+
+#: inc/php/page.php:68
+msgid ""
+"Note that the fields are for inserting HTML code, so JavaScript and CSS code must be wrapped in the corresponding HTML tag. For JavaScript code "
+"use the <code>&lt;script&gt;</code> tag, and for CSS code use the <code>&lt;style&gt;</code> tag. Example:"
+msgstr ""
+
+#: inc/php/page.php:82
+msgid "Enjoy the result of applying your scripts."
+msgstr ""
+
+#: inc/php/page.php:82
+msgid "It's that simple!"
+msgstr ""
+
+#: inc/php/page.php:84
+msgid "Note!"
+msgstr ""
+
+#: inc/php/page.php:84
+msgid "If you want more options then tell me and I will be happy to add it."
+msgstr ""
+
+#: inc/php/page.php:93
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: inc/php/page.php:115
+msgid "Will this plugin work on my WordPress.COM website?"
+msgstr ""
+
+#: inc/php/page.php:116
+msgid "Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites."
+msgstr ""
+
+#: inc/php/page.php:118
+msgid "Can I use this plugin on my language?"
+msgstr ""
+
+#: inc/php/page.php:120
+#, php-format
+msgid ""
+"Yes. But If your language is not available then you can make one. This plugin is ready for translation. The<code>.pot</code>file is included and "
+"placed in the <code>languages</code> folder. Many of plugin users would be delighted if you shared your translation with the community. Just "
+"send the translation files (<code>*.po, *.mo</code>) to me at the %s and I will include the translation within the next plugin update."
+msgstr ""
+
+#: inc/php/page.php:125
+msgid "How does it work?"
+msgstr ""
+
+#: inc/php/page.php:126
+msgid ""
+"On the \"Settings\" tab, add your scripts to the field and click the \"Save Changes\" button. Enjoy the result of applying your scripts. It's "
+"that simple!"
+msgstr ""
+
+#: inc/php/page.php:128
+msgid "How much of scripts I can enter in the field?"
+msgstr ""
+
+#: inc/php/page.php:129
+msgid "I don't limit the number of characters."
+msgstr ""
+
+#: inc/php/page.php:131
+msgid "Does this plugin requires any modification of the theme?"
+msgstr ""
+
+#: inc/php/page.php:132
+msgid "Absolutely not. This plugin is configurable entirely from the plugin settings page."
+msgstr ""
+
+#: inc/php/page.php:134
+msgid "Does this require any knowledge of HTML or CSS?"
+msgstr ""
+
+#: inc/php/page.php:135
+msgid ""
+"This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page. But you need to know the HTML or CSS "
+"in order to add/remove/modify the HTML or CSS code by using this plugin."
+msgstr ""
+
+#: inc/php/page.php:137
+msgid "It's not working. What could be wrong?"
+msgstr ""
+
+#: inc/php/page.php:138
+msgid ""
+"As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a "
+"cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ "
+"Clearing your browser's cache may solve the problem."
+msgstr ""
+
+#: inc/php/page.php:139
+msgid ""
+"It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, I'd be "
+"happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem "
+"can be seen."
+msgstr ""
+
+#: inc/php/page.php:141
+msgid "Where to report bug if found?"
+msgstr ""
+
+#: inc/php/page.php:143
+#, php-format
+msgid "Please visit the %s Dedicated Plugin Page on GitHub %s and report."
+msgstr ""
+
+#: inc/php/page.php:149
+msgid "Where to share any ideas or suggestions to make the plugin better?"
+msgstr ""
+
+#: inc/php/page.php:151
+#, php-format
+msgid "Any suggestions are very welcome! Please send me an email to %s arthurgareginyan@gmail.com %s. Thank you!"
+msgstr ""
+
+#: inc/php/page.php:157
+msgid "I love this plugin! Can I help somehow?"
+msgstr ""
+
+#: inc/php/page.php:159
+#, php-format
+msgid "Yes, any financial contributions are welcome! Just visit %s my website %s, click on the donate button, and thank you!"
+msgstr ""
+
+#: inc/php/settings.php:21
+msgid "About"
+msgstr ""
+
+#: inc/php/settings.php:23
+msgid "This plugin allows you to easily insert scripts in your website."
+msgstr ""
+
+#: inc/php/settings.php:30 inc/php/settings.php:103
+msgid ""
+"I'm an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building "
+"things for people like you to enjoy."
+msgstr ""
+
+#: inc/php/settings.php:31 inc/php/settings.php:104
+msgid "Donate with PayPal"
+msgstr ""
+
+#: inc/php/settings.php:32 inc/php/settings.php:105
 msgid "Thanks for your support!"
 msgstr ""
 
-#: inc/php/settings_page.php:106
+#: inc/php/settings.php:37
+msgid "Help"
+msgstr ""
+
+#: inc/php/settings.php:39
+msgid "Got something to say? Need help?"
+msgstr ""
+
+#: inc/php/settings.php:77
 msgid "Head Section"
 msgstr ""
 
-#: inc/php/settings_page.php:108
-msgid "You can use the fields below to add scripts to Head of your website."
+#: inc/php/settings.php:79
+msgid "You can use the fields below to add scripts to HEAD section of your website."
 msgstr ""
 
-#: inc/php/settings_page.php:110
+#: inc/php/settings.php:80
 msgid "Scripts from this field will be printed in the beginning of <b>HEAD</b> section. Do not place plain text in this!"
 msgstr ""
 
-#: inc/php/settings_page.php:112
+#: inc/php/settings.php:82
 msgid "Scripts from this field will be printed in the end of <b>HEAD</b> section. Do not place plain text in this!"
 msgstr ""
 
-#: inc/php/settings_page.php:113 inc/php/settings_page.php:125
+#: inc/php/settings.php:84 inc/php/settings.php:96
 msgid "Save Changes"
 msgstr ""
 
-#: inc/php/settings_page.php:118
+#: inc/php/settings.php:89
 msgid "Footer Section"
 msgstr ""
 
-#: inc/php/settings_page.php:120
-msgid "You can use the fields below to add scripts to Footer of your website."
+#: inc/php/settings.php:91
+msgid "You can use the fields below to add scripts to FOOTER section of your website."
 msgstr ""
 
-#: inc/php/settings_page.php:122
+#: inc/php/settings.php:92
 msgid "Scripts from this field will be printed before a footers scripts. Do not place plain text in this!"
 msgstr ""
 
-#: inc/php/settings_page.php:124
+#: inc/php/settings.php:94
 msgid "Scripts from this field will be printed after all footers scripts. Do not place plain text in this!"
-msgstr ""
-
-#: inc/php/settings_page.php:130
-msgid "Using"
-msgstr ""
-
-#: inc/php/settings_page.php:132
-msgid "To use, enter your custom scripts, then click \"Save Changes\". It's that simple!"
-msgstr ""
-
-#: inc/php/settings_page.php:133
-msgid ""
-"Note that this fields are for inserting HTML code, so JavaScript and CSS code must be wrapped in the corresponding "
-"HTML tag. For JavaScript code use the `&lt;script&gt;` tag, and for CSS code use the `&lt;style&gt;` tag. Example:"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
@@ -121,9 +292,7 @@ msgid "https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid ""
-"Easily add your scripts to the WordPress website's head and footer sections. This is a must have tool for authors and "
-"website's owners."
+msgid "Easily add your scripts to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners."
 msgstr ""
 
 #. Author of the plugin/theme

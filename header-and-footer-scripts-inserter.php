@@ -5,7 +5,7 @@
  * Description: Easily add your scripts to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 4.0
+ * Version: 4.0.1
  * License: GPL3
  * Text Domain: header-and-footer-scripts-inserter
  * Domain Path: /languages/
@@ -62,7 +62,7 @@ defined('HFSINS_BASE') or define('HFSINS_BASE', plugin_basename(__FILE__));
 defined('HFSINS_URL') or define('HFSINS_URL', plugin_dir_url(__FILE__));
 defined('HFSINS_PATH') or define('HFSINS_PATH', plugin_dir_path(__FILE__));
 defined('HFSINS_TEXT') or define('HFSINS_TEXT', 'header-and-footer-scripts-inserter');
-defined('HFSINS_VERSION') or define('HFSINS_VERSION', '4.0');
+defined('HFSINS_VERSION') or define('HFSINS_VERSION', '4.0.1');
 
 /**
  * Load the plugin modules

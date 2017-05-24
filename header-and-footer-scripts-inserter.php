@@ -5,7 +5,7 @@
  * Description: Easily add your scripts to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners.
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 4.0.1
+ * Version: 4.1
  * License: GPL3
  * Text Domain: header-and-footer-scripts-inserter
  * Domain Path: /languages/
@@ -50,19 +50,23 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Define global constants
  *
- * @since 3.3
+ * @since 4.1
  */
-defined('HFSINS_DIR') or define('HFSINS_DIR', dirname(plugin_basename(__FILE__)));
-defined('HFSINS_BASE') or define('HFSINS_BASE', plugin_basename(__FILE__));
-defined('HFSINS_URL') or define('HFSINS_URL', plugin_dir_url(__FILE__));
-defined('HFSINS_PATH') or define('HFSINS_PATH', plugin_dir_path(__FILE__));
-defined('HFSINS_TEXT') or define('HFSINS_TEXT', 'header-and-footer-scripts-inserter');
-defined('HFSINS_VERSION') or define('HFSINS_VERSION', '4.0.1');
+defined( 'HFSINS_DIR' ) or define( 'HFSINS_DIR', dirname( plugin_basename( __FILE__ ) ) );
+defined( 'HFSINS_BASE' ) or define( 'HFSINS_BASE', plugin_basename( __FILE__ ) );
+defined( 'HFSINS_URL' ) or define( 'HFSINS_URL', plugin_dir_url( __FILE__ ) );
+defined( 'HFSINS_PATH' ) or define( 'HFSINS_PATH', plugin_dir_path( __FILE__ ) );
+defined( 'HFSINS_TEXT' ) or define( 'HFSINS_TEXT', 'header-and-footer-scripts-inserter' );
+defined( 'HFSINS_SLUG' ) or define( 'HFSINS_SLUG', 'header-and-footer-scripts-inserter' );
+defined( 'HFSINS_PREFIX' ) or define( 'HFSINS_PREFIX', 'HFScriptsIns' );
+defined( 'HFSINS_SETTINGS' ) or define( 'HFSINS_SETTINGS', 'HFScriptsIns' );
+defined( 'HFSINS_NAME' ) or define( 'HFSINS_NAME', 'Head and Footer Scripts Inserter' );
+defined( 'HFSINS_VERSION' ) or define( 'HFSINS_VERSION', get_file_data( __FILE__, array( 'Version' ) ) );
 
 /**
  * Load the plugin modules

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Header and Footer Scripts Inserter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-07 13:22+0300\n"
-"PO-Revision-Date: 2017-05-07 13:23+0300\n"
+"POT-Creation-Date: 2017-05-23 08:33+0300\n"
+"PO-Revision-Date: 2017-05-23 08:33+0300\n"
 "Last-Translator: psouu <koko887@wp.pl>\n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -32,11 +32,6 @@ msgstr "Ustawienia"
 #: inc/php/core.php:47
 msgid "Donate"
 msgstr "Wesprzyj"
-
-#. Plugin Name of the plugin/theme
-#: inc/php/core.php:62 inc/php/page.php:26
-msgid "Head and Footer Scripts Inserter"
-msgstr "Wstawianie kodu do nagłówka i stopki"
 
 #: inc/php/messages.php:30
 msgid "Hello. I'm Arthur, the author of this plugin."
@@ -68,7 +63,7 @@ msgstr "wykonana przez %s Arthur Gareginyan %s"
 msgid "Main"
 msgstr ""
 
-#: inc/php/page.php:42 inc/php/page.php:62
+#: inc/php/page.php:42 inc/php/page.php:61
 msgid "Usage"
 msgstr "Wykorzystanie"
 
@@ -76,11 +71,11 @@ msgstr "Wykorzystanie"
 msgid "F.A.Q."
 msgstr "FAQ"
 
-#: inc/php/page.php:44 inc/php/page.php:173
+#: inc/php/page.php:44 inc/php/page.php:175
 msgid "Author"
 msgstr "Autor"
 
-#: inc/php/page.php:45 inc/php/page.php:182 inc/php/settings.php:28
+#: inc/php/page.php:45 inc/php/page.php:184 inc/php/settings.php:28
 #: inc/php/settings.php:101
 msgid "Support"
 msgstr ""
@@ -89,19 +84,19 @@ msgstr ""
 msgid "Family"
 msgstr "Rodzina"
 
-#: inc/php/page.php:64
+#: inc/php/page.php:63
 msgid "To add the script to your website, simply follow these steps:"
 msgstr ""
 
-#: inc/php/page.php:66
+#: inc/php/page.php:65
 msgid "Go to the \"Main\" tab."
 msgstr ""
 
-#: inc/php/page.php:67
+#: inc/php/page.php:66
 msgid "Add your scripts to the field and click the \"Save Changes\" button."
 msgstr ""
 
-#: inc/php/page.php:68
+#: inc/php/page.php:67
 msgid ""
 "Note that the fields are for inserting HTML code, so JavaScript and CSS code "
 "must be wrapped in the corresponding HTML tag. For JavaScript code use the "
@@ -109,41 +104,41 @@ msgid ""
 "</code> tag. Example:"
 msgstr ""
 
-#: inc/php/page.php:82
+#: inc/php/page.php:81
 msgid "Enjoy the result of applying your scripts."
 msgstr ""
 
-#: inc/php/page.php:82
+#: inc/php/page.php:81
 msgid "It's that simple!"
 msgstr ""
 
-#: inc/php/page.php:84
+#: inc/php/page.php:83
 msgid "Note!"
 msgstr ""
 
-#: inc/php/page.php:84
+#: inc/php/page.php:83
 msgid "If you want more options then tell me and I will be happy to add it."
 msgstr "Jeśli potrzebujesz więcej opcji napisz mi o tym. Chętnie je dodam."
 
-#: inc/php/page.php:93
+#: inc/php/page.php:92
 msgid "Frequently Asked Questions"
 msgstr "Często zadawane pytania"
 
-#: inc/php/page.php:115
+#: inc/php/page.php:114
 msgid "Will this plugin work on my WordPress.COM website?"
 msgstr ""
 
-#: inc/php/page.php:116
+#: inc/php/page.php:115
 msgid ""
 "Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) "
 "websites."
 msgstr ""
 
-#: inc/php/page.php:118
+#: inc/php/page.php:117
 msgid "Can I use this plugin on my language?"
 msgstr ""
 
-#: inc/php/page.php:120
+#: inc/php/page.php:119
 #, php-format
 msgid ""
 "Yes. But If your language is not available then you can make one. This "
@@ -154,51 +149,51 @@ msgid ""
 "include the translation within the next plugin update."
 msgstr ""
 
-#: inc/php/page.php:125
+#: inc/php/page.php:124
 msgid "How does it work?"
 msgstr ""
 
-#: inc/php/page.php:126
+#: inc/php/page.php:125
 msgid ""
 "On the \"Settings\" tab, add your scripts to the field and click the \"Save "
 "Changes\" button. Enjoy the result of applying your scripts. It's that "
 "simple!"
 msgstr ""
 
-#: inc/php/page.php:128
+#: inc/php/page.php:127
 msgid "How much of scripts I can enter in the field?"
 msgstr ""
 
-#: inc/php/page.php:129
+#: inc/php/page.php:128
 msgid "I don't limit the number of characters."
 msgstr ""
 
-#: inc/php/page.php:131
+#: inc/php/page.php:130
 msgid "Does this plugin requires any modification of the theme?"
 msgstr ""
 
-#: inc/php/page.php:132
+#: inc/php/page.php:131
 msgid ""
 "Absolutely not. This plugin is configurable entirely from the plugin "
 "settings page."
 msgstr ""
 
-#: inc/php/page.php:134
+#: inc/php/page.php:133
 msgid "Does this require any knowledge of HTML or CSS?"
 msgstr ""
 
-#: inc/php/page.php:135
+#: inc/php/page.php:134
 msgid ""
 "This plugin can be configured with no knowledge of HTML or CSS, using an "
 "easy-to-use plugin settings page. But you need to know the HTML or CSS in "
 "order to add/remove/modify the HTML or CSS code by using this plugin."
 msgstr ""
 
-#: inc/php/page.php:137
+#: inc/php/page.php:136
 msgid "It's not working. What could be wrong?"
 msgstr ""
 
-#: inc/php/page.php:138
+#: inc/php/page.php:137
 msgid ""
 "As with every plugin, it's possible that things don't work. The most common "
 "reason for this is a web browser's cache. Every web browser stores a cache "
@@ -207,7 +202,7 @@ msgid ""
 "browser's cache may solve the problem."
 msgstr ""
 
-#: inc/php/page.php:139
+#: inc/php/page.php:138
 msgid ""
 "It's impossible to tell what could be wrong exactly, but if you post a "
 "support request in the plugin's support forum on WordPress.org, I'd be happy "
@@ -215,31 +210,46 @@ msgid ""
 "possible, including a link to your website where the problem can be seen."
 msgstr ""
 
+#: inc/php/page.php:140
+msgid ""
+"The last WordPress update is preventing me from editing my website that is "
+"using this plugin. Why is this?"
+msgstr ""
+
 #: inc/php/page.php:141
-msgid "Where to report bug if found?"
+msgid ""
+"This plugin can not cause such problem. More likely, the problem are related "
+"to the settings of the website. It could just be a cache, so please try to "
+"clear your website's cache (may be you using a caching plugin, or some web "
+"service such as the CloudFlare) and then the cache of your web browser. Also "
+"please try to re-login to the website, this too can help."
 msgstr ""
 
 #: inc/php/page.php:143
+msgid "Where to report bug if found?"
+msgstr ""
+
+#: inc/php/page.php:145
 #, php-format
 msgid "Please visit the %s Dedicated Plugin Page on GitHub %s and report."
 msgstr ""
 
-#: inc/php/page.php:149
+#: inc/php/page.php:151
 msgid "Where to share any ideas or suggestions to make the plugin better?"
 msgstr ""
 
-#: inc/php/page.php:151
+#: inc/php/page.php:153
 #, php-format
 msgid ""
 "Any suggestions are very welcome! Please send me an email to %s "
 "arthurgareginyan@gmail.com %s. Thank you!"
 msgstr ""
 
-#: inc/php/page.php:157
+#: inc/php/page.php:159
 msgid "I love this plugin! Can I help somehow?"
 msgstr ""
 
-#: inc/php/page.php:159
+#: inc/php/page.php:161
 #, php-format
 msgid ""
 "Yes, any financial contributions are welcome! Just visit %s my website %s, "
@@ -331,6 +341,10 @@ msgid ""
 msgstr ""
 "Skrypty z tego pola zostaną dodane za skryptami ze stopki. Nie należy tu "
 "umieszczać zwykłego tekstu!"
+
+#. Plugin Name of the plugin/theme
+msgid "Head and Footer Scripts Inserter"
+msgstr "Wstawianie kodu do nagłówka i stopki"
 
 #. Plugin URI of the plugin/theme
 msgid "https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter"

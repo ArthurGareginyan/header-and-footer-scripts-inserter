@@ -5,12 +5,12 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Render Settings Tab
  *
- * @since 3.3
+ * @since 4.1
  */
 ?>
     <!-- SIDEBAR -->
@@ -37,7 +37,7 @@ defined('ABSPATH') or die("Restricted access!");
                 <h3 class="title"><?php _e( 'Help', HFSINS_TEXT ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'Got something to say? Need help?', HFSINS_TEXT ); ?></p>
-                    <p><a href="mailto:arthurgareginyan@gmail.com?subject=Head and Footer Scripts Inserter">arthurgareginyan@gmail.com</a></p>
+                    <p><a href="mailto:arthurgareginyan@gmail.com?subject=<?php echo HFSINS_NAME; ?>">arthurgareginyan@gmail.com</a></p>
                 </div>
             </div>
 
@@ -50,22 +50,22 @@ defined('ABSPATH') or die("Restricted access!");
         <div id="post-body-content" class="has-sidebar-content">
             <div class="meta-box-sortabless">
 
-                <form name="HFScriptsIns-form" action="options.php" method="post" enctype="multipart/form-data">
-                    <?php settings_fields( 'HFScriptsIns_settings_group' ); ?>
+                <form action="options.php" method="post" enctype="multipart/form-data">
+                    <?php settings_fields( HFSINS_SETTINGS . '_settings_group' ); ?>
 
                     <?php
                         // Get options from the BD
-                        $options = get_option( 'HFScriptsIns_settings' );
+                        $options = get_option( HFSINS_SETTINGS . '_settings' );
 
-                        // Declare variables
+                        // Set default value if the option is empty
                         $header_beginning = isset( $options['header_beginning'] ) && !empty( $options['header_beginning'] ) ? esc_attr( $options['header_beginning'] ) : '';
                         $header_end = isset( $options['header_end'] ) && !empty( $options['header_end'] ) ? esc_attr( $options['header_end'] ) : '';
                         $footer_beginning = isset( $options['footer_beginning'] ) && !empty( $options['footer_beginning'] ) ? esc_attr( $options['footer_beginning'] ) : '';
                         $footer_end = isset( $options['footer_end'] ) && !empty( $options['footer_end'] ) ? esc_attr( $options['footer_end'] ) : '';
-                        
+
                         // Add rows if all the rows is less than 10
                         $type = array("header_beginning", "header_end", "footer_beginning", "footer_end");
-                        foreach ($type as $value) {
+                        foreach ( $type as $value ) {
                             $i = count(explode("\n", $$value));
                             for ( $i = $i; $i < 10; $i++) {
                                 $$value .= "\n";
@@ -97,7 +97,7 @@ defined('ABSPATH') or die("Restricted access!");
                         </div>
                     </div>
 
-                    <div id="support-addition" class="postbox">
+                    <div class="postbox" id="support-addition">
                         <h3 class="title"><?php _e( 'Support', HFSINS_TEXT ); ?></h3>
                         <div class="inside">
                             <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', HFSINS_TEXT ); ?></p>

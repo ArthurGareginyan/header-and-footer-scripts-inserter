@@ -5,14 +5,14 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Delete options on uninstall
  *
- * @since 0.1
+ * @since 4.1
  */
 function HFScriptsIns_uninstall() {
-    delete_option( 'HFScriptsIns_settings' );
+    delete_option( HFSINS_SETTINGS . '_settings' );
 }
-register_uninstall_hook( __FILE__, 'HFScriptsIns_uninstall' );
+register_uninstall_hook( __FILE__, HFSINS_PREFIX . '_uninstall' );

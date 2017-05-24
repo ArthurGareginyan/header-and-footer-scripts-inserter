@@ -5,17 +5,17 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Inject scripts in the frontend head and footer
  *
- * @since 1.0
+ * @since 4.1
  */
-add_action( 'wp_head', 'HFScriptsIns_inject_head_beginning', 0 );
-add_action( 'wp_head', 'HFScriptsIns_inject_head_end', 1000 );
-add_action( 'wp_footer', 'HFScriptsIns_inject_footer_beginning', 0 );
-add_action( 'wp_footer', 'HFScriptsIns_inject_footer_end', 1000 );
+add_action( 'wp_head', HFSINS_PREFIX . '_inject_head_beginning', 0 );
+add_action( 'wp_head', HFSINS_PREFIX . '_inject_head_end', 1000 );
+add_action( 'wp_footer', HFSINS_PREFIX . '_inject_footer_beginning', 0 );
+add_action( 'wp_footer', HFSINS_PREFIX . '_inject_footer_end', 1000 );
 
 /**
  * Prepare scripts for outputing
@@ -33,9 +33,9 @@ function HFScriptsIns_inject_footer_end() { HFScriptsIns_output('footer_end'); }
  * @param string $option Option Name
  * @return output
  *
- * @since 3.0
+ * @since 4.1
  */
-function HFScriptsIns_output($option) {
+function HFScriptsIns_output( $option ) {
 
     // Ignore admin, feed, robots or trackbacks
     if (is_admin() || is_feed() || is_robots() || is_trackback()) {
@@ -43,7 +43,7 @@ function HFScriptsIns_output($option) {
     }
 
     // Read options from BD and declare variables
-    $options = get_option( 'HFScriptsIns_settings' );
+    $options = get_option( HFSINS_SETTINGS . '_settings' );
     $data = $options[$option];
 
     // If data is empty then exit

@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.1
+ * @since 4.2
  */
 ?>
     <!-- SIDEBAR -->
@@ -54,14 +54,14 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     <?php settings_fields( HFSINS_SETTINGS . '_settings_group' ); ?>
 
                     <?php
-                        // Get options from the BD
+                        // Get options from the database
                         $options = get_option( HFSINS_SETTINGS . '_settings' );
 
-                        // Set default value if the option is empty
-                        $header_beginning = isset( $options['header_beginning'] ) && !empty( $options['header_beginning'] ) ? esc_attr( $options['header_beginning'] ) : '';
-                        $header_end = isset( $options['header_end'] ) && !empty( $options['header_end'] ) ? esc_attr( $options['header_end'] ) : '';
-                        $footer_beginning = isset( $options['footer_beginning'] ) && !empty( $options['footer_beginning'] ) ? esc_attr( $options['footer_beginning'] ) : '';
-                        $footer_end = isset( $options['footer_end'] ) && !empty( $options['footer_end'] ) ? esc_attr( $options['footer_end'] ) : '';
+                        // Set default value if option is empty
+                        $header_beginning = !empty( $options['header_beginning'] ) ? esc_attr( $options['header_beginning'] ) : '';
+                        $header_end = !empty( $options['header_end'] ) ? esc_attr( $options['header_end'] ) : '';
+                        $footer_beginning = !empty( $options['footer_beginning'] ) ? esc_attr( $options['footer_beginning'] ) : '';
+                        $footer_end = !empty( $options['footer_end'] ) ? esc_attr( $options['footer_end'] ) : '';
 
                         // Add rows if all the rows is less than 10
                         $type = array("header_beginning", "header_end", "footer_beginning", "footer_end");

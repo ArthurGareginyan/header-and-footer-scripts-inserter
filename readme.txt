@@ -123,7 +123,7 @@ A. Yes, any financial contributions are welcome! Just visit [my website](http://
 == Screenshots ==
 1. Plugin page.
 2. Plugin page with Google Tag Manager code added.
-3. Success message.
+3. Plugin page with Google Analytics tracking code added.
 
 == Other Notes ==
 

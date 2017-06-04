@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Header and Footer Scripts Inserter\n"
 "POT-Creation-Date: 2017-06-04 13:31+0300\n"
-"PO-Revision-Date: 2017-06-04 13:31+0300\n"
+"PO-Revision-Date: 2017-06-04 13:38+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -274,7 +274,7 @@ msgstr "Этот плагин позволяет легко вставлять �
 
 #: inc/php/settings.php:24
 msgid "Version"
-msgstr ""
+msgstr "Версия"
 
 #: inc/php/settings.php:31 inc/php/settings.php:104
 msgid ""

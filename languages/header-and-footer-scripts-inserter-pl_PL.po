@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Header and Footer Scripts Inserter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-23 08:33+0300\n"
-"PO-Revision-Date: 2017-05-23 08:33+0300\n"
+"POT-Creation-Date: 2017-06-04 13:31+0300\n"
+"PO-Revision-Date: 2017-06-04 13:31+0300\n"
 "Last-Translator: psouu <koko887@wp.pl>\n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -75,8 +75,8 @@ msgstr "FAQ"
 msgid "Author"
 msgstr "Autor"
 
-#: inc/php/page.php:45 inc/php/page.php:184 inc/php/settings.php:28
-#: inc/php/settings.php:101
+#: inc/php/page.php:45 inc/php/page.php:184 inc/php/settings.php:29
+#: inc/php/settings.php:102
 msgid "Support"
 msgstr ""
 
@@ -264,39 +264,43 @@ msgstr "O wtyczce"
 msgid "This plugin allows you to easily insert scripts in your website."
 msgstr "Ta wtyczka pozwala łatwo wstawić kod skryptów na stronę www."
 
-#: inc/php/settings.php:30 inc/php/settings.php:103
+#: inc/php/settings.php:24
+msgid "Version"
+msgstr ""
+
+#: inc/php/settings.php:31 inc/php/settings.php:104
 msgid ""
 "I'm an independent developer, without a regular income, so every little "
 "contribution helps cover my costs and lets me spend more time building "
 "things for people like you to enjoy."
 msgstr ""
 
-#: inc/php/settings.php:31 inc/php/settings.php:104
+#: inc/php/settings.php:32 inc/php/settings.php:105
 msgid "Donate with PayPal"
 msgstr ""
 
-#: inc/php/settings.php:32 inc/php/settings.php:105
+#: inc/php/settings.php:33 inc/php/settings.php:106
 msgid "Thanks for your support!"
 msgstr "Dziękujemy za wsparcie!"
 
-#: inc/php/settings.php:37
+#: inc/php/settings.php:38
 msgid "Help"
 msgstr "Pomoc"
 
-#: inc/php/settings.php:39
+#: inc/php/settings.php:40
 msgid "Got something to say? Need help?"
 msgstr "Masz coś do powiedzenia? Potrzebujesz pomocy?"
 
-#: inc/php/settings.php:77
+#: inc/php/settings.php:78
 msgid "Head Section"
 msgstr "Sekcja: Nagłówek"
 
-#: inc/php/settings.php:79
+#: inc/php/settings.php:80
 msgid ""
 "You can use the fields below to add scripts to HEAD section of your website."
 msgstr "Pola poniżej można użyć, aby dodać kody skryptów do nagłówka witryny."
 
-#: inc/php/settings.php:80
+#: inc/php/settings.php:81
 msgid ""
 "Scripts from this field will be printed in the beginning of <b>HEAD</b> "
 "section. Do not place plain text in this!"
@@ -304,7 +308,7 @@ msgstr ""
 "Skrypty z tego pola zostaną dodane na początku sekcji <b>HEAD</b>. Nie "
 "należy tu umieszczać zwykłego tekstu!"
 
-#: inc/php/settings.php:82
+#: inc/php/settings.php:83
 msgid ""
 "Scripts from this field will be printed in the end of <b>HEAD</b> section. "
 "Do not place plain text in this!"
@@ -312,21 +316,21 @@ msgstr ""
 "Skrypty z tego pola zostaną dodane na końcu sekcji <b>HEAD</b>. Nie należy "
 "tu umieszczać zwykłego tekstu!"
 
-#: inc/php/settings.php:84 inc/php/settings.php:96
+#: inc/php/settings.php:85 inc/php/settings.php:97
 msgid "Save Changes"
 msgstr "Zapisz"
 
-#: inc/php/settings.php:89
+#: inc/php/settings.php:90
 msgid "Footer Section"
 msgstr "Sekcja: Stopka"
 
-#: inc/php/settings.php:91
+#: inc/php/settings.php:92
 msgid ""
 "You can use the fields below to add scripts to FOOTER section of your "
 "website."
 msgstr "Pola poniżej można użyć, aby dodać kody skryptów do stopki witryny."
 
-#: inc/php/settings.php:92
+#: inc/php/settings.php:93
 msgid ""
 "Scripts from this field will be printed before a footers scripts. Do not "
 "place plain text in this!"
@@ -334,7 +338,7 @@ msgstr ""
 "Skrypty z tego pola zostaną dodane przed skryptami ze stopki. Nie należy tu "
 "umieszczać zwykłego tekstu!"
 
-#: inc/php/settings.php:94
+#: inc/php/settings.php:95
 msgid ""
 "Scripts from this field will be printed after all footers scripts. Do not "
 "place plain text in this!"

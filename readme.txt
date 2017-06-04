@@ -3,8 +3,8 @@ Contributors: Arthur Gareginyan
 Tags: inject, insert, insert scripts, insert javascript, insert js, insert html, insert css, insert custom scripts, insert custom code, html, javascript, js, css, code, custom code, script, scripts, custom scripts, meta, meta tags, head, header, head section, head area, footer, footer section, footer area,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
-Tested up to: 4.7
-Stable tag: 4.2
+Tested up to: 4.8
+Stable tag: 4.3
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -62,9 +62,9 @@ If you would like to add a translation to this plugin then please head to our [T
 == Installation ==
 Install "Head and Footer Scripts Inserter" just as you would any other WordPress Plugin.
 
-Automatically via WordPress Admin area:
+Automatically via WordPress Admin Panel:
 
-1. Log into Admin area of your WordPress website.
+1. Log into Admin Panel of your WordPress website.
 2. Go to "`Plugins`" -> "`Add New`".
 3. Find this plugin and click install.
 4. Activate this plugin through the "`Plugins`" tab.
@@ -74,7 +74,7 @@ Manually via FTP access:
 1. Download a copy (ZIP file) of this plugin from WordPress.org.
 2. Unzip the ZIP file.
 3. Upload the unzipped catalog to your website's plugin directory (`/wp-content/plugins/`).
-4. Log into Admin area of your WordPress website.
+4. Log into Admin Panel of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
 After installation, a "`Head and Footer Scripts Inserter`" menu item will appear in the "`Settings`" section. Click on this in order to view plugin administration page.
@@ -148,6 +148,13 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.3 =
+* To the plugin settings page added information about the plugin version number.
+* The "Tested up to:" comment changed to 4.8 after full testing process.
+* The "version.php" file renamed to "versioning.php".
+* The "versioning.php" file updated to new version.
+* The "_plugin_version_number" function renamed to the "_versioning".
 
 = 4.2 =
 * Compatibility with PHP version 5.2 improved.

@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 4.3
+ * @since 4.4
  */
 ?>
     <!-- SIDEBAR -->
@@ -18,27 +18,25 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
         <div id="side-sortables" class="meta-box-sortabless ui-sortable">
 
             <div id="about" class="postbox">
-                <h3 class="title"><?php _e( 'About', HFSINS_TEXT ); ?></h3>
+                <h3 class="title"><?php _e( 'About', $text ); ?></h3>
                 <div class="inside">
-                    <p><?php _e( 'This plugin allows you to easily insert scripts in your website.', HFSINS_TEXT ); ?></p>
-                    <p class="version"><?php _e( 'Version', HFSINS_TEXT ); ?> <?php echo HFSINS_VERSION; ?></p>
+                    <p><?php _e( 'This plugin allows you to easily insert scripts in your website.', $text ); ?></p>
                 </div>
             </div>
 
             <div id="support" class="postbox">
-                <h3 class="title"><?php _e( 'Support', HFSINS_TEXT ); ?></h3>
+                <h3 class="title"><?php _e( 'Support', $text ); ?></h3>
                 <div class="inside">
-                    <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', HFSINS_TEXT ); ?></p>
-                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="additional-button paypal"><?php _e( 'Donate with PayPal', HFSINS_TEXT ); ?></a>
-                    <p><?php _e( 'Thanks for your support!', HFSINS_TEXT ); ?></p>
+                    <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', $text ); ?></p>
+                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="additional-button paypal"><?php _e( 'Donate with PayPal', $text ); ?></a>
+                    <p><?php _e( 'Thanks for your support!', $text ); ?></p>
                 </div>
             </div>
 
             <div id="help" class="postbox">
-                <h3 class="title"><?php _e( 'Help', HFSINS_TEXT ); ?></h3>
+                <h3 class="title"><?php _e( 'Help', $text ); ?></h3>
                 <div class="inside">
-                    <p><?php _e( 'Got something to say? Need help?', HFSINS_TEXT ); ?></p>
-                    <p><a href="mailto:arthurgareginyan@gmail.com?subject=<?php echo HFSINS_NAME; ?>">arthurgareginyan@gmail.com</a></p>
+                    <p><?php _e( 'If you have a question, please read the information in the FAQ section.', $text ); ?></p>
                 </div>
             </div>
 
@@ -75,35 +73,45 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     ?>
 
                     <div class="postbox" id="Head">
-                        <h3 class="title"><?php _e( 'Head Section', HFSINS_TEXT ); ?></h3>
+                        <h3 class="title"><?php _e( 'Head Section', $text ); ?></h3>
                         <div class="inside">
-                            <p class="note"><?php _e( 'You can use the fields below to add scripts to HEAD section of your website.', HFSINS_TEXT ); ?></p>
-                            <p class='help-text'><?php _e( 'Scripts from this field will be printed in the beginning of <b>HEAD</b> section. Do not place plain text in this!', HFSINS_TEXT ); ?></p>
+
+                            <p class="note"><?php _e( 'You can use the fields below to add scripts to HEAD section of your website.', $text ); ?></p>
+
+                            <p class='help-text'><?php _e( 'Scripts from this field will be printed in the beginning of <b>HEAD</b> section. Do not place plain text in this!', $text ); ?></p>
                             <textarea name="HFScriptsIns_settings[header_beginning]" id="HFScriptsIns_settings[header_beginning]" ><?php echo $header_beginning; ?></textarea>
-                            <p class='help-text'><?php _e( 'Scripts from this field will be printed in the end of <b>HEAD</b> section. Do not place plain text in this!', HFSINS_TEXT ); ?></p>
+
+                            <p class='help-text'><?php _e( 'Scripts from this field will be printed in the end of <b>HEAD</b> section. Do not place plain text in this!', $text ); ?></p>
                             <textarea name="HFScriptsIns_settings[header_end]" id="HFScriptsIns_settings[header_end]" ><?php echo $header_end; ?></textarea>
-                            <?php submit_button( __( 'Save Changes', HFSINS_TEXT ), 'primary', 'submit', true ); ?>
+
+                            <?php submit_button( __( 'Save changes', $text ), 'primary', 'submit', true ); ?>
+
                         </div>
                     </div>
 
                     <div class="postbox" id="Footer">
-                        <h3 class="title"><?php _e( 'Footer Section', HFSINS_TEXT ); ?></h3>
+                        <h3 class="title"><?php _e( 'Footer Section', $text ); ?></h3>
                         <div class="inside">
-                            <p class="note"><?php _e( 'You can use the fields below to add scripts to FOOTER section of your website.', HFSINS_TEXT ); ?></p>
-                            <p class='help-text'><?php _e( 'Scripts from this field will be printed before a footers scripts. Do not place plain text in this!', HFSINS_TEXT ); ?></p>
+
+                            <p class="note"><?php _e( 'You can use the fields below to add scripts to FOOTER section of your website.', $text ); ?></p>
+
+                            <p class='help-text'><?php _e( 'Scripts from this field will be printed before a footers scripts. Do not place plain text in this!', $text ); ?></p>
                             <textarea name="HFScriptsIns_settings[footer_beginning]" id="HFScriptsIns_settings[footer_beginning]" ><?php echo $footer_beginning; ?></textarea>
-                            <p class='help-text'><?php _e( 'Scripts from this field will be printed after all footers scripts. Do not place plain text in this!', HFSINS_TEXT ); ?></p>
+
+                            <p class='help-text'><?php _e( 'Scripts from this field will be printed after all footers scripts. Do not place plain text in this!', $text ); ?></p>
                             <textarea name="HFScriptsIns_settings[footer_end]" id="HFScriptsIns_settings[footer_end]" ><?php echo $footer_end; ?></textarea>
-                            <?php submit_button( __( 'Save Changes', HFSINS_TEXT ), 'primary', 'submit', true ); ?>
+
+                            <?php submit_button( __( 'Save changes', $text ), 'primary', 'submit', true ); ?>
+
                         </div>
                     </div>
 
                     <div class="postbox" id="support-addition">
-                        <h3 class="title"><?php _e( 'Support', HFSINS_TEXT ); ?></h3>
+                        <h3 class="title"><?php _e( 'Support', $text ); ?></h3>
                         <div class="inside">
-                            <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', HFSINS_TEXT ); ?></p>
-                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="additional-button paypal"><?php _e( 'Donate with PayPal', HFSINS_TEXT ); ?></a>
-                            <p><?php _e( 'Thanks for your support!', HFSINS_TEXT ); ?></p>
+                            <p><?php _e( 'I\'m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy.', $text ); ?></p>
+                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="additional-button paypal"><?php _e( 'Donate with PayPal', $text ); ?></a>
+                            <p><?php _e( 'Thanks for your support!', $text ); ?></p>
                         </div>
                     </div>
 

@@ -10,35 +10,43 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Load scripts and style sheet for settings page
  *
- * @since 4.1
+ * @since 4.4
  */
 function HFScriptsIns_load_scripts_admin( $hook ) {
 
+    // Put value of constants to variables for easier access
+    $slug = HFSINS_SLUG;
+    $prefix = HFSINS_PREFIX;
+    $url = HFSINS_URL;
+
     // Return if the page is not a settings page of this plugin
-    $settings_page = 'settings_page_' . HFSINS_SLUG;
+    $settings_page = 'settings_page_' . $slug;
     if ( $settings_page != $hook ) {
         return;
     }
 
+    // Load jQuery library
+    wp_enqueue_script( 'jquery' );
+
     // Style sheet
-    wp_enqueue_style( HFSINS_PREFIX . '-admin-css', HFSINS_URL . 'inc/css/admin.css' );
+    wp_enqueue_style( $prefix . '-admin-css', $url . 'inc/css/admin.css' );
 
     // JavaScript
-    wp_enqueue_script( HFSINS_PREFIX . '-admin-js', HFSINS_URL . 'inc/js/admin.js', array(), false, true );
+    wp_enqueue_script( $prefix . '-admin-js', $url . 'inc/js/admin.js', array(), false, true );
 
     // Bootstrap library
-    wp_enqueue_style( HFSINS_PREFIX . '-bootstrap-css', HFSINS_URL . 'inc/lib/bootstrap/bootstrap.css' );
-    wp_enqueue_style( HFSINS_PREFIX . '-bootstrap-theme-css', HFSINS_URL . 'inc/lib/bootstrap/bootstrap-theme.css' );
-    wp_enqueue_script( HFSINS_PREFIX . '-bootstrap-js', HFSINS_URL . 'inc/lib/bootstrap/bootstrap.js' );
+    wp_enqueue_style( $prefix . '-bootstrap-css', $url . 'inc/lib/bootstrap/bootstrap.css' );
+    wp_enqueue_style( $prefix . '-bootstrap-theme-css', $url . 'inc/lib/bootstrap/bootstrap-theme.css' );
+    wp_enqueue_script( $prefix . '-bootstrap-js', $url . 'inc/lib/bootstrap/bootstrap.js' );
 
     // CodeMirror library
-    wp_enqueue_style( HFSINS_PREFIX . '-codemirror-css', HFSINS_URL . 'inc/lib/codemirror/codemirror.css' );
-    wp_enqueue_script( HFSINS_PREFIX . '-codemirror-js', HFSINS_URL . 'inc/lib/codemirror/codemirror.js' );
-    wp_enqueue_script( HFSINS_PREFIX . '-codemirror-mode-htmlmixed-js', HFSINS_URL . 'inc/lib/codemirror/mode/htmlmixed.js' );
-    wp_enqueue_script( HFSINS_PREFIX . '-codemirror-mode-javascript-js', HFSINS_URL . 'inc/lib/codemirror/mode/javascript.js' );
-    wp_enqueue_script( HFSINS_PREFIX . '-codemirror-mode-xml-js', HFSINS_URL . 'inc/lib/codemirror/mode/xml.js' );
-    wp_enqueue_script( HFSINS_PREFIX . '-codemirror-mode-css-js', HFSINS_URL . 'inc/lib/codemirror/mode/css.js' );
-    wp_enqueue_script( HFSINS_PREFIX . '-codemirror-mode-active-line-js', HFSINS_URL . 'inc/lib/codemirror/addons/active-line.js' );
+    wp_enqueue_style( $prefix . '-codemirror-css', $url . 'inc/lib/codemirror/codemirror.css' );
+    wp_enqueue_script( $prefix . '-codemirror-js', $url . 'inc/lib/codemirror/codemirror.js' );
+    wp_enqueue_script( $prefix . '-codemirror-mode-htmlmixed-js', $url . 'inc/lib/codemirror/mode/htmlmixed.js' );
+    wp_enqueue_script( $prefix . '-codemirror-mode-javascript-js', $url . 'inc/lib/codemirror/mode/javascript.js' );
+    wp_enqueue_script( $prefix . '-codemirror-mode-xml-js', $url . 'inc/lib/codemirror/mode/xml.js' );
+    wp_enqueue_script( $prefix . '-codemirror-mode-css-js', $url . 'inc/lib/codemirror/mode/css.js' );
+    wp_enqueue_script( $prefix . '-codemirror-mode-active-line-js', $url . 'inc/lib/codemirror/addons/active-line.js' );
 
 }
 add_action( 'admin_enqueue_scripts', HFSINS_PREFIX . '_load_scripts_admin' );

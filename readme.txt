@@ -4,7 +4,7 @@ Tags: inject, insert, insert scripts, insert javascript, insert js, insert html,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.3
+Stable tag: 4.4
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -38,11 +38,15 @@ If you want more options then tell me and I will be happy to add it.
 
 = Translation =
 
+This plugin is ready for translation and has already been translated into several languages.
+
 * English (default)
 * Russian
 * Polish
 
-If you would like to add a translation to this plugin then please head to our [Translating WordPress](https://translate.wordpress.org/projects/wp-plugins/header-and-footer-scripts-inserter) page.
+Maybe not all existed translations are up to date. You are welcome to contribute corrections!
+
+If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/header-and-footer-scripts-inserter).
 
 = Supported =
 
@@ -77,9 +81,9 @@ Manually via FTP access:
 4. Log into Admin Panel of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
-After installation, a "`Head and Footer Scripts Inserter`" menu item will appear in the "`Settings`" section. Click on this in order to view plugin administration page.
+After installation and activation, the "`Head and Footer Scripts Inserter`" menu item will appear in the "`Settings`" section. Click on this in order to view plugin administration page.
 
-[More help installing Plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
+[More help installing plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
 
 == Frequently Asked Questions ==
@@ -87,10 +91,10 @@ After installation, a "`Head and Footer Scripts Inserter`" menu item will appea
 A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites.
 
 = Q. Can I use this plugin on my language? =
-A. Yes. But If your language is not available then you can make one. This plugin is ready for translation. The `.pot` file is included and placed in the "`languages`" folder. Many of plugin users would be delighted if you shared your translation with the community. Just send the translation files (`*.po, *.mo`) to me at the arthurgareginyan@gmail.com and I will include the translation within the next plugin update.
+A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just send the PO file to me at the arthurgareginyan@gmail.com and I will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 = Q. How does it work? =
-A. Simply go to the plugin settings page, add your scripts to the field and click the "Save Changes" button. Enjoy the result of applying your scripts. It's that simple!
+A. Simply go to the plugin settings page, place your scripts in the field and click the "Save changes" button. Enjoy the result of applying your scripts. It's that simple!
 You can find the plugin settings page at "`WP Admin Panel`" -> "`Settings`" -> "`Head and Footer Scripts Inserter`".
 
 = Q. How much of scripts I can enter in the field? =
@@ -101,6 +105,22 @@ A. Absolutely not. This plugin is configurable entirely from the plugin settings
 
 = Q. Does this require any knowledge of HTML or CSS? =
 A. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page. But you need to know the HTML or CSS in order to add/remove/modify the HTML or CSS code by using this plugin.
+
+= Q. Can I add my script to a specific page of my website? =
+A. For now, this plugin does not have an option to apply the custom scripts only on specific pages. I plan to add this feature soon. But for now in order to apply your script only on specific pages of your website, you need to wrap your script in a PHP code that will determine the page you want. You need something like this:
+`function my_custom_script() {
+
+    // Stop the function if this is not the Home page of website
+    if ( !is_home() ) {
+        return;
+    }
+
+    // Print the script
+    echo '<script>YOUR SCRIPT</script>';
+}
+add_action( 'wp_head', 'my_custom_script' );`
+
+To apply the PHP code on a website, I can recommend you to use another my plugin called [My Custom Functions](https://wordpress.org/plugins/my-custom-functions/).
 
 = Q. It's not working. What could be wrong? =
 A. As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem.
@@ -148,6 +168,14 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.4 =
+* On the plugin settings page, text of buttons are corrected.
+* On the plugin settings page, the information about the plugin version number moved to header section.
+* Some mention of constants replaced with variables for easier access.
+* Content of the "Usage" tab updated.
+* Content of the "FAQ" tab updated.
+* Added load of the jQuery library on the plugin settings page.
 
 = 4.3 =
 * To the plugin settings page added information about the plugin version number.

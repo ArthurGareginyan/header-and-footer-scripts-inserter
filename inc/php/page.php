@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Page
  *
- * @since 4.4
+ * @since 4.4.1
  */
 function HFScriptsIns_render_submenu_page() {
 
@@ -33,7 +33,7 @@ function HFScriptsIns_render_submenu_page() {
             <span>
                 <?php printf(
                               __( 'by %s Arthur Gareginyan %s', $text ),
-                                  '<a href="http://www.arthurgareginyan.com" target="_blank">',
+                                  '<a href="https://www.arthurgareginyan.com" target="_blank">',
                                   '</a>'
                              );
                 ?>
@@ -127,12 +127,15 @@ function HFScriptsIns_render_submenu_page() {
                         <div class="answer-1"><?php _e( 'Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites.', $text ); ?></div>
 
                         <div class="question-2"><?php _e( 'Can I use this plugin on my language?', $text ); ?></div>
-                        <div class="answer-2"><?php printf(
-                                                            __( 'Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the <code>languages</code> folder. Just send the PO file to me at the %s and I will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!', $text ),
-                                                                '<a href="mailto:arthurgareginyan@gmail.com?subject=New translation of the ' . $name . ' plugin">arthurgareginyan@gmail.com</a>'
-                                                          );
+                        <div class="answer-2"><?php _e( 'Yes. This plugin is ready for translation and has already been translated into several languages.', $text ); ?><br><br>
+                                              <?php printf(
+                                                            __( 'If you want to help translate this plugin then please visit the %s. You can also use the POT file, that is included and placed in the "languages" folder, in order to create a translation PO file. Just send the PO file to me at the %s and I will include this translation within the next plugin update.', $text ),
+                                                            '<a href="https://translate.wordpress.org/projects/wp-plugins/' . $slug . '" target="_blank">translation page</a>',
+                                                            '<a href="mailto:arthurgareginyan@gmail.com?subject=New translation of the ' . $name . ' plugin">arthurgareginyan@gmail.com</a>'
+                                                           );
                                               ?><br><br>
-                                              <?php _e( 'Maybe not all existed translations are up to date. You are welcome to contribute corrections!', $text ); ?></div>
+                                              <?php _e( 'Maybe not all existed translations are up to date. You are welcome to contribute corrections!', $text ); ?><br><br>
+                                              <?php _e( 'Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!', $text ); ?></div>
 
                         <div class="question-3"><?php _e( 'How does it work?', $text ); ?></div>
                         <div class="answer-3"><?php _e( 'On the "Settings" tab, place your scripts in the field and click the "Save changes" button. Enjoy the result of applying your scripts. It\'s that simple!', $text ); ?></div>
@@ -161,7 +164,7 @@ function HFScriptsIns_render_submenu_page() {
 add_action( 'wp_head', 'my_custom_script' );</code></pre>
                                               <?php printf(
                                                              __( 'To apply the PHP code on a website, I can recommend you to use another my plugin called %s.', $text ),
-                                                            '<a href="//wordpress.org/plugins/my-custom-functions/" target="_blank">My Custom Functions</a>'
+                                                            '<a href="https://wordpress.org/plugins/my-custom-functions/" target="_blank">My Custom Functions</a>'
                                                            ); ?></div>
 
                         <div class="question-8 question-red"><?php _e( 'It\'s not working. What could be wrong?', $text ); ?></div>
@@ -182,14 +185,14 @@ add_action( 'wp_head', 'my_custom_script' );</code></pre>
                         <div class="question-11"><?php _e( 'Where to share any ideas or suggestions to make the plugin better?', $text ); ?></div>
                         <div class="answer-11"><?php printf(
                                                             __( 'Any suggestions are very welcome! Please send me an email to %s. Thank you!', $text ),
-                                                                '<a href="mailto:arthurgareginyan@gmail.com?subject=Suggestions about the ' . $name . '">arthurgareginyan@gmail.com</a>'
+                                                                '<a href="mailto:arthurgareginyan@gmail.com?subject=Suggestions about the ' . $name . ' plugin">arthurgareginyan@gmail.com</a>'
                                                            );
                                                ?></div>
 
                         <div class="question-12"><?php _e( 'I love this plugin! Can I help somehow?', $text ); ?></div>
                         <div class="answer-12"><?php printf(
                                                             __( 'Yes, any financial contributions are welcome! Just visit %s my website %s, click on the donate button, and thank you!', $text ),
-                                                                '<a href="http://www.arthurgareginyan.com/donate.html" target="_blank">',
+                                                                '<a href="https://www.arthurgareginyan.com/donate.html" target="_blank">',
                                                                 '</a>'
                                                            );
                                                ?></div>

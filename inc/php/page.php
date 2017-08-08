@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Page
  *
- * @since 4.4.1
+ * @since 4.5
  */
 function HFScriptsIns_render_submenu_page() {
 
@@ -77,7 +77,7 @@ function HFScriptsIns_render_submenu_page() {
         document.getElementById(&quot;demo&quot;).innerHTML = &quot;Hello World!&quot;;
     }
 &lt;/script&gt;
-    
+
 &lt;style&gt;
     .example {
         color: #000;
@@ -152,12 +152,12 @@ function HFScriptsIns_render_submenu_page() {
                         <div class="question-7"><?php _e( 'Can I add my script to a specific page of my website?', $text ); ?></div>
                         <div class="answer-7"><?php _e( 'For now, this plugin does not have an option to apply the custom scripts only on specific pages. I plan to add this feature soon. But for now in order to apply your script only on specific pages of your website, you need to wrap your script in a PHP code that will determine the page you want. You need something like this:', $text ); ?><br><br>
 <pre><code>function my_custom_script() {
-    
+
     // Stop the function if this is not the Home page of website
     if ( !is_home() ) {
         return;
     }
-    
+
     // Print the script
     echo '&lt;script&gt;YOUR SCRIPT&lt;/script&gt;';
 }

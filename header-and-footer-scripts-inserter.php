@@ -5,7 +5,7 @@
  * Description: Easily add your scripts to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners.
  * Author: Arthur Gareginyan
  * Author URI: https://www.arthurgareginyan.com
- * Version: 4.4.1
+ * Version: 4.5
  * License: GPL3
  * Text Domain: header-and-footer-scripts-inserter
  * Domain Path: /languages/

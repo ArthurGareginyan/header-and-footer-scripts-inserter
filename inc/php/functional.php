@@ -42,7 +42,7 @@ function HFScriptsIns_output( $option ) {
         return;
     }
 
-    // Read options from BD and declare variables
+    // Read options from database and declare variables
     $options = get_option( HFSINS_SETTINGS . '_settings' );
     $data = $options[$option];
 

@@ -4,7 +4,7 @@ Tags: inject, insert, insert scripts, insert javascript, insert js, insert html,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.4.1
+Stable tag: 4.5
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -12,6 +12,7 @@ Easily add your scripts to the WordPress website's head and footer sections. Thi
 
 
 == Description ==
+
 An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily insert custom scripts (HTML, JavaScript, and CSS) in the head or/and footer section of your website.
 
 No need anymore to editing a files of your theme or plugins in order to add custom scripts (HTML with JavaScript, CSS and else). You can add they on the plugin settings page. Just add your scripts in the field on the plugin settings page and this plugin will do the rest for you. It adds required scripts to the head section of your website automatically, without changing any of your themes file and without slowing down your website. It's really useful in case of any theme update, because your scripts would never be lost! Your scripts will keep on working, no matter how many times you upgrade or switch your theme and plugins.
@@ -20,7 +21,7 @@ Third-party services like Google Webmaster Tools, Alexa, Pinterest and Google+ r
 
 If you want more options then tell me and I will be happy to add it.
 
-= Features =
+**Features**
 
 * Lightweight and fast
 * Secure code with using clear coding standards
@@ -36,7 +37,7 @@ If you want more options then tell me and I will be happy to add it.
 * Inserts scripts in beginning or/and end of footer
 * And much, much more!
 
-= Translation =
+**Translation**
 
 This plugin is ready for translation and has already been translated into several languages.
 
@@ -46,22 +47,23 @@ This plugin is ready for translation and has already been translated into severa
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/header-and-footer-scripts-inserter).
 
-= Supported =
+**Supported**
 
 * HTML
 * JavaScript (in HTML tag)
 * CSS (in HTML tag)
 
->**Contribution**
->
->Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
->
->* [Donate](https://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
->* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/header-and-footer-scripts-inserter?rate=5#postform) this plugin.
->* [Share with me](mailto:arthurgareginyan@gmail.com) or view the [GitHub Repo](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter) if you have any ideas or suggestions to make this plugin better.
+**Contribution**
+
+Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
+
+* [Donate](https://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/header-and-footer-scripts-inserter?rate=5#postform) this plugin.
+* [Share with me](mailto:arthurgareginyan@gmail.com) or view the [GitHub Repo](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter) if you have any ideas or suggestions to make this plugin better.
 
 
 == Installation ==
+
 Install "Head and Footer Scripts Inserter" just as you would any other WordPress Plugin.
 
 Automatically via WordPress Admin Panel:
@@ -85,6 +87,7 @@ After installation and activation, the "`Head and Footer Scripts Inserter`" men
 
 
 == Frequently Asked Questions ==
+
 = Q. Will this plugin work on my WordPress.COM website? =
 A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites.
 
@@ -139,11 +142,15 @@ A. Yes, any financial contributions are welcome! Just visit [my website](https:/
 
 
 == Screenshots ==
+
 1. Plugin page.
 2. Plugin page with Google Tag Manager code added.
 3. Plugin page with Google Analytics tracking code added.
 
+
 == Other Notes ==
+
+****
 
 "Head and Footer Scripts Inserter" is one of the personal software projects of [Arthur Gareginyan](https://www.arthurgareginyan.com). Earlier the project was called "Header and Footer Scripts Inserter".
 
@@ -166,6 +173,16 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.5 =
+* Stylesheet in the admin.css file improved.
+* The '!important' declarations in the admin.css file removed.
+* Code formatting in the admin.js file improved.
+* Code commenting improved.
+* Load of the additional remote CSS file removed from the admin.js file.
+* Changed the sorting of enqueueing of scripts.
+* The ''Family' page tab renamed to 'Store'.
+* Added ad banner of my store website.
 
 = 4.4.1 =
 * The HTTPS mixed content issue fixed by changing all links to HTTPS.

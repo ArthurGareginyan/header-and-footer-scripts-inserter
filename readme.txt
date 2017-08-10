@@ -4,7 +4,7 @@ Tags: inject, insert, insert scripts, insert javascript, insert js, insert html,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 4.5
+Stable tag: 4.6
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -42,7 +42,7 @@ If you want more options then tell me and I will be happy to add it.
 This plugin is ready for translation and has already been translated into several languages.
 
 * English (default)
-* Russian
+* Russian (translation by [Milena Kiseleva](https://www.instagram.com/milava_kiseleva/))
 * Polish
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/header-and-footer-scripts-inserter).
@@ -173,6 +173,16 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.6 =
+* Russian translation updated. (Thanks to Milena Kiseleva)
+* The navigation of the tabs is rearranged.
+* Fixed an issue due to which the sidebar was not hiding on mobile devices.
+* Code of sidebar moved to separate file 'sidebar.php'.
+* Support page tab moved from external source to plugin code.
+* My avatar moved from external source to plugin folder.
+* Banner moved from external source to plugin folder.
+* Code of PayPal button updated.
 
 = 4.5 =
 * Stylesheet in the admin.css file improved.

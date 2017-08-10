@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Header and Footer Scripts Inserter\n"
-"POT-Creation-Date: 2017-06-21 14:12+0300\n"
+"POT-Creation-Date: 2017-08-10 15:59+0300\n"
 "PO-Revision-Date: 2016-01-30 11:39+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -60,7 +60,7 @@ msgstr ""
 msgid "Main"
 msgstr ""
 
-#: inc/php/page.php:49 inc/php/page.php:68
+#: inc/php/page.php:49 inc/php/page.php:69
 msgid "Usage"
 msgstr ""
 
@@ -68,268 +68,282 @@ msgstr ""
 msgid "F.A.Q."
 msgstr ""
 
-#: inc/php/page.php:51 inc/php/page.php:215
-msgid "Author"
+#: inc/php/page.php:51 inc/php/page.php:216 inc/php/settings.php:78 inc/php/sidebar.php:27
+msgid "Support"
 msgstr ""
 
-#: inc/php/page.php:52 inc/php/page.php:224 inc/php/settings.php:28 inc/php/settings.php:110
-msgid "Support"
+#: inc/php/page.php:52 inc/php/page.php:236
+msgid "Author"
 msgstr ""
 
 #: inc/php/page.php:53
 msgid "Store"
 msgstr ""
 
-#: inc/php/page.php:70
+#: inc/php/page.php:71
 msgid "To add the script to your website, simply follow these steps:"
 msgstr ""
 
-#: inc/php/page.php:72
+#: inc/php/page.php:73
 msgid "Go to the \"Main\" tab."
 msgstr ""
 
-#: inc/php/page.php:73
+#: inc/php/page.php:74
 msgid "Place your scripts in the field."
 msgstr ""
 
-#: inc/php/page.php:74
+#: inc/php/page.php:75
 msgid ""
 "Note that the fields are for inserting HTML code, so JavaScript and CSS code must be wrapped in the corresponding HTML tag. For JavaScript code use the <code>&lt;script&gt;</code> tag, and for CSS "
 "code use the <code>&lt;style&gt;</code> tag. Example:"
 msgstr ""
 
-#: inc/php/page.php:88
+#: inc/php/page.php:89
 msgid "Click the \"Save changes\" button."
 msgstr ""
 
-#: inc/php/page.php:89
+#: inc/php/page.php:90
 msgid "Enjoy the result of applying your scripts."
 msgstr ""
 
-#: inc/php/page.php:89
+#: inc/php/page.php:90
 msgid "It's that simple!"
 msgstr ""
 
-#: inc/php/page.php:91
+#: inc/php/page.php:92
 msgid "Note!"
 msgstr ""
 
-#: inc/php/page.php:91
+#: inc/php/page.php:92
 msgid "If you want more options then tell me and I will be happy to add it."
 msgstr ""
 
-#: inc/php/page.php:100
+#: inc/php/page.php:101
 msgid "Frequently Asked Questions"
 msgstr ""
 
-#: inc/php/page.php:104
+#: inc/php/page.php:105
 msgid "If you have a question, please read the Frequently Asked Questions below to see if the answer is here."
 msgstr ""
 
-#: inc/php/page.php:126
+#: inc/php/page.php:127
 msgid "Will this plugin work on my WordPress.COM website?"
 msgstr ""
 
-#: inc/php/page.php:127
+#: inc/php/page.php:128
 msgid "Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites."
 msgstr ""
 
-#: inc/php/page.php:129
+#: inc/php/page.php:130
 msgid "Can I use this plugin on my language?"
 msgstr ""
 
-#: inc/php/page.php:130
+#: inc/php/page.php:131
 msgid "Yes. This plugin is ready for translation and has already been translated into several languages."
 msgstr ""
 
-#: inc/php/page.php:132
+#: inc/php/page.php:133
 #, php-format
 msgid ""
 "If you want to help translate this plugin then please visit the %s. You can also use the POT file, that is included and placed in the \"languages\" folder, in order to create a translation PO file. "
 "Just send the PO file to me at the %s and I will include this translation within the next plugin update."
 msgstr ""
 
-#: inc/php/page.php:137
+#: inc/php/page.php:138
 msgid "Maybe not all existed translations are up to date. You are welcome to contribute corrections!"
 msgstr ""
 
-#: inc/php/page.php:138
+#: inc/php/page.php:139
 msgid "Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!"
 msgstr ""
 
-#: inc/php/page.php:140
+#: inc/php/page.php:141
 msgid "How does it work?"
 msgstr ""
 
-#: inc/php/page.php:141
+#: inc/php/page.php:142
 msgid "On the \"Settings\" tab, place your scripts in the field and click the \"Save changes\" button. Enjoy the result of applying your scripts. It's that simple!"
 msgstr ""
 
-#: inc/php/page.php:143
+#: inc/php/page.php:144
 msgid "How much of scripts I can enter in the field?"
 msgstr ""
 
-#: inc/php/page.php:144
+#: inc/php/page.php:145
 msgid "I don't limit the number of characters."
 msgstr ""
 
-#: inc/php/page.php:146
+#: inc/php/page.php:147
 msgid "Does this plugin requires any modification of the theme?"
 msgstr ""
 
-#: inc/php/page.php:147
+#: inc/php/page.php:148
 msgid "Absolutely not. This plugin is configurable entirely from the plugin settings page."
 msgstr ""
 
-#: inc/php/page.php:149
+#: inc/php/page.php:150
 msgid "Does this require any knowledge of HTML or CSS?"
 msgstr ""
 
-#: inc/php/page.php:150
+#: inc/php/page.php:151
 msgid ""
 "This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page. But you need to know the HTML or CSS in order to add/remove/modify the HTML or CSS code by "
 "using this plugin."
 msgstr ""
 
-#: inc/php/page.php:152
+#: inc/php/page.php:153
 msgid "Can I add my script to a specific page of my website?"
 msgstr ""
 
-#: inc/php/page.php:153
+#: inc/php/page.php:154
 msgid ""
 "For now, this plugin does not have an option to apply the custom scripts only on specific pages. I plan to add this feature soon. But for now in order to apply your script only on specific pages of "
 "your website, you need to wrap your script in a PHP code that will determine the page you want. You need something like this:"
 msgstr ""
 
-#: inc/php/page.php:166
+#: inc/php/page.php:167
 #, php-format
 msgid "To apply the PHP code on a website, I can recommend you to use another my plugin called %s."
 msgstr ""
 
-#: inc/php/page.php:170
+#: inc/php/page.php:171
 msgid "It's not working. What could be wrong?"
 msgstr ""
 
-#: inc/php/page.php:171
+#: inc/php/page.php:172
 msgid ""
 "As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and "
 "etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem."
 msgstr ""
 
-#: inc/php/page.php:172
+#: inc/php/page.php:173
 msgid ""
 "It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, I'd be happy to give it a look and try to help out. Please "
 "include as much information as possible, including a link to your website where the problem can be seen."
 msgstr ""
 
-#: inc/php/page.php:174
+#: inc/php/page.php:175
 msgid "The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?"
 msgstr ""
 
-#: inc/php/page.php:175
+#: inc/php/page.php:176
 msgid ""
 "This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a "
 "caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help."
 msgstr ""
 
-#: inc/php/page.php:177
+#: inc/php/page.php:178
 msgid "Where to report bug if found?"
 msgstr ""
 
-#: inc/php/page.php:179
+#: inc/php/page.php:180
 #, php-format
 msgid "Please visit the %s Dedicated Plugin Page on GitHub %s and report."
 msgstr ""
 
-#: inc/php/page.php:185
+#: inc/php/page.php:186
 msgid "Where to share any ideas or suggestions to make the plugin better?"
 msgstr ""
 
-#: inc/php/page.php:187
+#: inc/php/page.php:188
 #, php-format
 msgid "Any suggestions are very welcome! Please send me an email to %s. Thank you!"
 msgstr ""
 
-#: inc/php/page.php:192
+#: inc/php/page.php:193
 msgid "I love this plugin! Can I help somehow?"
 msgstr ""
 
-#: inc/php/page.php:194
+#: inc/php/page.php:195
 #, php-format
 msgid "Yes, any financial contributions are welcome! Just visit %s my website %s, click on the donate button, and thank you!"
 msgstr ""
 
-#: inc/php/page.php:200
+#: inc/php/page.php:201
 msgid "My question wasn't answered here."
 msgstr ""
 
-#: inc/php/page.php:202
+#: inc/php/page.php:203
 #, php-format
 msgid "You can ask your question on the plugin support page %s. But please keep in mind that this plugin is free, and there is no a special support team, so I have no way to answer everyone."
 msgstr ""
 
-#: inc/php/settings.php:21
-msgid "About"
+#: inc/php/page.php:219
+msgid "If you appreciate my work, you can buy me a coffee!"
 msgstr ""
 
-#: inc/php/settings.php:23
-msgid "This plugin allows you to easily insert scripts in your website."
+#: inc/php/page.php:220
+msgid ""
+"I spend a lot of time and effort trying to make sure that the themes, plugins and another things I build are useful, and the ultimate proof of that for me is that you actually want to use them. But, "
+"I’m an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
 msgstr ""
 
-#: inc/php/settings.php:30 inc/php/settings.php:112
-msgid "I'm an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
-msgstr ""
-
-#: inc/php/settings.php:31 inc/php/settings.php:113
+#: inc/php/page.php:225 inc/php/settings.php:85 inc/php/sidebar.php:34
 msgid "Donate with PayPal"
 msgstr ""
 
-#: inc/php/settings.php:32 inc/php/settings.php:114
-msgid "Thanks for your support!"
+#: inc/php/page.php:227
+msgid "Thank you for your support!"
 msgstr ""
 
-#: inc/php/settings.php:37
-msgid "Help"
-msgstr ""
-
-#: inc/php/settings.php:39
-msgid "If you have a question, please read the information in the FAQ section."
-msgstr ""
-
-#: inc/php/settings.php:76
+#: inc/php/settings.php:44
 msgid "Head Section"
 msgstr ""
 
-#: inc/php/settings.php:79
+#: inc/php/settings.php:47
 msgid "You can use the fields below to add scripts to HEAD section of your website."
 msgstr ""
 
-#: inc/php/settings.php:81
+#: inc/php/settings.php:49
 msgid "Scripts from this field will be printed in the beginning of <b>HEAD</b> section. Do not place plain text in this!"
 msgstr ""
 
-#: inc/php/settings.php:84
+#: inc/php/settings.php:52
 msgid "Scripts from this field will be printed in the end of <b>HEAD</b> section. Do not place plain text in this!"
 msgstr ""
 
-#: inc/php/settings.php:87 inc/php/settings.php:104
+#: inc/php/settings.php:55 inc/php/settings.php:72
 msgid "Save changes"
 msgstr ""
 
-#: inc/php/settings.php:93
+#: inc/php/settings.php:61
 msgid "Footer Section"
 msgstr ""
 
-#: inc/php/settings.php:96
+#: inc/php/settings.php:64
 msgid "You can use the fields below to add scripts to FOOTER section of your website."
 msgstr ""
 
-#: inc/php/settings.php:98
+#: inc/php/settings.php:66
 msgid "Scripts from this field will be printed before a footers scripts. Do not place plain text in this!"
 msgstr ""
 
-#: inc/php/settings.php:101
+#: inc/php/settings.php:69
 msgid "Scripts from this field will be printed after all footers scripts. Do not place plain text in this!"
+msgstr ""
+
+#: inc/php/settings.php:80 inc/php/sidebar.php:29
+msgid "I'm an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
+msgstr ""
+
+#: inc/php/settings.php:87 inc/php/sidebar.php:36
+msgid "Thanks for your support!"
+msgstr ""
+
+#: inc/php/sidebar.php:20
+msgid "About"
+msgstr ""
+
+#: inc/php/sidebar.php:22
+msgid "This plugin allows you to easily insert scripts in your website."
+msgstr ""
+
+#: inc/php/sidebar.php:41
+msgid "Help"
+msgstr ""
+
+#: inc/php/sidebar.php:43
+msgid "If you have a question, please read the information in the FAQ section."
 msgstr ""
 
 #. Plugin Name of the plugin/theme

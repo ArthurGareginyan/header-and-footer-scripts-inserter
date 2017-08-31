@@ -1,54 +1,49 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Header and Footer Scripts Inserter\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Head and Footer Scripts Inserter\n"
 "POT-Creation-Date: 2017-08-29 21:28+0300\n"
 "PO-Revision-Date: 2017-08-29 21:28+0300\n"
-"Last-Translator: psouu <koko887@wp.pl>\n"
+"Last-Translator: \n"
 "Language-Team: \n"
-"Language: pl\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 &&(n"
-"%100<10||n%100 >= 20)? 1 : 2);\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 1.8.4\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: header-and-footer-scripts-inserter.php\n"
-"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
-"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
-"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
-"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
-"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
-"X-Loco-Target-Locale: pl_PL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: inc/php/core.php:26
 msgid "Settings"
-msgstr "Ustawienia"
+msgstr "Ajustes"
 
 #: inc/php/core.php:40
 msgid "Donate"
-msgstr "Wesprzyj"
+msgstr "Donar"
 
 #: inc/php/messages.php:26
 msgid "Hello. I'm Arthur, the author of this plugin."
-msgstr ""
+msgstr "Hola! Yo soy Arthur, el autor de este complemento."
 
 #: inc/php/messages.php:28
 #, php-format
 msgid "Thank you for installing my plugin! I hope you will love it! %s"
-msgstr ""
+msgstr "Gracias por instalar este complemento! Espero que te encante! %s"
 
 #: inc/php/messages.php:61
 msgid "You have installed an old version of this plugin."
-msgstr ""
+msgstr "Has instalado una versión antigua de este complemento."
 
 #: inc/php/messages.php:62
 msgid "Please update the plugin to the latest version, and all will be fine."
-msgstr ""
+msgstr "Actualiza el complemento a la versión más reciente y todo estará bien."
 
 #: inc/php/messages.php:84
 msgid "Scripts updated successfully."
@@ -57,28 +52,28 @@ msgstr ""
 #: inc/php/page.php:31
 #, php-format
 msgid "by %s Arthur Gareginyan %s"
-msgstr "wykonana przez %s Arthur Gareginyan %s"
+msgstr "por %s Arthur Gareginyan %s"
 
 #: inc/php/page.php:37
 msgid "Version"
-msgstr ""
+msgstr "Versión"
 
 #: inc/php/page.php:44
 msgid "Main"
-msgstr ""
+msgstr "Opciones Configuración"
 
 #: inc/php/page.php:45 inc/php/page.php:65
 msgid "Usage"
-msgstr "Wykorzystanie"
+msgstr "Uso"
 
 #: inc/php/page.php:46
 msgid "F.A.Q."
-msgstr "FAQ"
+msgstr "Preguntas ?"
 
 #: inc/php/page.php:47 inc/php/page.php:212 inc/php/settings.php:70
 #: inc/php/sidebar.php:23
 msgid "Support"
-msgstr ""
+msgstr "Soporte"
 
 #: inc/php/page.php:48 inc/php/page.php:232
 msgid "Author"
@@ -86,7 +81,7 @@ msgstr "Autor"
 
 #: inc/php/page.php:49
 msgid "Store"
-msgstr "Rodzina"
+msgstr "Tienda"
 
 #: inc/php/page.php:67
 msgid "To add the script to your website, simply follow these steps:"
@@ -94,7 +89,7 @@ msgstr ""
 
 #: inc/php/page.php:69
 msgid "Go to the \"Main\" tab."
-msgstr ""
+msgstr "Debes ir a la pestaña “Principal”."
 
 #: inc/php/page.php:70
 msgid "Place your scripts in the field."
@@ -110,7 +105,7 @@ msgstr ""
 
 #: inc/php/page.php:85
 msgid "Click the \"Save changes\" button."
-msgstr ""
+msgstr "Clic en el botón \"Guardar Cambios\"."
 
 #: inc/php/page.php:86
 msgid "Enjoy the result of applying your scripts."
@@ -118,45 +113,51 @@ msgstr ""
 
 #: inc/php/page.php:86
 msgid "It's that simple!"
-msgstr ""
+msgstr "¡Es así de simple!"
 
 #: inc/php/page.php:88
 msgid "Note!"
-msgstr ""
+msgstr "¡Nota!"
 
 #: inc/php/page.php:88
 msgid "If you want more options then tell me and I will be happy to add it."
-msgstr "Jeśli potrzebujesz więcej opcji napisz mi o tym. Chętnie je dodam."
+msgstr "Si quieres más opciones, dímelo y estaré encantado de añadirlo."
 
 #: inc/php/page.php:97
 msgid "Frequently Asked Questions"
-msgstr "Często zadawane pytania"
+msgstr "Preguntas Frecuentes"
 
 #: inc/php/page.php:101
 msgid ""
 "If you have a question, please read the Frequently Asked Questions below to "
 "see if the answer is here."
 msgstr ""
+"Si tienes alguna pregunta, por favor lee las Preguntas Frecuentes a "
+"continuación, para ver si la respuesta está aquí."
 
 #: inc/php/page.php:123
 msgid "Will this plugin work on my WordPress.COM website?"
-msgstr ""
+msgstr "¿Funcionará este complemento en mi sitio web WordPress.COM?"
 
 #: inc/php/page.php:124
 msgid ""
 "Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) "
 "websites."
 msgstr ""
+"Lo sentimos, este complemento está disponible para su uso solo en sitios web "
+"alojados (WordPress.ORG)."
 
 #: inc/php/page.php:126
 msgid "Can I use this plugin on my language?"
-msgstr ""
+msgstr "¿Puedo usar este complemento en mi idioma?"
 
 #: inc/php/page.php:127
 msgid ""
 "Yes. This plugin is ready for translation and has already been translated "
 "into several languages."
 msgstr ""
+"Sí. Este complemento está listo para ser traducido y ya ha sido traducido a "
+"varios idiomas."
 
 #: inc/php/page.php:129
 #, php-format
@@ -167,22 +168,31 @@ msgid ""
 "me at the %s and I will include this translation within the next plugin "
 "update."
 msgstr ""
+"Si quieres ayudar a traducir este complemento, visita el %s. También puede "
+"utilizar el archivo POT, incluido y colocado en la carpeta \"languages\", "
+"para crear un archivo PO de traducción. Simplemente envíeme el archivo PO en "
+"el %s e incluiré esta traducción en la siguiente actualización del "
+"complemento."
 
 #: inc/php/page.php:134
 msgid ""
 "Maybe not all existed translations are up to date. You are welcome to "
 "contribute corrections!"
 msgstr ""
+"Quizás no todas las traducciones existentes estén actualizadas. Le invitamos "
+"a contribuir correcciones!"
 
 #: inc/php/page.php:135
 msgid ""
 "Many of plugin users would be delighted if you share your translation with "
 "the community. Thanks for your contribution!"
 msgstr ""
+"Muchos de los usuarios de este complemento estarían encantados si compartes "
+"tu traducción con la comunidad. ¡Gracias por tu contribución!"
 
 #: inc/php/page.php:137
 msgid "How does it work?"
-msgstr ""
+msgstr "¿Como funciona?"
 
 #: inc/php/page.php:138
 msgid ""
@@ -201,17 +211,19 @@ msgstr ""
 
 #: inc/php/page.php:143
 msgid "Does this plugin requires any modification of the theme?"
-msgstr ""
+msgstr "¿Este complemento requiere alguna modificación del tema?"
 
 #: inc/php/page.php:144
 msgid ""
 "Absolutely not. This plugin is configurable entirely from the plugin "
 "settings page."
 msgstr ""
+"Absolutamente NO. Este complemento se puede configurar completamente desde "
+"su página de configuración."
 
 #: inc/php/page.php:146
 msgid "Does this require any knowledge of HTML or CSS?"
-msgstr ""
+msgstr "¿Esto requiere algún conocimiento de HTML o CSS?"
 
 #: inc/php/page.php:147
 msgid ""
@@ -242,7 +254,7 @@ msgstr ""
 
 #: inc/php/page.php:167
 msgid "It's not working. What could be wrong?"
-msgstr ""
+msgstr "No funciona. ¿Qué podría estar mal?"
 
 #: inc/php/page.php:168
 msgid ""
@@ -252,6 +264,12 @@ msgid ""
 "usage and server load. This is called the browser's cache.​ Clearing your "
 "browser's cache may solve the problem."
 msgstr ""
+"Como con todos los complementos, es posible que las cosas no funcionen. La "
+"razón más común para esto es la caché de un navegador web. Cada navegador "
+"web almacena una caché de los sitios web que visitas (páginas, imágenes y "
+"etc.) para reducir el uso del ancho de banda y la carga del servidor. Esto "
+"se denomina caché del navegador. Limpiar la caché del navegador puede "
+"resolver el problema."
 
 #: inc/php/page.php:169
 msgid ""
@@ -260,12 +278,19 @@ msgid ""
 "to give it a look and try to help out. Please include as much information as "
 "possible, including a link to your website where the problem can be seen."
 msgstr ""
+"Es imposible decir exactamente lo que podría estar mal, pero si publicas una "
+"solicitud de soporte en el foro de soporte del complemento en WordPress.org, "
+"estaría encantado de darle un vistazo e intentar ayudarte. Incluye tanta "
+"información como sea posible, incluyendo un enlace a tu sitio web donde se "
+"pueda ver el problema."
 
 #: inc/php/page.php:171
 msgid ""
 "The last WordPress update is preventing me from editing my website that is "
 "using this plugin. Why is this?"
 msgstr ""
+"La última actualización de WordPress me impide editar mi sitio web que está "
+"utilizando este complemento. ¿Porqué sucede esto?"
 
 #: inc/php/page.php:172
 msgid ""
@@ -275,29 +300,37 @@ msgid ""
 "service such as the CloudFlare) and then the cache of your web browser. Also "
 "please try to re-login to the website, this too can help."
 msgstr ""
+"Este complemento no puede causar este problema. Lo más probable es que el "
+"problema esté relacionado con la configuración del sitio web. Podría ser "
+"sólo la caché, así que intenta borrar la caché de tu sitio web (puede ser "
+"que utilices un complemento de caché o algún servicio web como CloudFlare) y "
+"luego la caché de tu navegador web. También intenta volver a conectarte al "
+"sitio web, esto también puede ayudar."
 
 #: inc/php/page.php:174
 msgid "Where to report bug if found?"
-msgstr ""
+msgstr "¿Dónde informar el error si se encuentra?"
 
 #: inc/php/page.php:176
 #, php-format
 msgid "Please visit the %s Dedicated Plugin Page on GitHub %s and report."
-msgstr ""
+msgstr "Visita la página dedicada del complemento %s en GitHub %s e informa."
 
 #: inc/php/page.php:182
 msgid "Where to share any ideas or suggestions to make the plugin better?"
-msgstr ""
+msgstr "¿Dónde compartir ideas o sugerencias para mejorar el complemento?"
 
 #: inc/php/page.php:184
 #, php-format
 msgid ""
 "Any suggestions are very welcome! Please send me an email to %s. Thank you!"
 msgstr ""
+"¡Cualquier sugerencia es muy bienvenida! Por favor envíame un correo "
+"electrónico a %s. ¡Muchas Gracias!"
 
 #: inc/php/page.php:189
 msgid "I love this plugin! Can I help somehow?"
-msgstr ""
+msgstr "Me encanta este complemento! ¿Puedo ayudar de alguna manera?"
 
 #: inc/php/page.php:191
 #, php-format
@@ -305,10 +338,12 @@ msgid ""
 "Yes, any financial contributions are welcome! Just visit %s my website %s, "
 "click on the donate button, and thank you!"
 msgstr ""
+"Sí, cualquier contribución financiera es bienvenida! Simplemente visita %s "
+"mi sitio web %s, has clic en el botón DONAR y gracias!"
 
 #: inc/php/page.php:197
 msgid "My question wasn't answered here."
-msgstr ""
+msgstr "Mi pregunta no fue contestada aquí."
 
 #: inc/php/page.php:199
 #, php-format
@@ -317,6 +352,9 @@ msgid ""
 "mind that this plugin is free, and there is no a special support team, so I "
 "have no way to answer everyone."
 msgstr ""
+"Puede hacer tu pregunta en la página de soporte del complementos %s. Pero "
+"ten en cuenta que este complemento es gratuito, y no hay un equipo de "
+"soporte especial, así que no tengo forma de responder a todos."
 
 #: inc/php/page.php:215
 msgid "If you appreciate my work, you can buy me a coffee!"
@@ -334,66 +372,58 @@ msgstr ""
 
 #: inc/php/page.php:221 inc/php/settings.php:77 inc/php/sidebar.php:30
 msgid "Donate with PayPal"
-msgstr ""
+msgstr "Donar con PayPal"
 
 #: inc/php/page.php:223
 msgid "Thank you for your support!"
-msgstr ""
+msgstr "¡Gracias por tu apoyo!"
 
 #: inc/php/settings.php:40
 msgid "Head Section"
-msgstr "Sekcja: Nagłówek"
+msgstr ""
 
 #: inc/php/settings.php:42
 msgid ""
 "You can use the fields below to add scripts to HEAD section of your website."
-msgstr "Pola poniżej można użyć, aby dodać kody skryptów do nagłówka witryny."
+msgstr ""
 
 #: inc/php/settings.php:44
 msgid ""
 "Scripts from this field will be printed in the beginning of <b>HEAD</b> "
 "section. Do not place plain text in this!"
 msgstr ""
-"Skrypty z tego pola zostaną dodane na początku sekcji <b>HEAD</b>. Nie "
-"należy tu umieszczać zwykłego tekstu!"
 
 #: inc/php/settings.php:47
 msgid ""
 "Scripts from this field will be printed in the end of <b>HEAD</b> section. "
 "Do not place plain text in this!"
 msgstr ""
-"Skrypty z tego pola zostaną dodane na końcu sekcji <b>HEAD</b>. Nie należy "
-"tu umieszczać zwykłego tekstu!"
 
 #: inc/php/settings.php:50 inc/php/settings.php:65
 msgid "Save changes"
-msgstr "Zapisz"
+msgstr "Guardar Cambios"
 
 #: inc/php/settings.php:55
 msgid "Footer Section"
-msgstr "Sekcja: Stopka"
+msgstr ""
 
 #: inc/php/settings.php:57
 msgid ""
 "You can use the fields below to add scripts to FOOTER section of your "
 "website."
-msgstr "Pola poniżej można użyć, aby dodać kody skryptów do stopki witryny."
+msgstr ""
 
 #: inc/php/settings.php:59
 msgid ""
 "Scripts from this field will be printed before a footers scripts. Do not "
 "place plain text in this!"
 msgstr ""
-"Skrypty z tego pola zostaną dodane przed skryptami ze stopki. Nie należy tu "
-"umieszczać zwykłego tekstu!"
 
 #: inc/php/settings.php:62
 msgid ""
 "Scripts from this field will be printed after all footers scripts. Do not "
 "place plain text in this!"
 msgstr ""
-"Skrypty z tego pola zostaną dodane za skryptami ze stopki. Nie należy tu "
-"umieszczać zwykłego tekstu!"
 
 #: inc/php/settings.php:72 inc/php/sidebar.php:25
 msgid ""
@@ -401,30 +431,35 @@ msgid ""
 "contribution helps cover my costs and lets me spend more time building "
 "things for people like you to enjoy."
 msgstr ""
+"Soy un desarrollador independiente, sin un ingreso regular, por lo que cada "
+"pequeña contribución ayuda a cubrir mis costos y me deja pasar más tiempo "
+"construyendo cosas para que personas como tú las disfruten."
 
 #: inc/php/settings.php:79 inc/php/sidebar.php:32
 msgid "Thanks for your support!"
-msgstr "Dziękujemy za wsparcie!"
+msgstr "¡Gracias por tu apoyo!"
 
 #: inc/php/sidebar.php:16
 msgid "About"
-msgstr "O wtyczce"
+msgstr "Acerca  de"
 
 #: inc/php/sidebar.php:18
 msgid "This plugin allows you to easily insert scripts in your website."
-msgstr "Ta wtyczka pozwala łatwo wstawić kod skryptów na stronę www."
+msgstr ""
 
 #: inc/php/sidebar.php:37
 msgid "Help"
-msgstr "Pomoc"
+msgstr "Ayuda"
 
 #: inc/php/sidebar.php:39
 msgid "If you have a question, please read the information in the FAQ section."
-msgstr "Masz coś do powiedzenia? Potrzebujesz pomocy?"
+msgstr ""
+"Si tiene alguna pregunta, lee la información en la sección de preguntas "
+"frecuentes."
 
 #. Plugin Name of the plugin/theme
 msgid "Head and Footer Scripts Inserter"
-msgstr "Wstawianie kodu do nagłówka i stopki"
+msgstr ""
 
 #. Plugin URI of the plugin/theme
 msgid "https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter"
@@ -435,8 +470,6 @@ msgid ""
 "Easily add your scripts to the WordPress website's head and footer sections. "
 "This is a must have tool for authors and website's owners."
 msgstr ""
-"Łatwe dodawanie kodu skryptów do nagłówka i stopki strony opartej na "
-"WordPressie."
 
 #. Author of the plugin/theme
 msgid "Arthur Gareginyan"
@@ -445,81 +478,3 @@ msgstr "Arthur Gareginyan"
 #. Author URI of the plugin/theme
 msgid "https://www.arthurgareginyan.com"
 msgstr "https://www.arthurgareginyan.com"
-
-#~ msgid ""
-#~ "by <a href=\"https://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
-#~ "Gareginyan</a>"
-#~ msgstr ""
-#~ "wykonana przez <a href=\"https://www.arthurgareginyan.com\" target="
-#~ "\"_blank\">Arthur Gareginyan</a>"
-
-#~ msgid ""
-#~ "To use, enter your custom scripts, then click \"Save changes\". It's that "
-#~ "simple!"
-#~ msgstr ""
-#~ "Aby użyć, wprowadź kod skryptów, a następnie kliknij przycisk \"Zapisz\". "
-#~ "To takie proste!"
-
-#~ msgid "Advertisement"
-#~ msgstr "Reklama"
-
-#~ msgid ""
-#~ "If you like this plugin and find it useful, please help me to make this "
-#~ "plugin even better and keep it up-to-date."
-#~ msgstr ""
-#~ "Jeśli lubisz tę wtyczkę uważasz że jest przydatna, pomóż mi aby jeszcze "
-#~ "lepsza i bądź na bieżąco z aktualizacjami."
-
-#~ msgid "Advertising"
-#~ msgstr "Reklama"
-
-#~ msgid ""
-#~ "If you like this plugin and find it useful, help me to make this plugin "
-#~ "even better and keep it up-to-date."
-#~ msgstr ""
-#~ "Jeśli lubisz tę wtyczkę uważasz że jest przydatna, pomóż mi aby jeszcze "
-#~ "lepsza i bądź na bieżąco z aktualizacjami."
-
-#~ msgid "Header and Footer Scripts Inserter"
-#~ msgstr "Wstawianie kodu do nagłówka i stopki"
-
-#~ msgid ""
-#~ "by <a href=\"https://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
-#~ "\"Berserkr\" Gareginyan</a>"
-#~ msgstr ""
-#~ "wykonana przez <a href=\"https://www.arthurgareginyan.com\" target="
-#~ "\"_blank\">Arthura \"Berserkra\" Gareginyana</a>"
-
-#~ msgid "Header Section"
-#~ msgstr "Sekcja: Nagłówek"
-
-#~ msgid ""
-#~ "You can use the field below to add scripts to Header of your website."
-#~ msgstr ""
-#~ "Pola poniżej można użyć, aby dodać kody skryptów do nagłówka witryny."
-
-#~ msgid "<!-- Beginning of the <head> tag -->"
-#~ msgstr "<!-- Początek sekcji <head> -->"
-
-#~ msgid "<!-- End of the <head> tag -->"
-#~ msgstr "<!-- Koniec sekcji <head> -->"
-
-#~ msgid ""
-#~ "You can use the field below to add scripts to Footer of your website."
-#~ msgstr "Pola poniżej można użyć, aby dodać kody skryptów do stopki witryny."
-
-#~ msgid "<!-- Before a footers scripts -->"
-#~ msgstr "<!-- Początek stopki -->"
-
-#~ msgid "<!-- After all footers scripts -->"
-#~ msgstr "<!-- Koniec stopki -->"
-
-#~ msgid ""
-#~ "Easily add your scripts to the WordPress website's head or/and footer "
-#~ "section. This is a must have tool for authors and website's owners."
-#~ msgstr ""
-#~ "Łatwe dodawanie kodu skryptów do nagłówka i stopki strony opartej na "
-#~ "WordPressie."
-
-#~ msgid "Arthur \"Berserkr\" Gareginyan"
-#~ msgstr "Arthur \"Berserkr\" Gareginyan"

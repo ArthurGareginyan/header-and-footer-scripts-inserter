@@ -5,7 +5,7 @@
  * Description: Easily add your scripts to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners.
  * Author: Arthur Gareginyan
  * Author URI: https://www.arthurgareginyan.com
- * Version: 4.7
+ * Version: 4.8
  * License: GPL3
  * Text Domain: header-and-footer-scripts-inserter
  * Domain Path: /languages/
@@ -71,8 +71,8 @@ spacexchimp_p006_define_constants( 'SLUG', dirname( plugin_basename( __FILE__ ) 
 spacexchimp_p006_define_constants( 'NAME', $plugin_data['name'] );
 spacexchimp_p006_define_constants( 'VERSION', $plugin_data['version'] );
 spacexchimp_p006_define_constants( 'TEXT', $plugin_data['text'] );
-spacexchimp_p006_define_constants( 'PREFIX', 'HFScriptsIns' );
-spacexchimp_p006_define_constants( 'SETTINGS', 'HFScriptsIns' );
+spacexchimp_p006_define_constants( 'PREFIX', 'spacexchimp_p006' );
+spacexchimp_p006_define_constants( 'SETTINGS', 'spacexchimp_p006' );
 
 /**
  * Load the plugin modules

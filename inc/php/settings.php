@@ -42,10 +42,10 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                             <p class="note"><?php _e( 'You can use the fields below to add scripts to HEAD section of your website.', $text ); ?></p>
 
                             <p class='help-text'><?php _e( 'Scripts from this field will be printed in the beginning of <b>HEAD</b> section. Do not place plain text in this!', $text ); ?></p>
-                            <textarea name="HFScriptsIns_settings[header_beginning]" id="HFScriptsIns_settings[header_beginning]" ><?php echo $header_beginning; ?></textarea>
+                            <textarea name="spacexchimp_p006_settings[header_beginning]" id="spacexchimp_p006_settings[header_beginning]" ><?php echo $header_beginning; ?></textarea>
 
                             <p class='help-text'><?php _e( 'Scripts from this field will be printed in the end of <b>HEAD</b> section. Do not place plain text in this!', $text ); ?></p>
-                            <textarea name="HFScriptsIns_settings[header_end]" id="HFScriptsIns_settings[header_end]" ><?php echo $header_end; ?></textarea>
+                            <textarea name="spacexchimp_p006_settings[header_end]" id="spacexchimp_p006_settings[header_end]" ><?php echo $header_end; ?></textarea>
 
                             <input type="submit" name="submit" id="submit" class="btn btn-primary" value="<?php _e( 'Save changes', $text ); ?>">
                         </div>
@@ -57,10 +57,10 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                             <p class="note"><?php _e( 'You can use the fields below to add scripts to FOOTER section of your website.', $text ); ?></p>
 
                             <p class='help-text'><?php _e( 'Scripts from this field will be printed before a footers scripts. Do not place plain text in this!', $text ); ?></p>
-                            <textarea name="HFScriptsIns_settings[footer_beginning]" id="HFScriptsIns_settings[footer_beginning]" ><?php echo $footer_beginning; ?></textarea>
+                            <textarea name="spacexchimp_p006_settings[footer_beginning]" id="spacexchimp_p006_settings[footer_beginning]" ><?php echo $footer_beginning; ?></textarea>
 
                             <p class='help-text'><?php _e( 'Scripts from this field will be printed after all footers scripts. Do not place plain text in this!', $text ); ?></p>
-                            <textarea name="HFScriptsIns_settings[footer_end]" id="HFScriptsIns_settings[footer_end]" ><?php echo $footer_end; ?></textarea>
+                            <textarea name="spacexchimp_p006_settings[footer_end]" id="spacexchimp_p006_settings[footer_end]" ><?php echo $footer_end; ?></textarea>
 
                             <input type="submit" name="submit" id="submit" class="btn btn-primary" value="<?php _e( 'Save changes', $text ); ?>">
                         </div>

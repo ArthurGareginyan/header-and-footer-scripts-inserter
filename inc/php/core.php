@@ -70,7 +70,7 @@ function spacexchimp_p006_register_submenu_page() {
 
     $parent_slug = 'spacexchimp';
     $page_title  = SPACEXCHIMP_P006_NAME;
-    $menu_title  = __( 'Scripts Inserter', SPACEXCHIMP_P007_TEXT );
+    $menu_title  = __( 'Scripts Inserter', SPACEXCHIMP_P006_TEXT );
     $capability  = 'manage_options';
     $menu_slug   = 'spacexchimp/' . SPACEXCHIMP_P006_SLUG;
     $function    = 'spacexchimp_p006_render_submenu_page';

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Header and Footer Scripts Inserter\n"
-"POT-Creation-Date: 2017-09-23 04:49+0300\n"
+"POT-Creation-Date: 2017-10-28 14:41+0300\n"
 "PO-Revision-Date: 2016-01-30 11:39+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -39,15 +39,15 @@ msgstr ""
 msgid "Thank you for installing my plugin! I hope you will love it! %s"
 msgstr ""
 
-#: inc/php/messages.php:61
+#: inc/php/messages.php:68
 msgid "You have installed an old version of this plugin."
 msgstr ""
 
-#: inc/php/messages.php:62
+#: inc/php/messages.php:69
 msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr ""
 
-#: inc/php/messages.php:84
+#: inc/php/messages.php:91
 msgid "Scripts updated successfully."
 msgstr ""
 

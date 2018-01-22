@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Header and Footer Scripts Inserter\n"
-"POT-Creation-Date: 2017-09-23 04:53+0300\n"
-"PO-Revision-Date: 2017-09-23 04:53+0300\n"
+"POT-Creation-Date: 2018-01-20 14:31+0300\n"
+"PO-Revision-Date: 2018-01-20 14:31+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: header-and-footer-scripts-inserter.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -34,30 +34,31 @@ msgid "Scripts Inserter"
 msgstr "Scripts Inserter"
 
 #: inc/php/messages.php:26
-msgid "Hello. I'm Arthur, the author of this plugin."
-msgstr "Привет! Я Артур, автор этого плагина."
+msgid "Hello. We are the team of Space X-Chimp."
+msgstr "Привет! Мы - команда Space X-Chimp."
 
 #: inc/php/messages.php:28
 #, php-format
-msgid "Thank you for installing my plugin! I hope you will love it! %s"
-msgstr "Спасибо, что установили мой плагин! Надеюсь, что он вам полюбится! %s"
+msgid "Thank you for installing our plugin! We hope you will love it! %s"
+msgstr ""
+"Благодарим вас за установку нашего плагина! Надеемся, он вам полюбится! %s"
 
-#: inc/php/messages.php:61
+#: inc/php/messages.php:68
 msgid "You have installed an old version of this plugin."
 msgstr "Вы установили устаревшую версию этого плагина."
 
-#: inc/php/messages.php:62
+#: inc/php/messages.php:69
 msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr "Пожалуйста, обновите плагин до последней версии и всё будет отлично."
 
-#: inc/php/messages.php:84
+#: inc/php/messages.php:91
 msgid "Scripts updated successfully."
 msgstr "Скрипты успешно обновлены."
 
 #: inc/php/page.php:31
 #, php-format
-msgid "by %s Space X-Chimp Studio %s"
-msgstr "от %s Space X-Chimp Studio %s"
+msgid "by %s Space X-Chimp %s"
+msgstr "от %s Space X-Chimp %s"
 
 #: inc/php/page.php:37
 msgid "Version"
@@ -75,7 +76,7 @@ msgstr "Применение"
 msgid "F.A.Q."
 msgstr "F.A.Q."
 
-#: inc/php/page.php:47 inc/php/settings.php:70 inc/php/sidebar.php:23
+#: inc/php/page.php:47 inc/php/settings.php:70 inc/php/sidebar.php:30
 msgid "Support"
 msgstr "Поддержка"
 
@@ -128,27 +129,29 @@ msgstr "Вот так просто!"
 msgid "Note!"
 msgstr "Примечание!"
 
-#: inc/php/page.php:87
-msgid "If you want more options then tell me and I will be happy to add it."
+#: inc/php/page.php:88
+#, php-format
+msgid ""
+"If you want more options then %s tell us %s and we will be happy to add it."
 msgstr ""
-"Если вы хотите больше опций, то скажите мне об этом и я буду счастлив "
+"Если вы хотите больше вариантов, то %s сообщите нам %s и мы будем рады "
 "добавить их."
 
-#: inc/php/page.php:96
+#: inc/php/page.php:102
 msgid "Frequently Asked Questions"
 msgstr "Часто задаваемые вопросы"
 
-#: inc/php/page.php:100
+#: inc/php/page.php:106
 msgid ""
 "If you have a question, please read the Frequently Asked Questions below to "
 "see if the answer is here."
 msgstr "Если у вас есть вопрос, пожалуйста, прочтите часто задаваемые вопросы."
 
-#: inc/php/page.php:122
+#: inc/php/page.php:128
 msgid "Will this plugin work on my WordPress.COM website?"
 msgstr "Этот плагин будет работать на моем сайте WordPress.COM?"
 
-#: inc/php/page.php:123
+#: inc/php/page.php:129
 msgid ""
 "Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) "
 "websites."
@@ -156,37 +159,37 @@ msgstr ""
 "К сожалению, этот плагин доступен для использования только на самостоятельно "
 "размещённых веб-сайтах (WordPress.ORG)."
 
-#: inc/php/page.php:125
+#: inc/php/page.php:131
 msgid "Can I use this plugin on my language?"
 msgstr "Можно ли использовать этот плагин на моём языке?"
 
-#: inc/php/page.php:126
+#: inc/php/page.php:132
 msgid ""
 "Yes. This plugin is ready for translation and has already been translated "
 "into several languages."
 msgstr "Да. Этот плагин готов к переводу и уже переведен на несколько языков."
 
-#: inc/php/page.php:128
+#: inc/php/page.php:134
 #, php-format
 msgid ""
 "If you want to help translate this plugin then please visit the %s. You can "
 "also use the POT file, that is included and placed in the \"languages\" "
 "folder, in order to create a translation PO file. Just send the PO file to "
-"me at the %s and I will include this translation within the next plugin "
+"us at the %s and we will include this translation within the next plugin "
 "update."
 msgstr ""
 "Если вы хотите помочь перевести этот плагин, пожалуйста, посетите %s. Вы "
 "также можете использовать файл POT, который включён в плагин и помещён в "
-"папку «languages», чтобы создать PO файл перевода. Просто отправьте мне файл "
-"PO на %s и Я включу этот перевод в следующее обновление плагина."
+"папку «languages», чтобы создать PO файл перевода. Просто отправьте нам файл "
+"PO на %s и мы включим этот перевод в следующее обновление плагина."
 
-#: inc/php/page.php:133
+#: inc/php/page.php:139
 msgid ""
 "Maybe not all existed translations are up to date. You are welcome to "
 "contribute corrections!"
 msgstr "Может быть, не все переводы обновлены. Вы можете внести исправления!"
 
-#: inc/php/page.php:134
+#: inc/php/page.php:140
 msgid ""
 "Many of plugin users would be delighted if you share your translation with "
 "the community. Thanks for your contribution!"
@@ -194,11 +197,11 @@ msgstr ""
 "Многие пользователи плагинов будут рады, если вы поделитесь своим переводом "
 "с сообществом. Спасибо за ваш вклад!"
 
-#: inc/php/page.php:136
+#: inc/php/page.php:142
 msgid "How does it work?"
 msgstr "Как оно работает?"
 
-#: inc/php/page.php:137
+#: inc/php/page.php:143
 msgid ""
 "On the \"Settings\" tab, place your scripts in the field and click the "
 "\"Save changes\" button. Enjoy the result of applying your scripts. It's "
@@ -208,19 +211,19 @@ msgstr ""
 "«Сохранить изменения». Наслаждайтесь результатом применения ваших скриптов. "
 "Это так просто!"
 
-#: inc/php/page.php:139
+#: inc/php/page.php:145
 msgid "How much of scripts I can enter in the field?"
 msgstr "Сколько скриптов я могу ввести в текстовое поле?"
 
-#: inc/php/page.php:140
-msgid "I don't limit the number of characters."
+#: inc/php/page.php:146
+msgid "We don't limit the number of characters."
 msgstr "Я не ограничиваю количество символов."
 
-#: inc/php/page.php:142
+#: inc/php/page.php:148
 msgid "Does this plugin requires any modification of the theme?"
 msgstr "Этот плагин требует изменения темы?"
 
-#: inc/php/page.php:143
+#: inc/php/page.php:149
 msgid ""
 "Absolutely not. This plugin is configurable entirely from the plugin "
 "settings page."
@@ -228,11 +231,11 @@ msgstr ""
 "Абсолютно нет. Этот плагин настраивается полностью на странице настроек "
 "плагина."
 
-#: inc/php/page.php:145
+#: inc/php/page.php:151
 msgid "Does this require any knowledge of HTML or CSS?"
 msgstr "Требуются ли какие-либо знания HTML или CSS?"
 
-#: inc/php/page.php:146
+#: inc/php/page.php:152
 msgid ""
 "This plugin can be configured with no knowledge of HTML or CSS, using an "
 "easy-to-use plugin settings page. But you need to know the HTML or CSS in "
@@ -243,12 +246,12 @@ msgstr ""
 "для того, чтобы добавить/удалить/изменить код HTML или CSS, используя этот "
 "плагин."
 
-#: inc/php/page.php:148
-msgid "Can I add my script to a specific page of my website?"
+#: inc/php/page.php:154
+msgid "Can I add my script to a specific page of the website of the creator?"
 msgstr ""
 "Могу ли я добавить свой скрипт на определенную страницу моего веб-сайта?"
 
-#: inc/php/page.php:149
+#: inc/php/page.php:155
 msgid ""
 "For now, this plugin does not have an option to apply the custom scripts "
 "only on specific pages. I plan to add this feature soon. But for now in "
@@ -262,7 +265,7 @@ msgstr ""
 "страницах вашего сайта, вам нужно обернуть свой скрипт в PHP-код, который "
 "будет определять страницу, которая вам нужна. Вам нужно что-то вроде этого:"
 
-#: inc/php/page.php:162
+#: inc/php/page.php:168
 #, php-format
 msgid ""
 "To apply the PHP code on a website, I can recommend you to use another my "
@@ -271,11 +274,11 @@ msgstr ""
 "Чтобы применить PHP-код на веб-сайте, я могу порекомендовать вам "
 "использовать другой мой плагин, называемый %s."
 
-#: inc/php/page.php:166
+#: inc/php/page.php:173
 msgid "It's not working. What could be wrong?"
 msgstr "Оно не работает. Что может быть не так?"
 
-#: inc/php/page.php:167
+#: inc/php/page.php:174
 msgid ""
 "As with every plugin, it's possible that things don't work. The most common "
 "reason for this is a web browser's cache. Every web browser stores a cache "
@@ -290,28 +293,28 @@ msgstr ""
 "сервер. Это называется кешем браузера. Очистка кеша браузера может решить "
 "проблему."
 
-#: inc/php/page.php:168
+#: inc/php/page.php:175
 msgid ""
 "It's impossible to tell what could be wrong exactly, but if you post a "
-"support request in the plugin's support forum on WordPress.org, I'd be happy "
-"to give it a look and try to help out. Please include as much information as "
-"possible, including a link to your website where the problem can be seen."
+"support request in the plugin's support forum on WordPress.org, we'd be "
+"happy to give it a look and try to help out. Please include as much "
+"information as possible, including a link to your website where the problem "
+"can be seen."
 msgstr ""
 "Невозможно точно сказать, что может быть неправильно, но если вы разместите "
-"запрос поддержки на форуме поддержки плагинов на WordPress.org, Я с "
-"удовольствием посмотрю его и попытаюсь помочь. Пожалуйста, укажите как можно "
-"больше информации, включая ссылку на ваш сайт, на котором можно увидеть "
-"проблему."
+"запрос поддержки на форуме поддержки плагина на WordPress.org, то мы с "
+"радостью посмотрим и попытаемся помочь. Пожалуйста, укажите как можно больше "
+"информации, включая ссылку на ваш сайт, на котором можно увидеть проблему."
 
-#: inc/php/page.php:170
+#: inc/php/page.php:177
 msgid ""
-"The last WordPress update is preventing me from editing my website that is "
-"using this plugin. Why is this?"
+"The last WordPress update is preventing me from editing the website of the "
+"creator that is using this plugin. Why is this?"
 msgstr ""
 "Последнее обновление WordPress не позволяет мне редактировать мой сайт, "
 "который использует этот плагин. Почему так?"
 
-#: inc/php/page.php:171
+#: inc/php/page.php:178
 msgid ""
 "This plugin can not cause such problem. More likely, the problem are related "
 "to the settings of the website. It could just be a cache, so please try to "
@@ -325,75 +328,78 @@ msgstr ""
 "веб-сервис, такой как CloudFlare), а затем кеш вашего веб-браузера. Также "
 "попробуйте повторно войти на сайт, это тоже может помочь."
 
-#: inc/php/page.php:173
+#: inc/php/page.php:180
 msgid "Where to report bug if found?"
 msgstr "Где можно сообщить об ошибке?"
 
-#: inc/php/page.php:175
+#: inc/php/page.php:182
 #, php-format
-msgid "Please visit the %s Dedicated Plugin Page on GitHub %s and report."
+msgid ""
+"Please visit %s this page %s and report. Please do not forget to specify the "
+"name of the plugin. Thank you!"
 msgstr ""
-"Пожалуйста, посетите %s страницу плагина на GitHub %s и сообщите об ошибке."
+"Посетите %s эту страницу %s и сообщите. Не забудьте указать название "
+"плагина. Спасибо!"
 
-#: inc/php/page.php:181
+#: inc/php/page.php:188
 msgid "Where to share any ideas or suggestions to make the plugin better?"
 msgstr ""
 "Где можно поделиться идеями или предложениями, чтобы сделать плагин лучше?"
 
-#: inc/php/page.php:183
-#, php-format
-msgid ""
-"Any suggestions are very welcome! Please send me an email to %s. Thank you!"
-msgstr ""
-"Любые предложения приветствуются! Пожалуйста, пришлите мне электронное "
-"письмо на адрес %s. Спасибо!"
-
-#: inc/php/page.php:188
-msgid "I love this plugin! Can I help somehow?"
-msgstr "Мне нравится этот плагин! Могу Я чем-то помочь?"
-
 #: inc/php/page.php:190
 #, php-format
 msgid ""
-"Yes, any financial contributions are welcome! Just visit %s my website %s, "
-"click on the donate button, and thank you!"
+"Any suggestions are very welcome! Just contact us %s here %s. Please do not "
+"forget to specify the name of the plugin. Thank you!"
 msgstr ""
-"Да, любые финансовые взносы приветствуются! Просто посетите %s мой сайт %s, "
-"нажмите на кнопку пожертвования. Спасибо!"
+"Любые предложения приветствуются! Просто свяжитесь с нами %s здесь %s. Не "
+"забудьте указать название плагина. Спасибо!"
 
 #: inc/php/page.php:196
-msgid "My question wasn't answered here."
-msgstr "Моего вопроса здесь нет."
+msgid "I love this plugin! Can I help somehow?"
+msgstr "Мне нравится этот плагин! Могу Я чем-то помочь?"
 
 #: inc/php/page.php:198
 #, php-format
 msgid ""
-"You can ask your question on the plugin support page %s. But please keep in "
-"mind that this plugin is free, and there is no a special support team, so I "
-"have no way to answer everyone."
+"Yes, any financial contributions are welcome! Just visit %s the website of "
+"the creator %s, click on the donate button, and thank you!"
 msgstr ""
-"Вы можете задать ваш вопрос на странице поддержки плагина %s. Но имейте в "
-"виду, что этот плагин является бесплатным и без специальной поддержки, "
-"поэтому у меня нет возможности ответить на все вопросы."
+"Да, любые финансовые взносы приветствуются! Просто посетите %s мой сайт %s, "
+"нажмите на кнопку пожертвования. Спасибо!"
 
-#: inc/php/page.php:211
+#: inc/php/page.php:204
+msgid "My question wasn't answered here."
+msgstr "Моего вопроса здесь нет."
+
+#: inc/php/page.php:206
+#, php-format
+msgid ""
+"You can ask your question on %s this page %s. But please keep in mind that "
+"this plugin is free, and there is no a special support team, so we have no "
+"way to answer everyone."
+msgstr ""
+"Вы можете задать ваш вопрос на %s этой странице %s. Но имейте в виду, что "
+"этот плагин является бесплатным и без специальной поддержки, поэтому у нас "
+"нет возможности ответить на все вопросы."
+
+#: inc/php/page.php:220
 msgid "Support Me"
 msgstr "Поддержать меня"
 
-#: inc/php/page.php:219 inc/php/settings.php:77 inc/php/sidebar.php:30
+#: inc/php/page.php:228 inc/php/settings.php:77 inc/php/sidebar.php:37
 msgid "Donate with PayPal"
 msgstr "Пожертвовать через PayPal"
 
-#: inc/php/page.php:224
+#: inc/php/page.php:233
 #, php-format
 msgid ""
 "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-"
-"Chimp Studio %s."
+"Chimp %s."
 msgstr ""
-"Привет! Меня зовут %s Артур Гарегинян %s и Я основатель %s Space X-Chimp "
-"Studio %s."
+"Привет! Меня зовут %s Артур Гарегинян %s и Я основатель %s Space X-Chimp %s."
 
-#: inc/php/page.php:232
+#: inc/php/page.php:241
 msgid ""
 "My intention is to create projects that will make this world a better place. "
 "I'm really passionate about my work, I like what I'm doing and hope that you "
@@ -403,7 +409,7 @@ msgstr ""
 "увлечен своей работой, мне нравится то, что Я делаю и надеюсь, что вы тоже "
 "станете лучше благодаря моим проектам."
 
-#: inc/php/page.php:233
+#: inc/php/page.php:242
 msgid ""
 "I spend a lot of time and effort trying to make sure that the themes, "
 "plugins and other things I build are useful, and the ultimate proof of that "
@@ -419,11 +425,11 @@ msgstr ""
 "вклад помогает мне покрыть расходы и позволяет тратить больше времени на "
 "создание программ для людей как вы."
 
-#: inc/php/page.php:234
+#: inc/php/page.php:243
 msgid "If you appreciate my work, you can buy me a coffee!"
 msgstr "Если вы цените мою работу, то вы можете купить мне кофе!"
 
-#: inc/php/page.php:235
+#: inc/php/page.php:244
 msgid "Thank you for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
@@ -486,7 +492,7 @@ msgstr ""
 "Скрипты из этой области будут напечатаны в конце нижнего колонтитула. Не "
 "помещайте сюда обычный текст!"
 
-#: inc/php/settings.php:72 inc/php/sidebar.php:25
+#: inc/php/settings.php:72 inc/php/sidebar.php:32
 msgid ""
 "I'm an independent developer, without a regular income, so every little "
 "contribution helps cover my costs and lets me spend more time building "
@@ -496,7 +502,7 @@ msgstr ""
 "вклад помогает мне покрыть затраты и позволяет тратить больше времени на "
 "создание программ для людей как вы."
 
-#: inc/php/settings.php:79 inc/php/sidebar.php:32
+#: inc/php/settings.php:79 inc/php/sidebar.php:39
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
@@ -508,11 +514,11 @@ msgstr "О плагине"
 msgid "This plugin allows you to easily insert scripts in your website."
 msgstr "Этот плагин позволяет легко вставлять скрипты в ваш веб-сайте."
 
-#: inc/php/sidebar.php:37
+#: inc/php/sidebar.php:23
 msgid "Help"
 msgstr "Помощь"
 
-#: inc/php/sidebar.php:39
+#: inc/php/sidebar.php:25
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr ""
 "Если у вас есть вопрос, пожалуйста ознакомьтесь с информацией в разделе FAQ."
@@ -541,120 +547,3 @@ msgstr "Артур Гарегинян"
 #. Author URI of the plugin/theme
 msgid "https://www.arthurgareginyan.com"
 msgstr "https://www.arthurgareginyan.com"
-
-#~ msgid "by %s Arthur Gareginyan %s"
-#~ msgstr "от %s Артура Гарегинян %s"
-
-#~ msgid "Author"
-#~ msgstr "Автор"
-
-#~ msgid "Family"
-#~ msgstr "Семья"
-
-#~ msgid "You can contact me by email %s"
-#~ msgstr "Вы можете связаться со мной по электронной почте %s"
-
-#~ msgid "Thank you for installing my plugin! I hope you will love it %s"
-#~ msgstr ""
-#~ "Спасибо, что установили мой плагин! Надеюсь, что он вам полюбится %s"
-
-#~ msgid ""
-#~ "Note that this fields are for inserting HTML code, so JavaScript and CSS "
-#~ "code must be wrapped in the corresponding HTML tag. For JavaScript code "
-#~ "use the `&lt;script&gt;` tag, and for CSS code use the `&lt;style&gt;` "
-#~ "tag. Example:"
-#~ msgstr ""
-#~ "Обратите внимание на то, что эти поля рассчитаны на добавление HTML кода, "
-#~ "а JavaScript и CSS код необходимо обернуть в соотвествующий HTML тег. Для "
-#~ "JavaScript кода используйте `&lt;script&gt;` тег, а для CSS кода "
-#~ "используйте `&lt;style&gt;` тег. Пример:"
-
-#~ msgid ""
-#~ "by <a href=\"https://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
-#~ "Gareginyan</a>"
-#~ msgstr ""
-#~ "от <a href=\"https://www.arthurgareginyan.com\" target=\"_blank\">Артур "
-#~ "Гарегинян</a>"
-
-#~ msgid "Using"
-#~ msgstr "Как пользоваться"
-
-#~ msgid ""
-#~ "To use, enter your custom scripts, then click \"Save changes\". It's that "
-#~ "simple!"
-#~ msgstr ""
-#~ "Для использования, вставьте ваши пользовательские скрипты, затем нажмите "
-#~ "кнопку “Сохранить изменения”. Это так просто!"
-
-#~ msgid ""
-#~ "It's that simple! If you want more options then tell me and I will be "
-#~ "happy to add it."
-#~ msgstr ""
-#~ "Это так просто! Если вы хотите иметь больше опций, то скажите мне об этом "
-#~ "и я буду счастлив добавить их."
-
-#~ msgid "Advertisement"
-#~ msgstr "Реклама"
-
-#~ msgid ""
-#~ "If you like this plugin and find it useful, please help me to make this "
-#~ "plugin even better and keep it up-to-date."
-#~ msgstr ""
-#~ "Если вам нравится этот плагин и вы находите его полезным, то пожалуйста "
-#~ "помогите мне сделать его ещё лучше."
-
-#~ msgid "Advertising"
-#~ msgstr "Реклама"
-
-#~ msgid ""
-#~ "If you like this plugin and find it useful, help me to make this plugin "
-#~ "even better and keep it up-to-date."
-#~ msgstr ""
-#~ "Если вам нравится этот плагин и вы находите его полезным, то помогите мне "
-#~ "сделать его ещё лучше."
-
-#~ msgid "Freelance"
-#~ msgstr "Фриланс"
-
-#~ msgid ""
-#~ "Hello, my name is Arthur and I'm a freelance web designer and developer."
-#~ msgstr "Привет, меня зовут Артур и Я внештатный веб-дизайнер и разработчик."
-
-#~ msgid ""
-#~ "Share your thoughts with me. You may have a brilliant idea in your mind "
-#~ "and I can make it happen, so let’s get started!"
-#~ msgstr ""
-#~ "Поделитесь со мной своими мыслями. У вас может быть блестящая идея в уме, "
-#~ "а я могу сделать её явью, так что давайте начнём!"
-
-#~ msgid ""
-#~ "by <a href=\"https://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
-#~ "\"Berserkr\" Gareginyan</a>"
-#~ msgstr ""
-#~ "от <a href=“https://www.arthurgareginyan.com” target=“_blank”>Артур "
-#~ "“Berserkr” Гарегинян</a>"
-
-#~ msgid "Header Section"
-#~ msgstr "Раздел HEADER"
-
-#~ msgid ""
-#~ "You can use the field below to add scripts to Header of your website."
-#~ msgstr ""
-#~ "Используйте поле расположение ниже для того, чтобы добавить скрипты в "
-#~ "верхний колонтитул вашего сайта."
-
-#~ msgid ""
-#~ "You can use the field below to add scripts to Footer of your website."
-#~ msgstr ""
-#~ "Используйте поле расположение ниже для того, чтобы добавить скрипты в "
-#~ "нижний колонтитул вашего сайта."
-
-#~ msgid ""
-#~ "Easily add your scripts to the WordPress website's head or/and footer "
-#~ "section. This is a must have tool for authors and website's owners."
-#~ msgstr ""
-#~ "Легко добавляйте ваши скрипты в шапку и/или колонтитул вашего WordPress "
-#~ "веб-сайта. Это необходимый инструмент для авторов и владельцев веб-сайтов."
-
-#~ msgid "Arthur \"Berserkr\" Gareginyan"
-#~ msgstr "Артур “Берсеркр” Гарегинян"

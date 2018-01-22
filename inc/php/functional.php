@@ -41,9 +41,9 @@ function spacexchimp_p006_output( $option ) {
     }
 
     // Add comments to output
-    $data_out = "\n<!-- [BEGIN] Scripts added via Head-and-Footer-Scripts-Inserter plugin by Space X-Chimp Studio ( https://www.spacexchimp.com ) -->\n";
+    $data_out = "\n<!-- [BEGIN] Scripts added via Head-and-Footer-Scripts-Inserter plugin by Space X-Chimp ( https://www.spacexchimp.com ) -->\n";
     $data_out .= $data;
-    $data_out .= "\n<!-- [END] Scripts added via Head-and-Footer-Scripts-Inserter plugin by Space X-Chimp Studio ( https://www.spacexchimp.com ) -->\n\n";
+    $data_out .= "\n<!-- [END] Scripts added via Head-and-Footer-Scripts-Inserter plugin by Space X-Chimp ( https://www.spacexchimp.com ) -->\n\n";
 
     // Output
     echo $data_out;

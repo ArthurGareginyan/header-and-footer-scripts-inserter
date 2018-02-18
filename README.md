@@ -1,6 +1,6 @@
 # Head and Footer Scripts Inserter
 
-**Free Premium WorPress Plugin**
+**Free Premium WordPress Plugin**
 
 ![screenshot](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter/blob/master/assets/banner-772x250.png)
 
@@ -64,7 +64,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 ## Author
 
-Arthur Garegnyan
+Arthur Gareginyan
 
 * Email: arthurgareginyan@gmail.com
 

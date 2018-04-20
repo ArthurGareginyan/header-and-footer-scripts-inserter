@@ -1,10 +1,10 @@
 === Head and Footer Scripts Inserter ===
 Contributors: Arthur Gareginyan
 Tags: inject, insert, insert scripts, insert javascript, insert js, insert html, insert css, insert custom scripts, insert custom code, html, javascript, js, css, code, custom code, script, scripts, custom scripts, meta, meta tags, head, header, head section, head area, footer, footer section, footer area,
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
+Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.15
+Stable tag: 4.16
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -33,7 +33,7 @@ If you want more options then tell us and we will be happy to add it.
 
 **Key features include...**
 
-* Inserts scripts in beginning or/and end of <head> tag
+* Inserts scripts in beginning or/and end of HEAD tag
 * Inserts scripts in beginning or/and end of footer
 * And much, much more!
 
@@ -55,12 +55,12 @@ If you want to help translate this plugin then please visit the [translation pag
 * JavaScript (in HTML tag)
 * CSS (in HTML tag)
 
-**System requirements**
+**Minimum system requirements:**
 
 * [PHP](https://php.net) version **5.2** or higher.
 * [MySQL](https://www.mysql.com) version **5.0** or higher.
 
-**Recommendations:**
+**Recommended system requirements:**
 
 * [PHP](https://php.net) version **7.0** or higher.
 * [MySQL](https://www.mysql.com) version **5.6** or higher.
@@ -69,18 +69,18 @@ If you want to help translate this plugin then please visit the [translation pag
 
 Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
 
-* [Donate](https://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+* [Donate](https://www.spacexchimp.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
 * [Rate and Review](https://wordpress.org/support/view/plugin-reviews/header-and-footer-scripts-inserter?rate=5#postform) this plugin.
-* [Share with me](mailto:arthurgareginyan@gmail.com) or view the [GitHub Repo](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter) if you have any ideas or suggestions to make this plugin better.
+* [Share with us](https://www.spacexchimp.com/contact.html) or view the [GitHub Repo](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter) if you have any ideas or suggestions to make this plugin better.
 
 
 == Installation ==
 
 Install "Head and Footer Scripts Inserter" just as you would any other WordPress Plugin.
 
-Automatically via WordPress Admin Panel:
+Automatically via WordPress Admin Area:
 
-1. Log into Admin Panel of your WordPress website.
+1. Log in to Admin Area of your WordPress website.
 2. Go to "`Plugins`" -> "`Add New`".
 3. Find this plugin and click install.
 4. Activate this plugin through the "`Plugins`" tab.
@@ -90,10 +90,10 @@ Manually via FTP access:
 1. Download a copy (ZIP file) of this plugin from WordPress.org.
 2. Unzip the ZIP file.
 3. Upload the unzipped catalog to your website's plugin directory (`/wp-content/plugins/`).
-4. Log into Admin Panel of your WordPress website.
+4. Log in to Admin Area of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
-After installation and activation, the "`Scripts Inserter`" menu item will appear in the "`Settings`" section of Admin Panel. Click on it in order to view the plugin settings page.
+After installation and activation, the "`Scripts Inserter`" menu item will appear in the "`Settings`" section of Admin Area. Click on it in order to view the plugin settings page.
 
 [More help installing plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -104,23 +104,24 @@ After installation and activation, the "`Scripts Inserter`" menu item will appe
 A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites.
 
 = Q. Can I use this plugin on my language? =
-A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just send the PO file to us at the arthurgareginyan@gmail.com and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
+A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just [send the PO file to us](https://www.spacexchimp.com/contact.html) and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 = Q. How does it work? =
 A. Simply go to the plugin settings page, place your scripts in the field and click the "Save changes" button. Enjoy the result of applying your scripts. It's that simple!
-You can find the plugin settings page at "`WP Admin Panel`" -> "`Settings`" -> "`Scripts Inserter`".
+You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`Scripts Inserter`".
 
 = Q. How much of scripts I can enter in the field? =
 A. We don't limit the number of characters.
 
 = Q. Does this plugin requires any modification of the theme? =
-A. Absolutely not. This plugin is configurable entirely from the plugin settings page that you can find in the Admin Panel of your WordPress website.
+A. Absolutely not. This plugin is configurable entirely from the plugin settings page that you can find in the Admin Area of your WordPress website.
 
 = Q. Does this require any knowledge of HTML or CSS? =
 A. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page. But you need to know the HTML or CSS in order to add/remove/modify the HTML or CSS code by using this plugin.
 
-= Q. Can I add my script to a specific page of the website of the creator? =
+= Q. Can I add my script to a specific page of my website? =
 A. For now, this plugin does not have an option to apply the custom scripts only on specific pages. I plan to add this feature soon. But for now in order to apply your script only on specific pages of your website, you need to wrap your script in a PHP code that will determine the page you want. You need something like this:
+
 `function my_custom_script() {
 
     // Stop the function if this is not the Home page of website
@@ -140,17 +141,17 @@ A. As with every plugin, it's possible that things don't work. The most common r
 
 It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
 
-= Q. The last WordPress update is preventing me from editing the website of the creator that is using this plugin. Why is this? =
+= Q. The last WordPress update is preventing me from editing my website that is using this plugin. Why is this? =
 A. This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.
 
 = Q. Where to report bug if found? =
-A. Please visit the [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter) and report.
+A. Bug reports are very welcome! Please visit [our contact page](https://www.spacexchimp.com/contact.html) and report. Thank you!
 
 = Q. Where to share any ideas or suggestions to make the plugin better? =
-A. Any suggestions are very welcome! Please send us an email to [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com). Thank you!
+A. Any suggestions are very welcome! Please visit [our contact page](https://www.spacexchimp.com/contact.html) and share. Thank you!
 
 = Q. I love this plugin! Can I help somehow? =
-A. Yes, any financial contributions are welcome! Just visit [the website of the creator](https://www.arthurgareginyan.com/donate.html), click on the donate button, and thank you!
+A. Yes, any contributions are very welcome! Please visit [our donation page](https://www.spacexchimp.com/donate.html). Thank you!
 
 
 == Screenshots ==
@@ -164,7 +165,7 @@ A. Yes, any financial contributions are welcome! Just visit [the website of the 
 
 ****
 
-"Head and Footer Scripts Inserter" is one of the personal software projects of [Arthur Gareginyan](https://www.arthurgareginyan.com). Earlier the project was called "Header and Footer Scripts Inserter".
+"Head and Footer Scripts Inserter" is one of the own software projects of [Space X-Chimp](https://www.spacexchimp.com). Earlier the project was called "Header and Footer Scripts Inserter".
 
 **License**
 
@@ -173,18 +174,24 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Credits**
 
-* The icon of plugin is a copyrighted image created by [Arthur Gareginyan](https://www.arthurgareginyan.com). (C) All rights reserved.
-* The banner of plugin is a copyrighted image created by [Arthur Gareginyan](https://www.arthurgareginyan.com). (C) All rights reserved.
+* The icon of plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
+* The banner of plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
 * [CodeMirror](https://codemirror.net/) is an open-source project shared under the [MIT license](https://codemirror.net/LICENSE).
 * [Bootstrap](http://getbootstrap.com) by Twitter, Inc. released under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 
 **Links**
 
-* [Developer Website](https://www.arthurgareginyan.com)
-* [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter)
+* [Developer website](https://www.spacexchimp.com)
+* [Dedicated plugin page on GitHub](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter)
 
 
 == Changelog ==
+
+= 4.16 =
+* Some texts updated, and typos corrected.
+* All translation files updated.
+* The information about the author of the plugin (including name, links, copyright, etc.) was changed due to the fact that the plugin became the property of SpaceXChimp.
+* The human.txt file updated.
 
 = 4.15 =
 * Texts updated.
@@ -205,7 +212,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * At the request of some users, plugin settings page moved to the submenu item in the top-level menu item "Settings", like before.
 
 = 4.11 =
-* Fixed the issue due tof which the 'Space X-Chimp' sub menu item in the brand menu item was displayed.
+* Fixed the issue due to which the 'Space X-Chimp' sub menu item in the brand menu item was displayed.
 * Added branded footer text on the plugin's settings page.
 * Text of copyright in the output code is updated.
 

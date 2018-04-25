@@ -1,12 +1,13 @@
+# Translation of plugin - Head and Footer Scripts Inserter - in Polish (Poland)
+# This file is distributed under the same license as the plugin - Head and Footer Scripts Inserter.
 msgid ""
 msgstr ""
 "Project-Id-Version: Header and Footer Scripts Inserter\n"
-"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 01:34+0300\n"
 "PO-Revision-Date: 2018-04-20 01:34+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
-"Language-Team: \n"
-"Language: pl\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -369,9 +370,6 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "https://www.spacexchimp.com"
 msgstr "https://www.spacexchimp.com"
-
-#~ msgid "Arthur Gareginyan"
-#~ msgstr "Arthur Gareginyan"
 
 #~ msgid "If you want more options then tell us and we will be happy to add it."
 #~ msgstr "Jeśli potrzebujesz więcej opcji napisz mi o tym. Chętnie je dodam."

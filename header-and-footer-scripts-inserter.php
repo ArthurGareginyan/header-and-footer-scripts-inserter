@@ -5,7 +5,7 @@
  * Description: Easily add your scripts to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.19
+ * Version: 4.20
  * License: GPL3
  * Text Domain: header-and-footer-scripts-inserter
  * Domain Path: /languages/
@@ -77,4 +77,3 @@ require_once( SPACEXCHIMP_P006_PATH . 'inc/php/enqueue.php' );
 require_once( SPACEXCHIMP_P006_PATH . 'inc/php/functional.php' );
 require_once( SPACEXCHIMP_P006_PATH . 'inc/php/page.php' );
 require_once( SPACEXCHIMP_P006_PATH . 'inc/php/messages.php' );
-require_once( SPACEXCHIMP_P006_PATH . 'inc/php/uninstall.php' );

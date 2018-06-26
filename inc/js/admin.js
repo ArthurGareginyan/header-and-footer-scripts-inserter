@@ -34,11 +34,9 @@ jQuery(document).ready(function($) {
          }
     });
 
-    // Find all textareas on page
+    // Find textareas on page and replace them with the CodeMirror editor
     $('textarea').each(function(index, elements) {
-
-        // Change textarea to CodeMirror editor
-        var editor = CodeMirror.fromTextArea( elements , {
+        var editor = CodeMirror.fromTextArea( elements, {
             lineNumbers: true,
             firstLineNumber: 1,
             matchBrackets: true,
@@ -46,11 +44,6 @@ jQuery(document).ready(function($) {
             mode: 'text/html',
             styleActiveLine: true
         });
-
-        // Refresh CodeMirror editor after 1 second
-        setTimeout(function() {
-            editor.refresh();
-        },1);
     });
 
 });

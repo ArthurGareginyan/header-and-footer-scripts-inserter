@@ -34,16 +34,4 @@ jQuery(document).ready(function($) {
          }
     });
 
-    // Find textareas on page and replace them with the CodeMirror editor
-    $('textarea').each(function(index, elements) {
-        var editor = CodeMirror.fromTextArea( elements, {
-            lineNumbers: true,
-            firstLineNumber: 1,
-            matchBrackets: true,
-            indentUnit: 4,
-            mode: 'text/html',
-            styleActiveLine: true
-        });
-    });
-
 });

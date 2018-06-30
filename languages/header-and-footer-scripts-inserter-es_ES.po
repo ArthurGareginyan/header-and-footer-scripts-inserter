@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Head and Footer Scripts Inserter\n"
-"POT-Creation-Date: 2018-04-20 01:34+0300\n"
-"PO-Revision-Date: 2018-04-20 01:34+0300\n"
+"POT-Creation-Date: 2018-06-30 20:07+0300\n"
+"PO-Revision-Date: 2018-06-30 20:07+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -74,7 +74,7 @@ msgstr "Uso"
 msgid "F.A.Q."
 msgstr "Preguntas ?"
 
-#: inc/php/page.php:47 inc/php/settings.php:70 inc/php/sidebar.php:30
+#: inc/php/page.php:47 inc/php/settings.php:77 inc/php/sidebar.php:30
 msgid "Support"
 msgstr "Soporte"
 
@@ -265,7 +265,7 @@ msgstr "Puede hacer tu pregunta en %s la página de soporte del complementos %s.
 msgid "Support Me"
 msgstr "Apoyarme!"
 
-#: inc/php/page.php:228 inc/php/settings.php:77 inc/php/sidebar.php:37
+#: inc/php/page.php:228 inc/php/settings.php:84 inc/php/sidebar.php:37
 msgid "Donate with PayPal"
 msgstr "Donar con PayPal"
 
@@ -290,47 +290,52 @@ msgstr "Si aprecias mi trabajo, puedes comprarme un café!"
 msgid "Thank you for your support!"
 msgstr "¡Gracias por tu apoyo!"
 
-#: inc/php/settings.php:40
+#: inc/php/settings.php:31
 msgid "Head Section"
 msgstr ""
 
-#: inc/php/settings.php:42
+#: inc/php/settings.php:33
 msgid "You can use the fields below to add scripts to HEAD section of your website."
 msgstr ""
 
-#: inc/php/settings.php:44
+#: inc/php/settings.php:35
 msgid "Scripts from this field will be printed in the beginning of <b>HEAD</b> section. Do not place plain text in this!"
 msgstr ""
 
-#: inc/php/settings.php:47
+#: inc/php/settings.php:39 inc/php/settings.php:46 inc/php/settings.php:62
+#: inc/php/settings.php:69
+msgid "Enter your scripts here"
+msgstr ""
+
+#: inc/php/settings.php:42
 msgid "Scripts from this field will be printed in the end of <b>HEAD</b> section. Do not place plain text in this!"
 msgstr ""
 
-#: inc/php/settings.php:50 inc/php/settings.php:65
+#: inc/php/settings.php:49 inc/php/settings.php:72
 msgid "Save changes"
 msgstr "Guardar Cambios"
 
-#: inc/php/settings.php:55
+#: inc/php/settings.php:54
 msgid "Footer Section"
 msgstr ""
 
-#: inc/php/settings.php:57
+#: inc/php/settings.php:56
 msgid "You can use the fields below to add scripts to FOOTER section of your website."
 msgstr ""
 
-#: inc/php/settings.php:59
+#: inc/php/settings.php:58
 msgid "Scripts from this field will be printed before a footers scripts. Do not place plain text in this!"
 msgstr ""
 
-#: inc/php/settings.php:62
+#: inc/php/settings.php:65
 msgid "Scripts from this field will be printed after all footers scripts. Do not place plain text in this!"
 msgstr ""
 
-#: inc/php/settings.php:72 inc/php/sidebar.php:32
+#: inc/php/settings.php:79 inc/php/sidebar.php:32
 msgid "I'm an independent developer, without a regular income, so every little contribution helps cover my costs and lets me spend more time building things for people like you to enjoy."
 msgstr "Soy un desarrollador independiente, sin un ingreso regular, por lo que cada pequeña contribución ayuda a cubrir mis costos y me deja pasar más tiempo construyendo cosas para que personas como tú las disfruten."
 
-#: inc/php/settings.php:79 inc/php/sidebar.php:39
+#: inc/php/settings.php:86 inc/php/sidebar.php:39
 msgid "Thanks for your support!"
 msgstr "¡Gracias por tu apoyo!"
 

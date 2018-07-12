@@ -1,6 +1,6 @@
 # Head and Footer Scripts Inserter
 
-**Free Premium WordPress Plugin**
+**Free WordPress Plugin**
 
 ![screenshot](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter/blob/master/assets/banner-772x250.png)
 

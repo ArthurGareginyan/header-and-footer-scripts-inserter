@@ -15,7 +15,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
             <div class="postbox about">
                 <h3 class="title"><?php _e( 'About', $text ); ?></h3>
                 <div class="inside">
-                    <p><?php _e( 'This plugin allows you to easily insert scripts in your website.', $text ); ?></p>
+                    <p><?php _e( 'This plugin allows you to easily insert your custom scripts in your website.', $text ); ?></p>
                 </div>
             </div>
 

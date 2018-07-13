@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Head and Footer Scripts Inserter\n"
-"POT-Creation-Date: 2018-06-30 20:07+0300\n"
-"PO-Revision-Date: 2018-06-30 20:07+0300\n"
+"POT-Creation-Date: 2018-07-12 01:16+0300\n"
+"PO-Revision-Date: 2018-07-12 01:16+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -197,12 +197,12 @@ msgid "Can I add my script to a specific page of my website?"
 msgstr ""
 
 #: inc/php/page.php:155
-msgid "For now, this plugin does not have an option to apply the custom scripts only on specific pages. I plan to add this feature soon. But for now in order to apply your script only on specific pages of your website, you need to wrap your script in a PHP code that will determine the page you want. You need something like this:"
+msgid "For now, this plugin does not have an option to apply the custom scripts only on specific pages. We plan to add this feature soon. But for now in order to apply your script only on specific pages of your website, you need to wrap your script in a PHP code that will determine the page you want. You need something like this:"
 msgstr ""
 
 #: inc/php/page.php:168
 #, php-format
-msgid "To apply the PHP code on a website, I can recommend you to use another my plugin called %s."
+msgid "To apply the PHP code on a website, we can recommend you to use another our plugin called %s."
 msgstr ""
 
 #: inc/php/page.php:173
@@ -295,20 +295,20 @@ msgid "Head Section"
 msgstr ""
 
 #: inc/php/settings.php:33
-msgid "You can use the fields below to add scripts to HEAD section of your website."
+msgid "You can use the fields below to add your custom scripts to HEAD section of your website."
 msgstr ""
 
 #: inc/php/settings.php:35
-msgid "Scripts from this field will be printed in the beginning of <b>HEAD</b> section. Do not place plain text in this!"
+msgid "Scripts from this field will be printed in the beginning of HEAD section. Do not place plain text in this!"
 msgstr ""
 
 #: inc/php/settings.php:39 inc/php/settings.php:46 inc/php/settings.php:62
 #: inc/php/settings.php:69
-msgid "Enter your scripts here"
+msgid "Enter your custom scripts here"
 msgstr ""
 
 #: inc/php/settings.php:42
-msgid "Scripts from this field will be printed in the end of <b>HEAD</b> section. Do not place plain text in this!"
+msgid "Scripts from this field will be printed in the end of HEAD section. Do not place plain text in this!"
 msgstr ""
 
 #: inc/php/settings.php:49 inc/php/settings.php:72
@@ -320,11 +320,11 @@ msgid "Footer Section"
 msgstr ""
 
 #: inc/php/settings.php:56
-msgid "You can use the fields below to add scripts to FOOTER section of your website."
+msgid "You can use the fields below to add your custom scripts to FOOTER section of your website."
 msgstr ""
 
 #: inc/php/settings.php:58
-msgid "Scripts from this field will be printed before a footers scripts. Do not place plain text in this!"
+msgid "Scripts from this field will be printed before a footer scripts. Do not place plain text in this!"
 msgstr ""
 
 #: inc/php/settings.php:65
@@ -344,7 +344,7 @@ msgid "About"
 msgstr "Acerca de"
 
 #: inc/php/sidebar.php:18
-msgid "This plugin allows you to easily insert scripts in your website."
+msgid "This plugin allows you to easily insert your custom scripts in your website."
 msgstr ""
 
 #: inc/php/sidebar.php:23

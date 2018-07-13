@@ -6,6 +6,47 @@
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
+ * Callback to enqueue the CodeMirror library
+ */
+function spacexchimp_p006_load_scripts_codemirror() {
+
+    // Put value of constants to variables for easier access
+    $prefix = SPACEXCHIMP_P006_PREFIX;
+    $url = SPACEXCHIMP_P006_URL;
+    $version = SPACEXCHIMP_P006_VERSION;
+
+    // Enqueue main files of the CodeMirror library
+    wp_enqueue_style( $prefix . '-codemirror-css', $url . 'inc/lib/codemirror/lib/codemirror.css', array(), $version, 'all' );
+    wp_enqueue_script( $prefix . '-codemirror-js', $url . 'inc/lib/codemirror/lib/codemirror.js', array(), $version, false );
+
+    // Enqueue settings file
+    wp_enqueue_script( $prefix . '-codemirror-settings-js', $url . 'inc/js/codemirror-settings.js', array(), $version, true );
+
+    // Enqueue addons
+    $addons = array(
+                    'display' => array( 'autorefresh', 'placeholder' ),
+                    'selection' => array( 'active-line' )
+                   );
+    foreach ( $addons as $addons_group_name => $addons_group ) {
+        foreach ( $addons_group as $addon ) {
+            wp_enqueue_script( $prefix . '-codemirror-addon-' . $addon . '-js', $url . 'inc/lib/codemirror/addon/' . $addons_group_name . '/' . $addon . '.js', array(), $version, false );
+        }
+    }
+
+    // Enqueue modes
+    $modes = array(
+                    'css',
+                    'htmlmixed',
+                    'javascript',
+                    'xml'
+                  );
+    foreach ( $modes as $mode ) {
+        wp_enqueue_script( $prefix . '-codemirror-mode-' . $mode . '-js', $url . 'inc/lib/codemirror/mode/' . $mode . '/' . $mode . '.js', array(), $version, true );
+    }
+
+}
+
+/**
  * Load scripts and style sheet for settings page
  */
 function spacexchimp_p006_load_scripts_admin( $hook ) {
@@ -31,23 +72,8 @@ function spacexchimp_p006_load_scripts_admin( $hook ) {
     // Font Awesome library
     wp_enqueue_style( $prefix . '-font-awesome-css', $url . 'inc/lib/font-awesome/css/font-awesome.css', array(), $version, 'screen' );
 
-    // CodeMirror library
-    wp_enqueue_style( $prefix . '-codemirror-css', $url . 'inc/lib/codemirror/lib/codemirror.css', array(), $version, 'all' );
-    wp_enqueue_script( $prefix . '-codemirror-js', $url . 'inc/lib/codemirror/lib/codemirror.js', array(), $version, false );
-    wp_enqueue_script( $prefix . '-codemirror-settings-js', $url . 'inc/js/codemirror-settings.js', array(), $version, true );
-    $modes = array( 'css', 'htmlmixed', 'javascript', 'xml' );
-    foreach ( $modes as $mode ) {
-        wp_enqueue_script( $prefix . '-codemirror-mode-' . $mode . '-js', $url . 'inc/lib/codemirror/mode/' . $mode . '/' . $mode . '.js', array(), $version, true );
-    }
-    $addons = array(
-                    'display' => array( 'autorefresh', 'placeholder' ),
-                    'selection' => array( 'active-line' )
-                   );
-    foreach ( $addons as $addons_group_name => $addons_group ) {
-        foreach ( $addons_group as $addon ) {
-            wp_enqueue_script( $prefix . '-codemirror-addon-' . $addon . '-js', $url . 'inc/lib/codemirror/addon/' . $addons_group_name . '/' . $addon . '.js', array(), $version, false );
-        }
-    }
+    // Call the function that enqueue the CodeMirror library
+    spacexchimp_p006_load_scripts_codemirror();
 
     // Style sheet
     wp_enqueue_style( $prefix . '-admin-css', $url . 'inc/css/admin.css', array(), $version, 'all' );

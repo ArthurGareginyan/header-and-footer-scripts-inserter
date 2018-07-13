@@ -30,20 +30,20 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     <div class="postbox" id="head">
                         <h3 class="title"><?php _e( 'Head Section', $text ); ?></h3>
                         <div class="inside">
-                            <p class="note"><?php _e( 'You can use the fields below to add scripts to HEAD section of your website.', $text ); ?></p>
+                            <p class="note"><?php _e( 'You can use the fields below to add your custom scripts to HEAD section of your website.', $text ); ?></p>
 
-                            <p class='help-text'><?php _e( 'Scripts from this field will be printed in the beginning of <b>HEAD</b> section. Do not place plain text in this!', $text ); ?></p>
+                            <p class='help-text'><?php _e( 'Scripts from this field will be printed in the beginning of HEAD section. Do not place plain text in this!', $text ); ?></p>
                             <textarea
                                 name="spacexchimp_p006_settings[header_beginning]"
                                 id="spacexchimp_p006_settings[header_beginning]"
-                                placeholder="<?php _e( 'Enter your scripts here', $text ); ?>"
+                                placeholder="<?php _e( 'Enter your custom scripts here', $text ); ?>"
                             ><?php echo $header_beginning; ?></textarea>
 
-                            <p class='help-text'><?php _e( 'Scripts from this field will be printed in the end of <b>HEAD</b> section. Do not place plain text in this!', $text ); ?></p>
+                            <p class='help-text'><?php _e( 'Scripts from this field will be printed in the end of HEAD section. Do not place plain text in this!', $text ); ?></p>
                             <textarea
                                 name="spacexchimp_p006_settings[header_end]"
                                 id="spacexchimp_p006_settings[header_end]"
-                                placeholder="<?php _e( 'Enter your scripts here', $text ); ?>"
+                                placeholder="<?php _e( 'Enter your custom scripts here', $text ); ?>"
                             ><?php echo $header_end; ?></textarea>
 
                             <input type="submit" name="submit" id="submit" class="btn btn-primary" value="<?php _e( 'Save changes', $text ); ?>">
@@ -53,20 +53,20 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     <div class="postbox" id="footer">
                         <h3 class="title"><?php _e( 'Footer Section', $text ); ?></h3>
                         <div class="inside">
-                            <p class="note"><?php _e( 'You can use the fields below to add scripts to FOOTER section of your website.', $text ); ?></p>
+                            <p class="note"><?php _e( 'You can use the fields below to add your custom scripts to FOOTER section of your website.', $text ); ?></p>
 
-                            <p class='help-text'><?php _e( 'Scripts from this field will be printed before a footers scripts. Do not place plain text in this!', $text ); ?></p>
+                            <p class='help-text'><?php _e( 'Scripts from this field will be printed before a footer scripts. Do not place plain text in this!', $text ); ?></p>
                             <textarea
                                 name="spacexchimp_p006_settings[footer_beginning]"
                                 id="spacexchimp_p006_settings[footer_beginning]"
-                                placeholder="<?php _e( 'Enter your scripts here', $text ); ?>"
+                                placeholder="<?php _e( 'Enter your custom scripts here', $text ); ?>"
                             ><?php echo $footer_beginning; ?></textarea>
 
                             <p class='help-text'><?php _e( 'Scripts from this field will be printed after all footers scripts. Do not place plain text in this!', $text ); ?></p>
                             <textarea
                                 name="spacexchimp_p006_settings[footer_end]"
                                 id="spacexchimp_p006_settings[footer_end]"
-                                placeholder="<?php _e( 'Enter your scripts here', $text ); ?>"
+                                placeholder="<?php _e( 'Enter your custom scripts here', $text ); ?>"
                             ><?php echo $footer_end; ?></textarea>
 
                             <input type="submit" name="submit" id="submit" class="btn btn-primary" value="<?php _e( 'Save changes', $text ); ?>">

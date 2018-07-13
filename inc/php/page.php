@@ -152,7 +152,7 @@ function spacexchimp_p006_render_submenu_page() {
                         <div class="answer-6"><?php _e( 'This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page. But you need to know the HTML or CSS in order to add/remove/modify the HTML or CSS code by using this plugin.', $text ); ?></div>
 
                         <div class="question-7"><?php _e( 'Can I add my script to a specific page of my website?', $text ); ?></div>
-                        <div class="answer-7"><?php _e( 'For now, this plugin does not have an option to apply the custom scripts only on specific pages. I plan to add this feature soon. But for now in order to apply your script only on specific pages of your website, you need to wrap your script in a PHP code that will determine the page you want. You need something like this:', $text ); ?><br><br>
+                        <div class="answer-7"><?php _e( 'For now, this plugin does not have an option to apply the custom scripts only on specific pages. We plan to add this feature soon. But for now in order to apply your script only on specific pages of your website, you need to wrap your script in a PHP code that will determine the page you want. You need something like this:', $text ); ?><br><br>
 <pre><code>function my_custom_script() {
 
     // Stop the function if this is not the Home page of website
@@ -165,7 +165,7 @@ function spacexchimp_p006_render_submenu_page() {
 }
 add_action( 'wp_head', 'my_custom_script' );</code></pre>
                                               <?php printf(
-                                                             __( 'To apply the PHP code on a website, I can recommend you to use another my plugin called %s.', $text ),
+                                                             __( 'To apply the PHP code on a website, we can recommend you to use another our plugin called %s.', $text ),
                                                                  '<a href="https://wordpress.org/plugins/my-custom-functions/" target="_blank">My Custom Functions</a>'
                                                            );
                                               ?></div>

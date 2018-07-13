@@ -4,7 +4,7 @@ Tags: inject, insert, insert scripts, insert javascript, insert js, insert html,
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.24
+Stable tag: 4.25
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -120,7 +120,7 @@ A. Absolutely not. This plugin is configurable entirely from the plugin settings
 A. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page. But you need to know the HTML or CSS in order to add/remove/modify the HTML or CSS code by using this plugin.
 
 = Q. Can I add my script to a specific page of my website? =
-A. For now, this plugin does not have an option to apply the custom scripts only on specific pages. I plan to add this feature soon. But for now in order to apply your script only on specific pages of your website, you need to wrap your script in a PHP code that will determine the page you want. You need something like this:
+A. For now, this plugin does not have an option to apply the custom scripts only on specific pages. We plan to add this feature soon. But for now in order to apply your script only on specific pages of your website, you need to wrap your script in a PHP code that will determine the page you want. You need something like this:
 
 `function my_custom_script() {
 
@@ -134,7 +134,7 @@ A. For now, this plugin does not have an option to apply the custom scripts only
 }
 add_action( 'wp_head', 'my_custom_script' );`
 
-To apply the PHP code on a website, I can recommend you to use another my plugin called [My Custom Functions](https://wordpress.org/plugins/my-custom-functions/).
+To apply the PHP code on a website, we can recommend you to use another our plugin called [My Custom Functions](https://wordpress.org/plugins/my-custom-functions/).
 
 = Q. It's not working. What could be wrong? =
 A. As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem.
@@ -186,6 +186,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.25 =
+* The code block that enqueue the CodeMirror library files is moved to a separate function '_load_scripts_codemirror' within the 'enqueue.php' file.
+* Enqueue of the CodeMirror addons is moved to the beginning of the queue, before enqueuing the CodeMirror mods.
+* Some texts updated, and typos are corrected.
+* All translation files are updated.
 
 = 4.24 =
 * Fixed: CodeMirror addon 'autorefresh.js' was added to one of the previous versions of the plugin, but it was not enabled.

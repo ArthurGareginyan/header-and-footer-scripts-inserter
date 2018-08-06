@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Header and Footer Scripts Inserter\n"
-"POT-Creation-Date: 2018-07-24 00:33+0300\n"
-"PO-Revision-Date: 2018-07-24 00:33+0300\n"
+"POT-Creation-Date: 2018-08-07 01:36+0300\n"
+"PO-Revision-Date: 2018-08-07 01:36+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -96,7 +96,7 @@ msgid "Go to the \"Main\" tab."
 msgstr ""
 
 #: inc/php/page.php:69
-msgid "Place your scripts in the field."
+msgid "Place your custom scripts in the field."
 msgstr ""
 
 #: inc/php/page.php:70
@@ -108,7 +108,7 @@ msgid "Click the \"Save changes\" button."
 msgstr ""
 
 #: inc/php/page.php:85
-msgid "Enjoy the result of applying your scripts."
+msgid " Enjoy the result of applying your custom scripts."
 msgstr ""
 
 #: inc/php/page.php:85
@@ -166,7 +166,7 @@ msgid "How does it work?"
 msgstr ""
 
 #: inc/php/page.php:143
-msgid "On the \"Settings\" tab, place your scripts in the field and click the \"Save changes\" button. Enjoy the result of applying your scripts. It's that simple!"
+msgid "On the \"Settings\" tab, place your custom scripts in the field and click the \"Save changes\" button. Enjoy the result of applying your custom scripts. It's that simple!"
 msgstr ""
 
 #: inc/php/page.php:145
@@ -194,11 +194,11 @@ msgid "This plugin can be configured with no knowledge of HTML or CSS, using an 
 msgstr ""
 
 #: inc/php/page.php:154
-msgid "Can I add my script to a specific page of my website?"
+msgid "Can I add my custom script to a specific page of my website?"
 msgstr ""
 
 #: inc/php/page.php:155
-msgid "For now, this plugin does not have an option to apply the custom scripts only on specific pages. We plan to add this feature soon. But for now in order to apply your script only on specific pages of your website, you need to wrap your script in a PHP code that will determine the page you want. You need something like this:"
+msgid "For now, this plugin does not have an option to apply the custom scripts only on specific pages. We plan to add this feature soon. But for now in order to apply your custom script only on specific pages of your website, you need to wrap your custom script in a PHP code that will determine the page you want. You need something like this:"
 msgstr ""
 
 #: inc/php/page.php:168
@@ -369,8 +369,8 @@ msgid "https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter"
 msgstr "https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter"
 
 #. Description of the plugin/theme
-msgid "Easily add your scripts to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners."
-msgstr "Łatwe dodawanie kodu skryptów do nagłówka i stopki strony opartej na WordPressie."
+msgid "Easily and safely add your custom scripts (HTML with JavaScript, CSS, etc.) to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners."
+msgstr ""
 
 #. Author of the plugin/theme
 msgid "Space X-Chimp"
@@ -380,5 +380,8 @@ msgstr ""
 msgid "https://www.spacexchimp.com"
 msgstr "https://www.spacexchimp.com"
 
-#~ msgid "If you want more options then tell us and we will be happy to add it."
+#~ msgid "Easily add your custom scripts to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners."
+#~ msgstr "Łatwe dodawanie kodu skryptów do nagłówka i stopki strony opartej na WordPressie."
+
+#~ msgid "If you want more options, let us know and we will be happy to add them."
 #~ msgstr "Jeśli potrzebujesz więcej opcji napisz mi o tym. Chętnie je dodam."

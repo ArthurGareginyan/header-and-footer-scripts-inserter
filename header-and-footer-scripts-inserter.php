@@ -2,10 +2,10 @@
 /**
  * Plugin Name: Head and Footer Scripts Inserter
  * Plugin URI: https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter
- * Description: Easily add your scripts to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners.
+ * Description: Easily and safely add your custom scripts (HTML with JavaScript, CSS, etc.) to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.26
+ * Version: 4.27
  * License: GPL3
  * Text Domain: header-and-footer-scripts-inserter
  * Domain Path: /languages/

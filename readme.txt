@@ -4,22 +4,24 @@ Tags: inject, insert, insert scripts, insert javascript, insert js, insert html,
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.26
+Stable tag: 4.27
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easily add your scripts to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners.
+Easily and safely add your custom scripts (HTML with JavaScript, CSS, etc.) to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners.
 
 
 == Description ==
 
-An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily insert custom scripts (HTML, JavaScript, and CSS) in the head or/and footer section of your website.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom scripts (HTML with JavaScript, CSS, etc.) in the head or/and footer section of your website.
 
-No need anymore to editing a files of your theme or plugins in order to add custom scripts (HTML with JavaScript, CSS and else). You can add they on the plugin settings page. Just add your scripts in the field on the plugin settings page and this plugin will do the rest for you. It adds required scripts to the head section of your website automatically, without changing any of your themes file and without slowing down your website. It's really useful in case of any theme update, because your scripts would never be lost! Your scripts will keep on working, no matter how many times you upgrade or switch your theme and plugins.
+This is a must have tool for authors and website's owners. Its purpose is to provide a familiar experience to WordPress users. There is no need for any more editing of the files of your theme or plugins for to add custom scripts (HTML with JavaScript, CSS, etc.). Just add your custom scripts in the field on the plugin page and this plugin will do the rest for you. It adds required scripts to the head section of your website automatically, without changing any of your themes file and without slowing down your website.
+
+The plugin works completely independently of the theme, so you can use it with any theme. The code you place on the plugin page will be entirely unaffected if you edit the contents of the theme’s files, or even completely change the theme. This is really useful in case of updating theme or plugins, because your custom scripts would never be overwritten. Your custom scripts will keep on working, no matter how many times you upgrade or switch your theme and plugins.
+
+On the plugin page you find the code editor powered by CodeMirror. This code editor has options such as syntax highlighting, line numbering, and more. And if you want more options, let us know and we will be happy to add them.
 
 Third-party services like Google Webmaster Tools, Alexa, Pinterest and Google+ require you to verify your domain. This makes sure that you are the correct owner of your blog or store before they provide their services to you. You can use this plugin to easily verify your website or domain and get a more effective and efficient sharing results. Example with Pinterest. Once you completed the verification process, people will see a checkmark next to your domain in your Pinterest profile and in pinner search results. That check mark emphasis you have confirmed the ownership of your blog or website on Pinterest. This will help your website to rank better in google and other search engines. You can easily increase your blog traffic using this plugin. "Head and Footer Scripts Inserter" is a simple but effective SEO plugin.
-
-If you want more options then tell us and we will be happy to add it.
 
 **Features**
 
@@ -33,9 +35,14 @@ If you want more options then tell us and we will be happy to add it.
 
 **Key features include...**
 
-* Inserts scripts in beginning or/and end of HEAD tag
-* Inserts scripts in beginning or/and end of footer
-* And much, much more!
+* Inserts custom scripts in beginning or/and end of HEAD tag
+* Inserts custom scripts in beginning or/and end of footer
+
+**Supported**
+
+* HTML
+* JavaScript (in HTML tag)
+* CSS (in HTML tag)
 
 **Translation**
 
@@ -49,12 +56,6 @@ This plugin is ready for translation and has already been translated into severa
 * Dutch (translation by Peter Leenders)
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/header-and-footer-scripts-inserter).
-
-**Supported**
-
-* HTML
-* JavaScript (in HTML tag)
-* CSS (in HTML tag)
 
 **Minimum system requirements:**
 
@@ -94,7 +95,7 @@ Manually via FTP access:
 4. Log in to Admin Area of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
-After installation and activation, the "`Scripts Inserter`" menu item will appear in the "`Settings`" section of Admin Area. Click on it in order to view the plugin settings page.
+After installation and activation, the "`Scripts Inserter`" menu item will appear in the "`Settings`" section of Admin Area. Click on it in order to view the plugin settings page.
 
 [More help installing plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -108,7 +109,7 @@ A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) w
 A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just [send the PO file to us](https://www.spacexchimp.com/contact.html) and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 = Q. How does it work? =
-A. Simply go to the plugin settings page, place your scripts in the field and click the "Save changes" button. Enjoy the result of applying your scripts. It's that simple!
+A. Simply go to the plugin settings page, place your custom scripts in the field and click the "Save changes" button. Enjoy the result of applying your custom scripts. It's that simple!
 You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`Scripts Inserter`".
 
 = Q. How much of scripts I can enter in the field? =
@@ -120,8 +121,8 @@ A. Absolutely not. This plugin is configurable entirely from the plugin settings
 = Q. Does this require any knowledge of HTML or CSS? =
 A. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page. But you need to know the HTML or CSS in order to add/remove/modify the HTML or CSS code by using this plugin.
 
-= Q. Can I add my script to a specific page of my website? =
-A. For now, this plugin does not have an option to apply the custom scripts only on specific pages. We plan to add this feature soon. But for now in order to apply your script only on specific pages of your website, you need to wrap your script in a PHP code that will determine the page you want. You need something like this:
+= Q. Can I add my custom script to a specific page of my website? =
+A. For now, this plugin does not have an option to apply the custom scripts only on specific pages. We plan to add this feature soon. But for now in order to apply your custom script only on specific pages of your website, you need to wrap your custom script in a PHP code that will determine the page you want. You need something like this:
 
 `function my_custom_script() {
 
@@ -130,8 +131,8 @@ A. For now, this plugin does not have an option to apply the custom scripts only
         return;
     }
 
-    // Print the script
-    echo '<script>YOUR SCRIPT</script>';
+    // Print the custom script
+    echo '<script>YOUR CUSTOM SCRIPT</script>';
 }
 add_action( 'wp_head', 'my_custom_script' );`
 
@@ -187,6 +188,12 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.27 =
+* Some texts are updated.
+* Translation files are updated.
+* The translation into Russian has been corrected.
+* The translation into Dutch has been corrected.
 
 = 4.26 =
 * Dutch translation added. (Thanks to Peter Leenders)

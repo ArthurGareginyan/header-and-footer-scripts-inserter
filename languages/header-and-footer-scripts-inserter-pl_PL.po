@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Header and Footer Scripts Inserter\n"
-"POT-Creation-Date: 2018-08-07 01:36+0300\n"
-"PO-Revision-Date: 2018-08-07 01:36+0300\n"
+"POT-Creation-Date: 2018-08-18 18:16+0300\n"
+"PO-Revision-Date: 2018-08-18 18:16+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -31,7 +31,7 @@ msgstr "Wesprzyj"
 
 #: inc/php/core.php:52
 msgid "Scripts Inserter"
-msgstr ""
+msgstr "Scripts Inserter"
 
 #: inc/php/messages.php:26
 msgid "Hello. We are the team of Space X-Chimp."
@@ -51,7 +51,7 @@ msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr ""
 
 #: inc/php/messages.php:91
-msgid "Scripts updated successfully."
+msgid "Custom code updated successfully."
 msgstr ""
 
 #: inc/php/page.php:31
@@ -88,7 +88,7 @@ msgid "Usage Instructions"
 msgstr ""
 
 #: inc/php/page.php:66
-msgid "To add the script to your website, simply follow these steps:"
+msgid "To add your custom scripts (HTML+CSS+JS code) to your website, simply follow these steps:"
 msgstr ""
 
 #: inc/php/page.php:68
@@ -108,7 +108,7 @@ msgid "Click the \"Save changes\" button."
 msgstr ""
 
 #: inc/php/page.php:85
-msgid " Enjoy the result of applying your custom scripts."
+msgid "Enjoy the result of applying your custom scripts."
 msgstr ""
 
 #: inc/php/page.php:85
@@ -166,11 +166,11 @@ msgid "How does it work?"
 msgstr ""
 
 #: inc/php/page.php:143
-msgid "On the \"Settings\" tab, place your custom scripts in the field and click the \"Save changes\" button. Enjoy the result of applying your custom scripts. It's that simple!"
+msgid "On the \"Main\" tab, place your custom scripts in the field and click the \"Save changes\" button. Enjoy the result of applying your custom scripts. It's that simple!"
 msgstr ""
 
 #: inc/php/page.php:145
-msgid "How much of scripts I can enter in the field?"
+msgid "How much of scripts (characters) I can enter in the text field?"
 msgstr ""
 
 #: inc/php/page.php:146
@@ -349,7 +349,7 @@ msgid "About"
 msgstr "O wtyczce"
 
 #: inc/php/sidebar.php:27
-msgid "This plugin allows you to easily insert your custom scripts in your website."
+msgid "This plugin allows you to easily and safely insert your custom scripts (HTML+CSS+JS code) in your website directly out of your WordPress Admin Area, without the need to have an external editor."
 msgstr "Ta wtyczka pozwala łatwo wstawić kod skryptów na stronę www."
 
 #: inc/php/sidebar.php:32

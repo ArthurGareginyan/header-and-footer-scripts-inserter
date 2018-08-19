@@ -63,7 +63,7 @@ function spacexchimp_p006_render_submenu_page() {
                 <div class="postbox">
                     <h3 class="title"><?php _e( 'Usage Instructions', $text ); ?></h3>
                     <div class="inside">
-                        <p><?php _e( 'To add the script to your website, simply follow these steps:', $text ); ?></p>
+                        <p><?php _e( 'To add your custom scripts (HTML+CSS+JS code) to your website, simply follow these steps:', $text ); ?></p>
                         <ol class="custom-counter">
                             <li><?php _e( 'Go to the "Main" tab.', $text ); ?></li>
                             <li><?php _e( 'Place your custom scripts in the field.', $text ); ?><br><br>
@@ -82,7 +82,7 @@ function spacexchimp_p006_render_submenu_page() {
 <pre><code><?php echo $ExampleCode; ?></code></pre>
                             </li>
                             <li><?php _e( 'Click the "Save changes" button.', $text ); ?></li>
-                            <li><?php _e( ' Enjoy the result of applying your custom scripts.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
+                            <li><?php _e( 'Enjoy the result of applying your custom scripts.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
                         </ol>
                         <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php printf(
                                                                                             __( 'If you want more options then %s tell us %s and we will be happy to add it.', $text ),
@@ -140,9 +140,9 @@ function spacexchimp_p006_render_submenu_page() {
                                               <?php _e( 'Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!', $text ); ?></div>
 
                         <div class="question-3"><?php _e( 'How does it work?', $text ); ?></div>
-                        <div class="answer-3"><?php _e( 'On the "Settings" tab, place your custom scripts in the field and click the "Save changes" button. Enjoy the result of applying your custom scripts. It\'s that simple!', $text ); ?></div>
+                        <div class="answer-3"><?php _e( 'On the "Main" tab, place your custom scripts in the field and click the "Save changes" button. Enjoy the result of applying your custom scripts. It\'s that simple!', $text ); ?></div>
 
-                        <div class="question-4"><?php _e( 'How much of scripts I can enter in the field?', $text ); ?></div>
+                        <div class="question-4"><?php _e( 'How much of scripts (characters) I can enter in the text field?', $text ); ?></div>
                         <div class="answer-4"><?php _e( 'We don\'t limit the number of characters.', $text ); ?></div>
 
                         <div class="question-5"><?php _e( 'Does this plugin requires any modification of the theme?', $text ); ?></div>
@@ -183,7 +183,7 @@ add_action( 'wp_head', 'my_custom_script' );</code></pre>
                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                 '</a>'
                                                            );
-                                              ?></div>
+                                               ?></div>
 
                         <div class="question-11"><?php _e( 'Where to share any ideas or suggestions to make the plugin better?', $text ); ?></div>
                         <div class="answer-11"><?php printf(

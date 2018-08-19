@@ -24,7 +24,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
             <div class="postbox about">
                 <h3 class="title"><?php _e( 'About', $text ); ?></h3>
                 <div class="inside">
-                    <p><?php _e( 'This plugin allows you to easily insert your custom scripts in your website.', $text ); ?></p>
+                    <p><?php _e( 'This plugin allows you to easily and safely insert your custom scripts (HTML+CSS+JS code) in your website directly out of your WordPress Admin Area, without the need to have an external editor.', $text ); ?></p>
                 </div>
             </div>
 

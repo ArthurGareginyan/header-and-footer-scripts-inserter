@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Header and Footer Scripts Inserter\n"
-"POT-Creation-Date: 2018-08-07 01:37+0300\n"
-"PO-Revision-Date: 2018-08-07 01:37+0300\n"
+"POT-Creation-Date: 2018-08-18 18:16+0300\n"
+"PO-Revision-Date: 2018-08-18 18:16+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -50,8 +50,8 @@ msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr "Пожалуйста, обновите плагин до последней версии и всё будет отлично."
 
 #: inc/php/messages.php:91
-msgid "Scripts updated successfully."
-msgstr "Скрипты успешно обновлены."
+msgid "Custom code updated successfully."
+msgstr "Пользовательский код успешно обновлён."
 
 #: inc/php/page.php:31
 #, php-format
@@ -87,7 +87,7 @@ msgid "Usage Instructions"
 msgstr "Инструкция по использованию"
 
 #: inc/php/page.php:66
-msgid "To add the script to your website, simply follow these steps:"
+msgid "To add your custom scripts (HTML+CSS+JS code) to your website, simply follow these steps:"
 msgstr "Для того чтобы добавить скрипт на ваш веб-сайт, выполните следующие действия:"
 
 #: inc/php/page.php:68
@@ -107,7 +107,7 @@ msgid "Click the \"Save changes\" button."
 msgstr "Нажмите кнопку «Сохранить изменения»."
 
 #: inc/php/page.php:85
-msgid " Enjoy the result of applying your custom scripts."
+msgid "Enjoy the result of applying your custom scripts."
 msgstr "Наслаждайтесь результатом применения ваших скриптов."
 
 #: inc/php/page.php:85
@@ -165,11 +165,11 @@ msgid "How does it work?"
 msgstr "Как оно работает?"
 
 #: inc/php/page.php:143
-msgid "On the \"Settings\" tab, place your custom scripts in the field and click the \"Save changes\" button. Enjoy the result of applying your custom scripts. It's that simple!"
-msgstr "На вкладке «Настройки» поместите свои скрипты в поле и нажмите кнопку «Сохранить изменения». Наслаждайтесь результатом применения ваших скриптов. Это так просто!"
+msgid "On the \"Main\" tab, place your custom scripts in the field and click the \"Save changes\" button. Enjoy the result of applying your custom scripts. It's that simple!"
+msgstr ""
 
 #: inc/php/page.php:145
-msgid "How much of scripts I can enter in the field?"
+msgid "How much of scripts (characters) I can enter in the text field?"
 msgstr "Сколько скриптов я могу ввести в текстовое поле?"
 
 #: inc/php/page.php:146
@@ -348,7 +348,7 @@ msgid "About"
 msgstr "О плагине"
 
 #: inc/php/sidebar.php:27
-msgid "This plugin allows you to easily insert your custom scripts in your website."
+msgid "This plugin allows you to easily and safely insert your custom scripts (HTML+CSS+JS code) in your website directly out of your WordPress Admin Area, without the need to have an external editor."
 msgstr "Этот плагин позволяет легко вставлять скрипты в ваш веб-сайте."
 
 #: inc/php/sidebar.php:32
@@ -379,11 +379,14 @@ msgstr "Space X-Chimp"
 msgid "https://www.spacexchimp.com"
 msgstr "https://www.spacexchimp.com"
 
+#~ msgid "On the \"Settings\" tab, place your custom scripts in the field and click the \"Save changes\" button. Enjoy the result of applying your custom scripts. It's that simple!"
+#~ msgstr "На вкладке «Настройки» поместите свои скрипты в поле и нажмите кнопку «Сохранить изменения». Наслаждайтесь результатом применения ваших скриптов. Это так просто!"
+
 #~ msgid "Easily add your custom scripts to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners."
 #~ msgstr "Легко добавляйте ваши скрипты в верхний (HEAD) и нижний (FOOTER) колонтитулы вашего WordPress веб-сайта. Это необходимый инструмент для авторов и владельцев веб-сайтов."
 
-#~ msgid "Hello! My name is %s Arthur Gareginyan %s and I'm the founder of %s Space X-Chimp %s."
-#~ msgstr "Привет! Меня зовут %s Артур Гарегинян %s и Я основатель %s Space X-Chimp %s."
+#~ msgid "Hello! My name is %s Arthur %s and I'm the founder of %s Space X-Chimp %s."
+#~ msgstr "Привет! Меня зовут %s Артур %s и Я основатель %s Space X-Chimp %s."
 
 #~ msgid "My intention is to create projects that will make this world a better place. I'm really passionate about my work, I like what I'm doing and hope that you will be enriched by my projects too."
 #~ msgstr "Я намерен создать проекты, которые сделают этот мир лучшим местом. Я очень увлечен своей работой, мне нравится то, что Я делаю и надеюсь, что вы тоже станете лучше благодаря моим проектам."

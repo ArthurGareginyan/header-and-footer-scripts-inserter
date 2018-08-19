@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom scripts (HTML with JavaScript, CSS, etc.) to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.27
+ * Version: 4.28
  * License: GPL3
  * Text Domain: header-and-footer-scripts-inserter
  * Domain Path: /languages/

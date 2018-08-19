@@ -4,7 +4,7 @@ Tags: inject, insert, insert scripts, insert javascript, insert js, insert html,
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.27
+Stable tag: 4.28
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -112,7 +112,7 @@ A. Yes. This plugin is ready for translation and has already been translated int
 A. Simply go to the plugin settings page, place your custom scripts in the field and click the "Save changes" button. Enjoy the result of applying your custom scripts. It's that simple!
 You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`Scripts Inserter`".
 
-= Q. How much of scripts I can enter in the field? =
+= Q. How much of scripts (characters) I can enter in the text field? =
 A. We don't limit the number of characters.
 
 = Q. Does this plugin requires any modification of the theme? =
@@ -188,6 +188,16 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.28 =
+* Changed the sorting of functions in the file 'functional.php'.
+* The '_output' function renamed to '_prepare'.
+* The function '_prepare' is improved.
+* Functions '_inject_head_beginning', '_inject_head_end', '_inject_footer_beginning' and '_inject_footer_end' are renamed to '_exec_head_0', '_exec_head_1', '_exec_footer_0' and '_exec_footer_1' respectively.
+* The comment (name of the plugin and link) added to the custom code is deleted.
+* Code commenting improved.
+* Some texts are updated.
+* Translation files are updated.
 
 = 4.27 =
 * Some texts are updated.
@@ -315,7 +325,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Code commenting improved.
 * Load of the additional remote CSS file removed from the admin.js file.
 * Changed the sorting of enqueueing of scripts.
-* The ''Family' page tab renamed to 'Store'.
+* The 'Family' page tab renamed to 'Store'.
 * Added ad banner of my store website.
 
 = 4.4.1 =

@@ -88,7 +88,7 @@ function spacexchimp_p006_successfull_message() {
     if ( isset( $_GET['settings-updated'] ) ) {
         ?>
             <div id="message" class="updated">
-                <p><?php _e( 'Scripts updated successfully.', SPACEXCHIMP_P006_TEXT ); ?></p>
+                <p><?php _e( 'Custom code updated successfully.', SPACEXCHIMP_P006_TEXT ); ?></p>
             </div>
         <?php
     }

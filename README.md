@@ -12,8 +12,7 @@ The plugin works completely independently of the theme, so you can use it with a
 
 On the plugin page you find the code editor powered by CodeMirror. This code editor has options such as syntax highlighting, line numbering, and more. And if you want more options, let us know and we will be happy to add them.
 
-
-## Features
+**Features**
 
 * Lightweight and fast
 * Secure code with using clear coding standards
@@ -24,9 +23,7 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * Translation ready
 * Published on [WordPess.org](http://wordpess.org/)
 
-**Got more ideas? Tell me!**
-
-### Key features include...
+**Key features include...**
 
 * Insert custom HTML code into the site
 * Manage which HTML code load on HEAD or FOOTER
@@ -37,17 +34,43 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * Editor allow for Tab indentation
 * And much, much more!
 
-### Supported languages
+**Supported languages**
 
 * HTML
-* JavaScript (in HTML tag)
-* CSS (in HTML tag)
+* JavaScript (wrapped in an HTML tag)
+* CSS (wrapped in an HTML tag)
 
-### Translation
+**Translation**
 
-* English
-* Russian
+This plugin is ready for translation and has already been translated into several languages.
+
+* English (default)
+* Russian (translation by [Milena Kiseleva](https://www.instagram.com/milava_kiseleva/))
+* German (translation by Michael)
 * Polish
+* Spanish (translation by Patricio Toledo)
+* Dutch (translation by Peter Leenders)
+
+If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/header-and-footer-scripts-inserter).
+
+**Minimum system requirements:**
+
+* [PHP](https://php.net) version **5.2** or higher.
+* [MySQL](https://www.mysql.com) version **5.0** or higher.
+
+**Recommended system requirements:**
+
+* [PHP](https://php.net) version **7.0** or higher.
+* [MySQL](https://www.mysql.com) version **5.6** or higher.
+
+**Contribution**
+
+Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
+
+* [Donate](https://www.spacexchimp.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/header-and-footer-scripts-inserter?rate=5#postform) this plugin.
+* [Share with us](https://www.spacexchimp.com/contact.html) or view the [GitHub Repo](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter) if you have any ideas or suggestions to make this plugin better.
+
 
 
 ## Contributing

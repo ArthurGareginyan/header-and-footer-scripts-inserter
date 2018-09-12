@@ -63,10 +63,10 @@ function spacexchimp_p006_render_submenu_page() {
                 <div class="postbox">
                     <h3 class="title"><?php _e( 'Usage Instructions', $text ); ?></h3>
                     <div class="inside">
-                        <p><?php _e( 'To add your custom scripts (HTML+CSS+JS code) to your website, simply follow these steps:', $text ); ?></p>
+                        <p><?php _e( 'To add your custom HTML code (plus JavaScript, CSS, etc.) to your website, simply follow these steps:', $text ); ?></p>
                         <ol class="custom-counter">
                             <li><?php _e( 'Go to the "Main" tab.', $text ); ?></li>
-                            <li><?php _e( 'Place your custom scripts in the field.', $text ); ?><br><br>
+                            <li><?php _e( 'Place your custom HTML code in the field.', $text ); ?><br><br>
                                 <p><?php _e( 'Note that the fields are for inserting HTML code, so JavaScript and CSS code must be wrapped in the corresponding HTML tag. For JavaScript code use the <code>&lt;script&gt;</code> tag, and for CSS code use the <code>&lt;style&gt;</code> tag. Example:', $text ); ?></p>
 <?php $ExampleCode = '&lt;script&gt;
     function myFunction() {
@@ -82,7 +82,7 @@ function spacexchimp_p006_render_submenu_page() {
 <pre><code><?php echo $ExampleCode; ?></code></pre>
                             </li>
                             <li><?php _e( 'Click the "Save changes" button.', $text ); ?></li>
-                            <li><?php _e( 'Enjoy the result of applying your custom scripts.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
+                            <li><?php _e( 'Enjoy the result of applying your custom HTML code.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
                         </ol>
                         <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php printf(
                                                                                             __( 'If you want more options then %s tell us %s and we will be happy to add it.', $text ),
@@ -140,9 +140,9 @@ function spacexchimp_p006_render_submenu_page() {
                                               <?php _e( 'Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!', $text ); ?></div>
 
                         <div class="question-3"><?php _e( 'How does it work?', $text ); ?></div>
-                        <div class="answer-3"><?php _e( 'On the "Main" tab, place your custom scripts in the field and click the "Save changes" button. Enjoy the result of applying your custom scripts. It\'s that simple!', $text ); ?></div>
+                        <div class="answer-3"><?php _e( 'On the "Main" tab, place your custom HTML code in the field and click the "Save changes" button. Enjoy the result of applying your custom HTML code. It\'s that simple!', $text ); ?></div>
 
-                        <div class="question-4"><?php _e( 'How much of scripts (characters) I can enter in the text field?', $text ); ?></div>
+                        <div class="question-4"><?php _e( 'How much of HTML code (characters) I can enter in the code editor?', $text ); ?></div>
                         <div class="answer-4"><?php _e( 'We don\'t limit the number of characters.', $text ); ?></div>
 
                         <div class="question-5"><?php _e( 'Does this plugin requires any modification of the theme?', $text ); ?></div>
@@ -151,19 +151,19 @@ function spacexchimp_p006_render_submenu_page() {
                         <div class="question-6"><?php _e( 'Does this require any knowledge of HTML or CSS?', $text ); ?></div>
                         <div class="answer-6"><?php _e( 'This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page. But you need to know the HTML or CSS in order to add/remove/modify the HTML or CSS code by using this plugin.', $text ); ?></div>
 
-                        <div class="question-7"><?php _e( 'Can I add my custom script to a specific page of my website?', $text ); ?></div>
-                        <div class="answer-7"><?php _e( 'For now, this plugin does not have an option to apply the custom scripts only on specific pages. We plan to add this feature soon. But for now in order to apply your custom script only on specific pages of your website, you need to wrap your custom script in a PHP code that will determine the page you want. You need something like this:', $text ); ?><br><br>
-<pre><code>function my_custom_script() {
+                        <div class="question-7"><?php _e( 'Can I add my custom HTML code to a specific page of my website?', $text ); ?></div>
+                        <div class="answer-7"><?php _e( 'For now, this plugin does not have an option to apply the custom HTML code only on specific pages. We plan to add this feature soon. But for now in order to apply your custom HTML code only on specific pages of your website, you need to wrap your custom HTML code in a PHP code that will determine the page you want. You need something like this:', $text ); ?><br><br>
+<pre><code>function my_custom_html_code() {
 
     // Stop the function if this is not the Home page of website
     if ( !is_home() ) {
         return;
     }
 
-    // Print the custom script
-    echo '&lt;script&gt;YOUR CUSTOM SCRIPT&lt;/script&gt;';
+    // Print the custom HTML code
+    echo '&lt;script&gt;YOUR CUSTOM HTML CODE&lt;/script&gt;';
 }
-add_action( 'wp_head', 'my_custom_script' );</code></pre>
+add_action( 'wp_head', 'my_custom_html_code' );</code></pre>
                                               <?php printf(
                                                              __( 'To apply the PHP code on a website, we can recommend you to use another our plugin called %s.', $text ),
                                                                  '<a href="https://wordpress.org/plugins/my-custom-functions/" target="_blank">My Custom Functions</a>'

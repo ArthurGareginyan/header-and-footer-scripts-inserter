@@ -27,6 +27,16 @@ function spacexchimp_p006_settings_link( $links ) {
 add_filter( 'plugin_action_links_' . SPACEXCHIMP_P006_BASE, 'spacexchimp_p006_settings_link' );
 
 /**
+ * Print link to Head and Footer Scripts Inserter PRO page
+ */
+function spacexchimp_p006_upgrade_link( $links ) {
+    $upgrade_page = '<a href="https://www.spacexchimp.com/plugins/header-and-footer-scripts-inserter-pro.html" target="_blank"><b style="color:red;">' . __( 'Upgrade to PRO', SPACEXCHIMP_P006_TEXT ) . '</b></a>';
+    array_unshift( $links, $upgrade_page );
+    return $links;
+}
+add_filter( 'plugin_action_links_' . SPACEXCHIMP_P006_BASE, 'spacexchimp_p006_upgrade_link' );
+
+/**
  * Print additional links to plugin meta row
  */
 function spacexchimp_p006_plugin_row_meta( $links, $file ) {
@@ -34,7 +44,8 @@ function spacexchimp_p006_plugin_row_meta( $links, $file ) {
     if ( strpos( $file, SPACEXCHIMP_P006_SLUG . '.php' ) !== false ) {
 
         $new_links = array(
-                           'donate' => '<a href="https://www.spacexchimp.com/donate.html" target="_blank"><span class="dashicons dashicons-heart"></span> ' . __( 'Donate', SPACEXCHIMP_P006_TEXT ) . '</a>'
+                           'donate' => '<a href="https://www.spacexchimp.com/donate.html" target="_blank"><span class="dashicons dashicons-heart"></span> ' . __( 'Donate', SPACEXCHIMP_P006_TEXT ) . '</a>',
+                           'upgrage' => '<a href="https://www.spacexchimp.com/plugins/header-and-footer-scripts-inserter-pro.html" target="_blank"><span class="dashicons dashicons-star-filled"></span> ' . __( 'Upgrade to PRO', SPACEXCHIMP_P006_TEXT ) . '</a>'
                            );
         $links = array_merge( $links, $new_links );
     }

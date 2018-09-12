@@ -1,33 +1,31 @@
 === Head and Footer Scripts Inserter ===
 Contributors: Arthur Gareginyan
-Tags: inject, insert, insert scripts, insert javascript, insert js, insert html, insert css, insert custom scripts, insert custom code, html, javascript, js, css, code, custom code, script, scripts, custom scripts, meta, meta tags, head, header, head section, head area, footer, footer section, footer area,
+Tags: inject code, inject scripts, inject javascript, inject js, inject html, inject css, insert code, insert scripts, insert javascript, insert js, insert html, insert css, inject custom code, inject custom scripts, inject custom snippet, insert custom code, insert custom scripts, insert custom snippet, html, javascript, js, css, code, custom code, script, scripts, custom scripts, meta, meta tags, head, header, head section, head area, footer, footer section, footer area
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.28
+Stable tag: 4.29
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easily and safely add your custom scripts (HTML with JavaScript, CSS, etc.) to the WordPress website's head and footer sections. This is a must have tool for authors and website's owners.
+Easily and safely add your custom HTML code (plus JavaScript, CSS, etc.) to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
 
 
 == Description ==
 
-An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom scripts (HTML with JavaScript, CSS, etc.) in the head or/and footer section of your website.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add your custom HTML code (plus JavaScript, CSS, etc.) to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
 
-This is a must have tool for authors and website's owners. Its purpose is to provide a familiar experience to WordPress users. There is no need for any more editing of the files of your theme or plugins for to add custom scripts (HTML with JavaScript, CSS, etc.). Just add your custom scripts in the field on the plugin page and this plugin will do the rest for you. It adds required scripts to the head section of your website automatically, without changing any of your themes file and without slowing down your website.
+This is a must have tool for authors and website's owners. Its purpose is to provide a familiar experience to WordPress users. There is no need for any more editing of the files of your theme or plugins for to add custom HTML code (plus JavaScript, CSS, etc.). Just add your custom HTML code in the field on the plugin page and this plugin will do the rest for you. It will automatically add your HTML code to the desired section of your website, without changing any of your theme files and without slowing down your website.
 
-The plugin works completely independently of the theme, so you can use it with any theme. The code you place on the plugin page will be entirely unaffected if you edit the contents of the theme’s files, or even completely change the theme. This is really useful in case of updating theme or plugins, because your custom scripts would never be overwritten. Your custom scripts will keep on working, no matter how many times you upgrade or switch your theme and plugins.
+The plugin works completely independently of the theme, so you can use it with any theme. The code you place on the plugin page will be entirely unaffected if you edit the contents of the theme’s files, or even completely change the theme. This is really useful in case of updating theme or plugins, because your custom HTML code would never be overwritten. Your custom HTML code will keep on working, no matter how many times you upgrade or switch your theme and plugins.
 
 On the plugin page you find the code editor powered by CodeMirror. This code editor has options such as syntax highlighting, line numbering, and more. And if you want more options, let us know and we will be happy to add them.
-
-Third-party services like Google Webmaster Tools, Alexa, Pinterest and Google+ require you to verify your domain. This makes sure that you are the correct owner of your blog or store before they provide their services to you. You can use this plugin to easily verify your website or domain and get a more effective and efficient sharing results. Example with Pinterest. Once you completed the verification process, people will see a checkmark next to your domain in your Pinterest profile and in pinner search results. That check mark emphasis you have confirmed the ownership of your blog or website on Pinterest. This will help your website to rank better in google and other search engines. You can easily increase your blog traffic using this plugin. "Head and Footer Scripts Inserter" is a simple but effective SEO plugin.
 
 **Features**
 
 * Lightweight and fast
 * Secure code with using clear coding standards
-* Intuitive interface with many settings
+* Intuitive interface
 * Cross browser compatible (work smooth in any modern browser)
 * Compatible with all WordPress themes
 * RTL compatible (right to left)
@@ -35,14 +33,32 @@ Third-party services like Google Webmaster Tools, Alexa, Pinterest and Google+ r
 
 **Key features include...**
 
-* Inserts custom scripts in beginning or/and end of HEAD tag
-* Inserts custom scripts in beginning or/and end of footer
+* Insert custom HTML code into the site
+* Manage which HTML code load on HEAD or FOOTER
+* Controlling the priority of loading HTML code
+* Code syntax highlighting
+* Line numbering
+* Active line highlighting
+* Editor allow for Tab indentation
+* And much, much more!
 
-**Supported**
+**PRO features include...**
+
+* Ability to easily customize the code editor by selecting the desired settings
+* 56 themes for syntax highlighting
+* Unlimited number of fields for snippets
+* Automatic backup of all snippets to a downloadable text file
+* Separate activation and deactivation of snippets
+* Ability to collapse/expand the certain fields with code
+* Well documented
+
+[Get the PRO version now!](https://www.spacexchimp.com/plugins/header-and-footer-scripts-inserter-pro.html)
+
+**Supported languages**
 
 * HTML
-* JavaScript (in HTML tag)
-* CSS (in HTML tag)
+* JavaScript (wrapped in an HTML tag)
+* CSS (wrapped in an HTML tag)
 
 **Translation**
 
@@ -109,10 +125,10 @@ A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) w
 A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just [send the PO file to us](https://www.spacexchimp.com/contact.html) and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 = Q. How does it work? =
-A. Simply go to the plugin settings page, place your custom scripts in the field and click the "Save changes" button. Enjoy the result of applying your custom scripts. It's that simple!
+A. Simply go to the plugin settings page, place your custom HTML code in the field and click the "Save changes" button. Enjoy the result of applying your custom HTML code. It's that simple!
 You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`Scripts Inserter`".
 
-= Q. How much of scripts (characters) I can enter in the text field? =
+= Q. How much of HTML code (characters) I can enter in the code editor? =
 A. We don't limit the number of characters.
 
 = Q. Does this plugin requires any modification of the theme? =
@@ -121,20 +137,20 @@ A. Absolutely not. This plugin is configurable entirely from the plugin settings
 = Q. Does this require any knowledge of HTML or CSS? =
 A. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page. But you need to know the HTML or CSS in order to add/remove/modify the HTML or CSS code by using this plugin.
 
-= Q. Can I add my custom script to a specific page of my website? =
-A. For now, this plugin does not have an option to apply the custom scripts only on specific pages. We plan to add this feature soon. But for now in order to apply your custom script only on specific pages of your website, you need to wrap your custom script in a PHP code that will determine the page you want. You need something like this:
+= Q. Can I add my custom HTML code to a specific page of my website? =
+A. For now, this plugin does not have an option to apply the custom HTML code only on specific pages. We plan to add this feature soon. But for now in order to apply your custom HTML code only on specific pages of your website, you need to wrap your custom HTML code in a PHP code that will determine the page you want. You need something like this:
 
-`function my_custom_script() {
+`function my_custom_html_code() {
 
     // Stop the function if this is not the Home page of website
     if ( !is_home() ) {
         return;
     }
 
-    // Print the custom script
-    echo '<script>YOUR CUSTOM SCRIPT</script>';
+    // Print the custom HTML code
+    echo '<script>YOUR CUSTOM HTML CODE</script>';
 }
-add_action( 'wp_head', 'my_custom_script' );`
+add_action( 'wp_head', 'my_custom_html_code' );`
 
 To apply the PHP code on a website, we can recommend you to use another our plugin called [My Custom Functions](https://wordpress.org/plugins/my-custom-functions/).
 
@@ -185,9 +201,18 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 * [Developer website](https://www.spacexchimp.com)
 * [Dedicated plugin page on GitHub](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter)
+* [Dedicated plugin page on WordPress.org](https://wordpress.org/plugins/header-and-footer-scripts-inserter/)
+* [Premium Version](https://www.spacexchimp.com/plugins/header-and-footer-scripts-inserter-pro.html)
 
 
 == Changelog ==
+
+= 4.29 =
+* Added information about the PRO version of the plugin.
+* The design of the message "Successful" is improved.
+* The "readme.txt" file is updated.
+* Some texts are updated.
+* Translation files are updated.
 
 = 4.28 =
 * Changed the sorting of functions in the file 'functional.php'.

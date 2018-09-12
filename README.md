@@ -40,6 +40,18 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * JavaScript (wrapped in an HTML tag)
 * CSS (wrapped in an HTML tag)
 
+**PRO features include...**
+
+* Ability to easily customize the code editor by selecting the desired settings
+* 56 themes for syntax highlighting
+* Unlimited number of fields for snippets
+* Automatic backup of all snippets to a downloadable text file
+* Separate activation and deactivation of snippets
+* Ability to collapse/expand the certain fields with code
+* Well documented
+
+[Get the PRO version now!](https://www.spacexchimp.com/plugins/header-and-footer-scripts-inserter-pro.html)
+
 **Translation**
 
 This plugin is ready for translation and has already been translated into several languages.

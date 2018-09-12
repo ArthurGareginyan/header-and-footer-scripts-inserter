@@ -24,7 +24,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
             <div class="postbox about">
                 <h3 class="title"><?php _e( 'About', $text ); ?></h3>
                 <div class="inside">
-                    <p><?php _e( 'This plugin allows you to easily and safely insert your custom scripts (HTML+CSS+JS code) in your website directly out of your WordPress Admin Area, without the need to have an external editor.', $text ); ?></p>
+                    <p><?php _e( 'This plugin allows you to easily and safely add your custom HTML code (plus JavaScript, CSS, etc.) to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.', $text ); ?></p>
                 </div>
             </div>
 
@@ -32,6 +32,14 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                 <h3 class="title"><?php _e( 'Help', $text ); ?></h3>
                 <div class="inside">
                     <p><?php _e( 'If you have a question, please read the information in the FAQ section.', $text ); ?></p>
+                </div>
+            </div>
+
+            <div class="postbox banner">
+                <div class="inside">
+                    <a href="https://www.spacexchimp.com/plugins/header-and-footer-scripts-inserter-pro.html" target="_blank">
+                        <img src="<?php echo SPACEXCHIMP_P006_URL . 'inc/img/upgrade.png'; ?>" alt="Upgrade" style="margin-top:-16px;">
+                    </a>
                 </div>
             </div>
 

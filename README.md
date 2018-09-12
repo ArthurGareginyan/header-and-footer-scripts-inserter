@@ -34,12 +34,6 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * Editor allow for Tab indentation
 * And much, much more!
 
-**Supported languages**
-
-* HTML
-* JavaScript (wrapped in an HTML tag)
-* CSS (wrapped in an HTML tag)
-
 **PRO features include...**
 
 * Ability to easily customize the code editor by selecting the desired settings
@@ -51,6 +45,12 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * Well documented
 
 [Get the PRO version now!](https://www.spacexchimp.com/plugins/header-and-footer-scripts-inserter-pro.html)
+
+**Supported languages**
+
+* HTML
+* JavaScript (wrapped in an HTML tag)
+* CSS (wrapped in an HTML tag)
 
 **Translation**
 
@@ -82,7 +82,6 @@ Developing plugins is long and tedious work. If you benefit or enjoy this plugin
 * [Donate](https://www.spacexchimp.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
 * [Rate and Review](https://wordpress.org/support/view/plugin-reviews/header-and-footer-scripts-inserter?rate=5#postform) this plugin.
 * [Share with us](https://www.spacexchimp.com/contact.html) or view the [GitHub Repo](https://github.com/ArthurGareginyan/header-and-footer-scripts-inserter) if you have any ideas or suggestions to make this plugin better.
-
 
 
 ## Contributing

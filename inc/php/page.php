@@ -65,21 +65,25 @@ function spacexchimp_p006_render_submenu_page() {
                     <div class="inside">
                         <p><?php _e( 'To add your custom HTML code (plus JavaScript, CSS, etc.) to your website, simply follow these steps:', $text ); ?></p>
                         <ol class="custom-counter">
-                            <li><?php _e( 'Go to the "Main" tab.', $text ); ?></li>
-                            <li><?php _e( 'Place your custom HTML code in the field.', $text ); ?><br><br>
-                                <p><?php _e( 'Note that the fields are for inserting HTML code, so JavaScript and CSS code must be wrapped in the corresponding HTML tag. For JavaScript code use the <code>&lt;script&gt;</code> tag, and for CSS code use the <code>&lt;style&gt;</code> tag. Example:', $text ); ?></p>
-<?php $ExampleCode = '&lt;script&gt;
+                            <li><?php _e( 'Go to the "Main" tab on this page.', $text ); ?></li>
+                            <li><?php _e( 'Place your custom HTML code in the code editor field.', $text ); ?><br><br>
+                                <?php _e( 'An example of HTML code (plus JavaScript and CSS code, wrapped in HTML tags):', $text ); ?><br><br>
+<pre><code>&lt;div class=&quot;example&quot;&gt;Example&lt;/div&gt;
+
+&lt;script&gt;
     function myFunction() {
         document.getElementById(&quot;demo&quot;).innerHTML = &quot;Hello World!&quot;;
     }
 &lt;/script&gt;
 
 &lt;style&gt;
-    .example {
+    h1, h2, h3 {
         color: #000;
+        /* This is a comment */
+        text-align: center;
     }
-&lt;/style&gt;'; ?>
-<pre><code><?php echo $ExampleCode; ?></code></pre>
+&lt;/style&gt;</code></pre>
+                                <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php _e( 'The JavaScript and CSS code must be wrapped in HTML tags. For JavaScript code use the <code>&lt;script&gt;</code> tag, and for CSS code use the <code>&lt;style&gt;</code> tag.', $text ); ?></p>
                             </li>
                             <li><?php _e( 'Click the "Save changes" button.', $text ); ?></li>
                             <li><?php _e( 'Enjoy the result of applying your custom HTML code.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
@@ -140,7 +144,7 @@ function spacexchimp_p006_render_submenu_page() {
                                               <?php _e( 'Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!', $text ); ?></div>
 
                         <div class="question-3"><?php _e( 'How does it work?', $text ); ?></div>
-                        <div class="answer-3"><?php _e( 'On the "Main" tab, place your custom HTML code in the field and click the "Save changes" button. Enjoy the result of applying your custom HTML code. It\'s that simple!', $text ); ?></div>
+                        <div class="answer-3"><?php _e( 'On the "Main" tab, place your custom HTML code in the code editor field and click the "Save changes" button. Enjoy the result of applying your custom HTML code. It\'s that simple!', $text ); ?></div>
 
                         <div class="question-4"><?php _e( 'How much of HTML code (characters) I can enter in the code editor?', $text ); ?></div>
                         <div class="answer-4"><?php _e( 'We don\'t limit the number of characters.', $text ); ?></div>
@@ -161,14 +165,16 @@ function spacexchimp_p006_render_submenu_page() {
     }
 
     // Print the custom HTML code
-    echo '&lt;script&gt;YOUR CUSTOM HTML CODE&lt;/script&gt;';
+    echo '&lt;script&gt;YOUR CUSTOM HTML CODE HERE&lt;/script&gt;';
+
 }
 add_action( 'wp_head', 'my_custom_html_code' );</code></pre>
                                               <?php printf(
                                                              __( 'To apply the PHP code on a website, we can recommend you to use another our plugin called %s.', $text ),
                                                                  '<a href="https://wordpress.org/plugins/my-custom-functions/" target="_blank">My Custom Functions</a>'
                                                            );
-                                              ?></div>
+                                              ?>
+                        </div>
 
                         <div class="question-8 question-red"><?php _e( 'It\'s not working. What could be wrong?', $text ); ?></div>
                         <div class="answer-8"><?php _e( 'As with every plugin, it\'s possible that things don\'t work. The most common reason for this is a web browser\'s cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser\'s cache.​ Clearing your browser\'s cache may solve the problem.', $text ); ?><br><br>

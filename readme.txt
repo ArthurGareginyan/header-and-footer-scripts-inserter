@@ -4,7 +4,7 @@ Tags: inject code, inject scripts, inject javascript, inject js, inject html, in
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.29
+Stable tag: 4.30
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -125,7 +125,7 @@ A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) w
 A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just [send the PO file to us](https://www.spacexchimp.com/contact.html) and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 = Q. How does it work? =
-A. Simply go to the plugin settings page, place your custom HTML code in the field and click the "Save changes" button. Enjoy the result of applying your custom HTML code. It's that simple!
+A. Simply go to the plugin settings page, place your custom HTML code in the code editor field and click the "Save changes" button. Enjoy the result of applying your custom HTML code. It's that simple!
 You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`Scripts Inserter`".
 
 = Q. How much of HTML code (characters) I can enter in the code editor? =
@@ -148,7 +148,8 @@ A. For now, this plugin does not have an option to apply the custom HTML code on
     }
 
     // Print the custom HTML code
-    echo '<script>YOUR CUSTOM HTML CODE</script>';
+    echo '<script>YOUR CUSTOM HTML CODE HERE</script>';
+
 }
 add_action( 'wp_head', 'my_custom_html_code' );`
 
@@ -206,6 +207,13 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.30 =
+* Content of the "FAQ" section updated.
+* CSS code, which is located in the file "admin.css" and is related to the "FAQ" section, is improved.
+* The sidebar items are rearranged.
+* Some texts are updated.
+* Translation files are updated.
 
 = 4.29 =
 * Added information about the PRO version of the plugin.

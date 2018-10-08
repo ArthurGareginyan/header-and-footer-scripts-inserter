@@ -28,7 +28,12 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     ?>
 
                     <div class="postbox" id="head">
-                        <h3 class="title"><?php _e( 'Head Section', $text ); ?></h3>
+                        <h3 class="title">
+                            <?php _e( 'Head Section', $text ); ?>
+                            <div class="pull-right">
+                                <span class="not-saved"><?php _e( 'NOT SAVED!', $text ); ?></span>
+                            </div>
+                        </h3>
                         <div class="inside">
                             <p class="note"><?php _e( 'You can use the fields below to add your custom HTML code to the HEAD section of your website.', $text ); ?></p>
 
@@ -51,7 +56,12 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     </div>
 
                     <div class="postbox" id="footer">
-                        <h3 class="title"><?php _e( 'Footer Section', $text ); ?></h3>
+                        <h3 class="title">
+                            <?php _e( 'Footer Section', $text ); ?>
+                            <div class="pull-right">
+                                <span class="not-saved"><?php _e( 'NOT SAVED!', $text ); ?></span>
+                            </div>
+                        </h3>
                         <div class="inside">
                             <p class="note"><?php _e( 'You can use the fields below to add your custom HTML code to the FOOTER section of your website.', $text ); ?></p>
 

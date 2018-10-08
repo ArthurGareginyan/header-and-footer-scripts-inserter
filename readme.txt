@@ -4,7 +4,7 @@ Tags: inject code, inject scripts, inject javascript, inject js, inject html, in
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.30
+Stable tag: 4.31
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -207,6 +207,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.31 =
+* Added new feature: If the changes in the code editor were made, but not saved, the message "NOT SAVED" is displayed.
+* Translation files are updated.
 
 = 4.30 =
 * Content of the "FAQ" section updated.

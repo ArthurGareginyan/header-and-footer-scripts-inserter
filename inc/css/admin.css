@@ -569,6 +569,13 @@ form .help-text {
     font-size: 1.5em;
     vertical-align: middle;
 }
+.not-saved {
+    display: none;
+    margin-right: 10px;
+    font-family: Helvetica;
+    vertical-align: middle;
+    color: red;
+}
 
 /* Submit button */
 input[type="submit"] {

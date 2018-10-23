@@ -4,7 +4,7 @@ Tags: inject code, inject scripts, inject javascript, inject js, inject html, in
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 4.31
+Stable tag: 4.32
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -31,7 +31,7 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * RTL compatible (right to left)
 * Translation ready
 
-**Key features include...**
+**Key features include**
 
 * Insert custom HTML code into the site
 * Manage which HTML code load on HEAD or FOOTER
@@ -42,10 +42,12 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * Editor allow for Tab indentation
 * And much, much more!
 
-**PRO features include...**
+**PRO features include**
 
 * Ability to easily customize the code editor by selecting the desired settings
 * 56 themes for syntax highlighting
+* Toolbar with useful buttons, such as Undo, Redo, etc.
+* Ability to use shortcut keys (both Mac and PC) for Search, Replace, etc.
 * Unlimited number of fields for snippets
 * Automatic backup of all snippets to a downloadable text file
 * Separate activation and deactivation of snippets
@@ -207,6 +209,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.32 =
+* Improvement: Design of the plugin settings page is improved.
+* Content of the "Usage Instructions" section updated.
+* Translation files are updated.
 
 = 4.31 =
 * Added new feature: If the changes in the code editor were made, but not saved, the message "NOT SAVED" is displayed.

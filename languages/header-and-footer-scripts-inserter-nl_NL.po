@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Head and Footer Scripts Inserter\n"
-"POT-Creation-Date: 2018-10-08 08:40+0300\n"
-"PO-Revision-Date: 2018-10-08 08:40+0300\n"
+"POT-Creation-Date: 2018-10-23 19:12+0300\n"
+"PO-Revision-Date: 2018-10-23 19:12+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: header-and-footer-scripts-inserter.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -102,199 +102,195 @@ msgstr "Ga naar het tabblad “Hoofd”."
 msgid "Place your custom HTML code in the code editor field."
 msgstr ""
 
-#: inc/php/page.php:70
-msgid "An example of HTML code (plus JavaScript and CSS code, wrapped in HTML tags):"
-msgstr ""
-
-#: inc/php/page.php:86 inc/php/page.php:91
+#: inc/php/page.php:70 inc/php/page.php:75
 msgid "Note!"
 msgstr "Opmerking!"
 
-#: inc/php/page.php:86
+#: inc/php/page.php:70
 msgid "The JavaScript and CSS code must be wrapped in HTML tags. For JavaScript code use the <code>&lt;script&gt;</code> tag, and for CSS code use the <code>&lt;style&gt;</code> tag."
 msgstr ""
 
-#: inc/php/page.php:88
+#: inc/php/page.php:72
 msgid "Click the \"Save changes\" button."
 msgstr "Klik op de knop \"Wijzigingen opslaan\"."
 
-#: inc/php/page.php:89
+#: inc/php/page.php:73
 msgid "Enjoy the result of applying your custom HTML code."
 msgstr ""
 
-#: inc/php/page.php:89
+#: inc/php/page.php:73
 msgid "It's that simple!"
 msgstr "Zo eenvoudig is het!"
 
-#: inc/php/page.php:92
+#: inc/php/page.php:76
 #, php-format
-msgid "If you want more options then %s tell us %s and we will be happy to add it."
+msgid "If you want more options, then %s let us know %s and we will be happy to add them."
 msgstr "Wilt u meer opties dan %s vertel ons %s en wij zullen graag toevoegen."
 
-#: inc/php/page.php:106
+#: inc/php/page.php:90
 msgid "Frequently Asked Questions"
 msgstr "Veel voorkomende vragen (FAQ)"
 
-#: inc/php/page.php:110
+#: inc/php/page.php:94
 msgid "If you have a question, please read the Frequently Asked Questions below to see if the answer is here."
 msgstr "Als je een vraag hebt, lees dan eerst de Veel voorkomende vragen (FAQ) hieronder. Misschien staat het antwoord ertussen."
 
-#: inc/php/page.php:132
+#: inc/php/page.php:116
 msgid "Will this plugin work on my WordPress.COM website?"
 msgstr "Werkt deze plugin op mijn WordPress.COM website?"
 
-#: inc/php/page.php:133
+#: inc/php/page.php:117
 msgid "Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites."
 msgstr "Sorry, deze plug-in is alleen beschikbaar voor gebruik op zelf-gehoste (WordPress.ORG) websites."
 
-#: inc/php/page.php:135
+#: inc/php/page.php:119
 msgid "Can I use this plugin on my language?"
 msgstr "Kan ik deze plug-in in mijn eigen taal gebruiken?"
 
-#: inc/php/page.php:136
+#: inc/php/page.php:120
 msgid "Yes. This plugin is ready for translation and has already been translated into several languages."
 msgstr "Ja. Deze plug-in is klaar voor vertaling en is reeds in verschillende talen vertaald."
 
-#: inc/php/page.php:138
+#: inc/php/page.php:122
 #, php-format
 msgid "If you want to help translate this plugin then please visit the %s. You can also use the POT file, that is included and placed in the \"languages\" folder, in order to create a translation PO file. Just send the PO file to us at the %s and we will include this translation within the next plugin update."
 msgstr "Als je wilt helpen deze plug-in te vertalen, bezoek dan de %s. Je kunt ook het POT-bestand gebruiken, dat is inbegrepen en in de map “languages” is geplaatst om een PO-bestand met vertalingen te maken. Stuur het PO-bestand naar ons op de %s en we zullen deze vertaling opnemen in de volgende plug-in update."
 
-#: inc/php/page.php:143
+#: inc/php/page.php:127
 msgid "Maybe not all existed translations are up to date. You are welcome to contribute corrections!"
 msgstr "Misschien zijn niet alle bestaande vertalingen up-to-date of correct. Je bent van harte welkom om correcties bij te dragen!"
 
-#: inc/php/page.php:144
+#: inc/php/page.php:128
 msgid "Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!"
 msgstr "Veel plugin-gebruikers zouden blij zijn als je je vertaling met de community deelt. Bedankt voor je bijdrage!"
 
-#: inc/php/page.php:146
+#: inc/php/page.php:130
 msgid "How does it work?"
 msgstr "Hoe werkt het?"
 
-#: inc/php/page.php:147
+#: inc/php/page.php:131
 msgid "On the \"Main\" tab, place your custom HTML code in the code editor field and click the \"Save changes\" button. Enjoy the result of applying your custom HTML code. It's that simple!"
 msgstr ""
 
-#: inc/php/page.php:149
+#: inc/php/page.php:133
 msgid "How much of HTML code (characters) I can enter in the code editor?"
 msgstr ""
 
-#: inc/php/page.php:150
+#: inc/php/page.php:134
 msgid "We don't limit the number of characters."
 msgstr "Er is geen beperking op het aantal tekens."
 
-#: inc/php/page.php:152
+#: inc/php/page.php:136
 msgid "Does this plugin requires any modification of the theme?"
 msgstr "Heeft deze plug-in enige aanpassing van het thema nodig?"
 
-#: inc/php/page.php:153
+#: inc/php/page.php:137
 msgid "Absolutely not. This plugin is configurable entirely from the plugin settings page."
 msgstr "Absoluut niet. Deze plug-in kan volledig worden geconfigureerd via de pagina met plugin-instellingen."
 
-#: inc/php/page.php:155
+#: inc/php/page.php:139
 msgid "Does this require any knowledge of HTML or CSS?"
 msgstr "Vereist dit enige kennis van HTML of CSS?"
 
-#: inc/php/page.php:156
+#: inc/php/page.php:140
 msgid "This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page. But you need to know the HTML or CSS in order to add/remove/modify the HTML or CSS code by using this plugin."
 msgstr "Deze plug-in kan worden geconfigureerd zonder kennis van HTML of CSS, met behulp van de eenvoudig te gebruiken plugin-instellingenpagina. Maar u moet de HTML of CSS kennen om de HTML- of CSS-code toe te voegen / te verwijderen / wijzigen met behulp van deze plug-in."
 
-#: inc/php/page.php:158
+#: inc/php/page.php:142
 msgid "Can I add my custom HTML code to a specific page of my website?"
 msgstr ""
 
-#: inc/php/page.php:159
+#: inc/php/page.php:143
 msgid "For now, this plugin does not have an option to apply the custom HTML code only on specific pages. We plan to add this feature soon. But for now in order to apply your custom HTML code only on specific pages of your website, you need to wrap your custom HTML code in a PHP code that will determine the page you want. You need something like this:"
 msgstr ""
 
-#: inc/php/page.php:173
+#: inc/php/page.php:157
 #, php-format
 msgid "To apply the PHP code on a website, we can recommend you to use another our plugin called %s."
 msgstr ""
 
-#: inc/php/page.php:179
+#: inc/php/page.php:163
 msgid "It's not working. What could be wrong?"
 msgstr "Het werkt niet. Wat kan er fout zijn?"
 
-#: inc/php/page.php:180
+#: inc/php/page.php:164
 msgid "As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem."
 msgstr "Zoals met elke plug-in, is het mogelijk dat dingen niet werken. De meest voorkomende reden hiervoor is de cache van een webbrowser. Elke webbrowser slaat een cache op van de websites die u bezoekt (pagina's, afbeeldingen en enz.) Om het bandbreedte-gebruik en de serverbelasting te verminderen. Dit wordt de cache van de browser genoemd. Het wissen van de cache van uw browser kan het probleem oplossen."
 
-#: inc/php/page.php:181
+#: inc/php/page.php:165
 msgid "It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen."
 msgstr "Het is onmogelijk om precies te vertellen wat er precies mis zou kunnen zijn, maar als je een ondersteuningsverzoek post in het ondersteuningsforum van de plug-in op WordPress.org, willen we graag een kijkje nemen en proberen te helpen. Voeg zoveel mogelijk informatie toe, inclusief een link naar uw website waar het probleem kan worden gezien."
 
-#: inc/php/page.php:183
+#: inc/php/page.php:167
 msgid "The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?"
 msgstr "De laatste Wordpress update zorgt ervoor dat ik mijn website niet kan bewerken als ik deze plugin gebruik. Waarom is dit?"
 
-#: inc/php/page.php:184
+#: inc/php/page.php:168
 msgid "This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help."
 msgstr "Deze plug-in kan zo’n probleem niet veroorzaken. Waarschijnlijker is het probleem gerelateerd aan de instellingen van de website. Het kan gewoon een cache-probleem zijn, dus probeer de cache van je website te wissen (mogelijk gebruik je een caching-plug-in of een webservice zoals de CloudFlare) en vervolgens de cache van je webbrowser. Probeer ook opnieuw in te loggen op de website, ook dit kan helpen."
 
-#: inc/php/page.php:186
+#: inc/php/page.php:170
 msgid "Where to report bug if found?"
 msgstr "Waar kan een bug gerapporteerd worden indien gevonden?"
 
-#: inc/php/page.php:188
+#: inc/php/page.php:172
 #, php-format
 msgid "Bug reports are very welcome! Please visit %s our contact page %s and report. Please do not forget to specify the name of the plugin. Thank you!"
 msgstr "Bugrapporten zijn van harte welkom! Ga naar %s onze contactpagina %s en rapporteer. Vergeet alsjeblieft niet om de naam van de plug-in te specificeren. Dank je!"
 
-#: inc/php/page.php:194
+#: inc/php/page.php:178
 msgid "Where to share any ideas or suggestions to make the plugin better?"
 msgstr "Waar kan ik ideeën of suggesties delen om de plug-in beter te maken?"
 
-#: inc/php/page.php:196
+#: inc/php/page.php:180
 #, php-format
 msgid "Any suggestions are very welcome! Please visit %s our contact page %s. Please do not forget to specify the name of the plugin. Thank you!"
 msgstr "Alle suggesties zijn van harte welkom! Ga naar %s onze contactpagina %s. Vergeet alsjeblieft niet om de naam van de plug-in te specificeren. Dank je!"
 
-#: inc/php/page.php:202
+#: inc/php/page.php:186
 msgid "I love this plugin! Can I help somehow?"
 msgstr "Ik ben dol op deze plug-in! Kan ik op de een of andere manier helpen?"
 
-#: inc/php/page.php:204
+#: inc/php/page.php:188
 #, php-format
 msgid "Yes, any contributions are very welcome! Please visit %s our donation page %s. Thank you!"
 msgstr "Ja, alle bijdragen zijn van harte welkom! Ga naar %s onze donatiepagina %s. Dank je!"
 
-#: inc/php/page.php:210
+#: inc/php/page.php:194
 msgid "My question wasn't answered here."
 msgstr "Mij vraag is hier niet beantwoord."
 
-#: inc/php/page.php:212
+#: inc/php/page.php:196
 #, php-format
 msgid "You can ask your question on %s this page %s. But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr "Je kunt je vraag op %s deze pagina %s stellen. Maar houd er rekening mee dat deze plug-in gratis is en er geen speciaal ondersteuningsteam is, dus we kunnen niet iedereen antwoorden."
 
-#: inc/php/page.php:226
+#: inc/php/page.php:210
 msgid "Support Us"
 msgstr "Ondersteun ons"
 
-#: inc/php/page.php:234 inc/php/settings.php:94 inc/php/sidebar.php:54
+#: inc/php/page.php:218 inc/php/settings.php:94 inc/php/sidebar.php:54
 msgid "Donate with PayPal"
 msgstr "Doneer via PayPal"
 
-#: inc/php/page.php:239
+#: inc/php/page.php:223
 #, php-format
 msgid "Hello! My name is %s Arthur %s, I'm the founder of %s Space X-Chimp %s, which unites a small international team of young people."
 msgstr ""
 
-#: inc/php/page.php:247
+#: inc/php/page.php:231
 msgid "Our intention is to create projects that will make this world a better place. Our motto is - «Follow your dreams and don’t give up». We are really passionate about our work, we like what we are doing and hope that you will be enriched by our projects too."
 msgstr ""
 
-#: inc/php/page.php:248
+#: inc/php/page.php:232
 msgid "We spend a lot of time and effort trying to make sure that the themes, plugins and other things we build are useful, and the ultimate proof of that for us is that you actually want to use them. But we are an independent developers, without a regular income, so every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Ik besteed veel tijd en moeite om ervoor te zorgen dat de thema’s, plug-ins en andere dingen die ik maak nuttig zijn, en het ultieme bewijs daarvan is dat je ze echt wilt gebruiken. Maar ik ben een onafhankelijke ontwikkelaar, zonder een vast inkomen, dus elke kleine bijdrage helpt mij mijn kosten te dekken en laat me meer tijd besteden aan het bouwen van dingen voor mensen zoals jij om van te genieten."
 
-#: inc/php/page.php:249
+#: inc/php/page.php:233
 msgid "If you appreciate our work, you can buy us a cup of coffee!"
 msgstr "Als je mijn werk waardeert, kun je een koffie voor me kopen!"
 
-#: inc/php/page.php:250
+#: inc/php/page.php:234
 msgid "Thank you for your support!"
 msgstr "Bedankt voor je ondersteuning!"
 

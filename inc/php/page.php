@@ -72,12 +72,12 @@ function spacexchimp_p006_render_submenu_page() {
                             <li><?php _e( 'Click the "Save changes" button.', $text ); ?></li>
                             <li><?php _e( 'Enjoy the result of applying your custom HTML code.', $text ); ?> <?php _e( 'It\'s that simple!', $text ); ?></li>
                         </ol>
-                        <p class="note"><b><?php _e( 'Note!', $text ); ?></b> <?php printf(
-                                                                                            __( 'If you want more options, then %s let us know %s and we will be happy to add them.', $text ),
-                                                                                                '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
-                                                                                                '</a>'
-                                                                                           );
-                                                                              ?>
+                        <p class="note"><?php printf(
+                                                      __( 'If you want more options, then %s let us know %s and we will be happy to add them.', $text ),
+                                                      '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
+                                                      '</a>'
+                                                    );
+                                        ?>
                         </p>
                     </div>
                 </div>
@@ -96,7 +96,7 @@ function spacexchimp_p006_render_submenu_page() {
 
                         <div class="panel-group" id="collapse-group">
                             <?php
-                                $loopvalue = '13';
+                                $loopvalue = '14';
                                 for ( $i = 1; $i <= $loopvalue; $i++ ) {
                                     echo '<div class="panel panel-default">
                                             <div class="panel-heading">
@@ -160,39 +160,47 @@ add_action( 'wp_head', 'my_custom_html_code' );</code></pre>
                                               ?>
                         </div>
 
-                        <div class="question-8 question-red"><?php _e( 'It\'s not working. What could be wrong?', $text ); ?></div>
-                        <div class="answer-8"><?php _e( 'As with every plugin, it\'s possible that things don\'t work. The most common reason for this is a web browser\'s cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser\'s cache.​ Clearing your browser\'s cache may solve the problem.', $text ); ?><br><br>
+                        <div class="question-8 question-red"><?php _e( 'My custom HTML code is not working. What could be wrong?', $text ); ?></div>
+                        <div class="answer-8"><?php _e( 'It happens that your custom HTML code that you insert on the plugin page does not work, even if an error message does not appear. Here are a few of the most likely causes of the issue:', $text ); ?>
+                                               <ol class="custom-counter">
+                                                    <li><?php _e( 'You have a typo during the insertion of your custom HTML code.', $text ); ?></li>
+                                                    <li><?php _e( 'Your custom HTML code has a syntax error.', $text ); ?></li>
+                                                    <li><?php _e( 'Your custom HTML code is incorrect and may not work.', $text ); ?></li>
+                                               </ol></div>
+
+                        <div class="question-9 question-red"><?php _e( 'It\'s not working. What could be wrong?', $text ); ?></div>
+                        <div class="answer-9"><?php _e( 'As with every plugin, it\'s possible that things don\'t work. The most common reason for this is a web browser\'s cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser\'s cache.​ Clearing your browser\'s cache may solve the problem.', $text ); ?><br><br>
                                               <?php _e( 'It\'s impossible to tell what could be wrong exactly, but if you post a support request in the plugin\'s support forum on WordPress.org, we\'d be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.', $text ); ?></div>
 
-                        <div class="question-9 question-red"><?php _e( 'The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?', $text ); ?></div>
-                        <div class="answer-9"><?php _e( 'This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website\'s cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.', $text ); ?></div>
+                        <div class="question-10 question-red"><?php _e( 'The last WordPress update is preventing me from editing my website that is using this plugin. Why is this?', $text ); ?></div>
+                        <div class="answer-10"><?php _e( 'This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website\'s cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.', $text ); ?></div>
 
-                        <div class="question-10 question-red"><?php _e( 'Where to report bug if found?', $text ); ?></div>
-                        <div class="answer-10"><?php printf(
+                        <div class="question-11 question-red"><?php _e( 'Where to report bug if found?', $text ); ?></div>
+                        <div class="answer-11"><?php printf(
                                                             __( 'Bug reports are very welcome! Please visit %s our contact page %s and report. Please do not forget to specify the name of the plugin. Thank you!', $text ),
                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                 '</a>'
                                                            );
                                                ?></div>
 
-                        <div class="question-11"><?php _e( 'Where to share any ideas or suggestions to make the plugin better?', $text ); ?></div>
-                        <div class="answer-11"><?php printf(
+                        <div class="question-12"><?php _e( 'Where to share any ideas or suggestions to make the plugin better?', $text ); ?></div>
+                        <div class="answer-12"><?php printf(
                                                             __( 'Any suggestions are very welcome! Please visit %s our contact page %s. Please do not forget to specify the name of the plugin. Thank you!', $text ),
                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                 '</a>'
                                                            );
                                                ?></div>
 
-                        <div class="question-12"><?php _e( 'I love this plugin! Can I help somehow?', $text ); ?></div>
-                        <div class="answer-12"><?php printf(
+                        <div class="question-13"><?php _e( 'I love this plugin! Can I help somehow?', $text ); ?></div>
+                        <div class="answer-13"><?php printf(
                                                             __( 'Yes, any contributions are very welcome! Please visit %s our donation page %s. Thank you!', $text ),
                                                                 '<a href="https://www.spacexchimp.com/donate.html" target="_blank">',
                                                                 '</a>'
                                                            );
                                                ?></div>
 
-                        <div class="question-13"><?php _e( 'My question wasn\'t answered here.', $text ); ?></div>
-                        <div class="answer-13"><?php printf(
+                        <div class="question-14"><?php _e( 'My question wasn\'t answered here.', $text ); ?></div>
+                        <div class="answer-14"><?php printf(
                                                             __( 'You can ask your question on %s this page %s. But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone.', $text ),
                                                                 '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
                                                                 '</a>'

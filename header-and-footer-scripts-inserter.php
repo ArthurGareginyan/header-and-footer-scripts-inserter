@@ -5,12 +5,12 @@
  * Description: Easily and safely add your custom HTML code (plus JavaScript, CSS, etc.) to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.33
+ * Version: 4.34
  * License: GPL3
  * Text Domain: header-and-footer-scripts-inserter
  * Domain Path: /languages/
  *
- * Copyright 2016-2018 Space X-Chimp ( website : https://www.spacexchimp.com )
+ * Copyright 2016-2019 Space X-Chimp ( website : https://www.spacexchimp.com )
  *
  * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

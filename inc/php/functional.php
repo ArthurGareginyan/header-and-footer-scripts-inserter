@@ -15,7 +15,7 @@ function spacexchimp_p006_prepare( $option ) {
         return;
     }
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P006_SETTINGS . '_settings' );
     $data = !empty( $options[$option] ) ? $options[$option] : '';
 

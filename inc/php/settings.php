@@ -35,7 +35,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                             </div>
                         </h3>
                         <div class="inside">
-                            <p class="note"><?php _e( 'You can use the fields below to add your custom HTML code to the HEAD section of your website.', $text ); ?></p>
+                            <p class="note"><?php _e( 'You can use the fields below to add your custom HTML code to the HEAD section of your website\'s front end.', $text ); ?></p>
 
                             <p class='help-text'><?php _e( 'The HTML code from this field will be printed at the beginning of the HEAD section. Do not place plain text in this!', $text ); ?></p>
                             <textarea
@@ -63,7 +63,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                             </div>
                         </h3>
                         <div class="inside">
-                            <p class="note"><?php _e( 'You can use the fields below to add your custom HTML code to the FOOTER section of your website.', $text ); ?></p>
+                            <p class="note"><?php _e( 'You can use the fields below to add your custom HTML code to the FOOTER section of your website\'s front end.', $text ); ?></p>
 
                             <p class='help-text'><?php _e( 'The HTML code from this field will be printed at the beginning of the FOOTER section. Do not place plain text in this!', $text ); ?></p>
                             <textarea
@@ -88,11 +88,11 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         <div class="inside">
                             <p><?php _e( 'Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy.', $text ); ?></p>
                             <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS" target="_blank" class="btn btn-default button-labeled">
-                                                        <span class="btn-label">
-                                                            <img src="<?php echo SPACEXCHIMP_P006_URL . 'inc/img/paypal.svg'; ?>" alt="PayPal">
-                                                        </span>
-                                                        <?php _e( 'Donate with PayPal', $text ); ?>
-                                                </a>
+                                <span class="btn-label">
+                                    <img src="<?php echo SPACEXCHIMP_P006_URL . 'inc/img/paypal.svg'; ?>" alt="PayPal">
+                                </span>
+                                <?php _e( 'Donate with PayPal', $text ); ?>
+                            </a>
                             <p><?php _e( 'Thanks for your support!', $text ); ?></p>
                         </div>
                     </div>

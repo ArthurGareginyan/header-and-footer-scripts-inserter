@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Head and Footer Scripts Inserter\n"
-"POT-Creation-Date: 2019-03-01 06:40+0300\n"
-"PO-Revision-Date: 2019-03-01 06:40+0300\n"
+"POT-Creation-Date: 2019-03-18 21:11+0300\n"
+"PO-Revision-Date: 2019-03-18 21:11+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -36,29 +36,29 @@ msgstr "Donar"
 msgid "Scripts Inserter"
 msgstr "Scripts Inserter"
 
-#: inc/php/messages.php:27 inc/php/tabs/support.php:25
+#: inc/php/messages.php:35 inc/php/tabs/support.php:25
 msgid "Hello!"
 msgstr "¡Hola!"
 
-#: inc/php/messages.php:28
+#: inc/php/messages.php:36
 msgid "We are the team of Space X-Chimp."
 msgstr "Somos el equipo de Space X-Chimp."
 
-#: inc/php/messages.php:33
+#: inc/php/messages.php:41
 #, php-format
 msgid "Thank you for installing our plugin! We hope you will love it! %s"
 msgstr "Gracias por instalar este complemento! Espero que te encante! %s"
 
-#: inc/php/messages.php:74
+#: inc/php/messages.php:93
 msgid "You have installed an old version of this plugin."
 msgstr "Has instalado una versión antigua de este complemento."
 
-#: inc/php/messages.php:75
+#: inc/php/messages.php:94
 msgid "Please update the plugin to the latest version, and all will be fine."
 msgstr "Actualiza el complemento a la versión más reciente y todo estará bien."
 
-#: inc/php/messages.php:99
-msgid "Custom code updated successfully."
+#: inc/php/messages.php:129
+msgid "Custom code saved successfully."
 msgstr ""
 
 #: inc/php/page.php:34
@@ -82,7 +82,7 @@ msgstr "Uso"
 msgid "F.A.Q."
 msgstr "Preguntas ?"
 
-#: inc/php/page.php:50 inc/php/sidebar.php:47 inc/php/tabs/settings.php:87
+#: inc/php/page.php:50 inc/php/sidebar.php:47 inc/php/tabs/settings.php:99
 msgid "Support"
 msgstr "Soporte"
 
@@ -110,16 +110,16 @@ msgstr "Ayuda"
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Si tiene alguna pregunta, lee la información en la sección de preguntas frecuentes."
 
-#: inc/php/sidebar.php:49 inc/php/tabs/settings.php:89
+#: inc/php/sidebar.php:49 inc/php/tabs/settings.php:101
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Soy un desarrollador independiente, sin un ingreso regular, por lo que cada pequeña contribución ayuda a cubrir mis costos y me deja pasar más tiempo construyendo cosas para que personas como tú las disfruten."
 
-#: inc/php/sidebar.php:54 inc/php/tabs/settings.php:94
+#: inc/php/sidebar.php:54 inc/php/tabs/settings.php:106
 #: inc/php/tabs/support.php:21
 msgid "Donate with PayPal"
 msgstr "Donar con PayPal"
 
-#: inc/php/sidebar.php:56 inc/php/tabs/settings.php:96
+#: inc/php/sidebar.php:56 inc/php/tabs/settings.php:108
 msgid "Thanks for your support!"
 msgstr "¡Gracias por tu apoyo!"
 
@@ -227,7 +227,7 @@ msgstr ""
 
 #: inc/php/tabs/faq.php:101
 msgid "It is also possible that not all existing translations are up-to-date or correct, so you are welcome to make corrections."
-msgstr "Quizás no todas las traducciones existentes estén actualizadas. Le invitamos a contribuir correcciones!"
+msgstr "Quizás no todas las traducciones existentes estén actualizadas. Le invitamos a contribuir correcciones."
 
 #: inc/php/tabs/faq.php:102
 msgid "Many of plugin users would be delighted if you share your translation with the community."
@@ -539,7 +539,7 @@ msgstr "Pero ten en cuenta que este complemento es gratuito, y no hay un equipo 
 msgid "Head Section"
 msgstr ""
 
-#: inc/php/tabs/settings.php:34 inc/php/tabs/settings.php:62
+#: inc/php/tabs/settings.php:34 inc/php/tabs/settings.php:68
 msgid "NOT SAVED!"
 msgstr ""
 
@@ -547,37 +547,42 @@ msgstr ""
 msgid "You can use the fields below to add your custom HTML code to the HEAD section of your website's front end."
 msgstr ""
 
-#: inc/php/tabs/settings.php:40
-msgid "The HTML code from this field will be printed at the beginning of the HEAD section. Do not place plain text in this!"
+#: inc/php/tabs/settings.php:41
+msgid "The HTML code from this field will be printed at the beginning of the HEAD section."
 msgstr ""
 
-#: inc/php/tabs/settings.php:44 inc/php/tabs/settings.php:51
-#: inc/php/tabs/settings.php:72 inc/php/tabs/settings.php:79
+#: inc/php/tabs/settings.php:42 inc/php/tabs/settings.php:52
+#: inc/php/tabs/settings.php:76 inc/php/tabs/settings.php:86
+msgid "Do not place plain text in this!"
+msgstr ""
+
+#: inc/php/tabs/settings.php:47 inc/php/tabs/settings.php:57
+#: inc/php/tabs/settings.php:81 inc/php/tabs/settings.php:91
 msgid "Enter your custom HTML code here"
 msgstr ""
 
-#: inc/php/tabs/settings.php:47
-msgid "The HTML code from this field will be printed at the end of the HEAD section. Do not place plain text in this!"
+#: inc/php/tabs/settings.php:51
+msgid "The HTML code from this field will be printed at the end of the HEAD section."
 msgstr ""
 
-#: inc/php/tabs/settings.php:54 inc/php/tabs/settings.php:82
+#: inc/php/tabs/settings.php:60 inc/php/tabs/settings.php:94
 msgid "Save changes"
 msgstr "Guardar cambios"
 
-#: inc/php/tabs/settings.php:60
+#: inc/php/tabs/settings.php:66
 msgid "Footer Section"
 msgstr ""
 
-#: inc/php/tabs/settings.php:66
+#: inc/php/tabs/settings.php:72
 msgid "You can use the fields below to add your custom HTML code to the FOOTER section of your website's front end."
 msgstr ""
 
-#: inc/php/tabs/settings.php:68
-msgid "The HTML code from this field will be printed at the beginning of the FOOTER section. Do not place plain text in this!"
+#: inc/php/tabs/settings.php:75
+msgid "The HTML code from this field will be printed at the beginning of the FOOTER section."
 msgstr ""
 
-#: inc/php/tabs/settings.php:75
-msgid "The HTML code from this field will be printed at the end of the FOOTER section. Do not place plain text in this!"
+#: inc/php/tabs/settings.php:85
+msgid "The HTML code from this field will be printed at the end of the FOOTER section."
 msgstr ""
 
 #: inc/php/tabs/support.php:13

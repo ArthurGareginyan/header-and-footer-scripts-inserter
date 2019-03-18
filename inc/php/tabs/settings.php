@@ -37,14 +37,20 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         <div class="inside">
                             <p class="note"><?php _e( 'You can use the fields below to add your custom HTML code to the HEAD section of your website\'s front end.', $text ); ?></p>
 
-                            <p class='help-text'><?php _e( 'The HTML code from this field will be printed at the beginning of the HEAD section. Do not place plain text in this!', $text ); ?></p>
+                            <p class='help-text'>
+                                <?php _e( 'The HTML code from this field will be printed at the beginning of the HEAD section.', $text ); ?>
+                                <?php _e( 'Do not place plain text in this!', $text ); ?>
+                            </p>
                             <textarea
                                 name="spacexchimp_p006_settings[header_beginning]"
                                 id="spacexchimp_p006_settings[header_beginning]"
                                 placeholder="<?php _e( 'Enter your custom HTML code here', $text ); ?>"
                             ><?php echo $header_beginning; ?></textarea>
 
-                            <p class='help-text'><?php _e( 'The HTML code from this field will be printed at the end of the HEAD section. Do not place plain text in this!', $text ); ?></p>
+                            <p class='help-text'>
+                                <?php _e( 'The HTML code from this field will be printed at the end of the HEAD section.', $text ); ?>
+                                <?php _e( 'Do not place plain text in this!', $text ); ?>
+                            </p>
                             <textarea
                                 name="spacexchimp_p006_settings[header_end]"
                                 id="spacexchimp_p006_settings[header_end]"
@@ -65,14 +71,20 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                         <div class="inside">
                             <p class="note"><?php _e( 'You can use the fields below to add your custom HTML code to the FOOTER section of your website\'s front end.', $text ); ?></p>
 
-                            <p class='help-text'><?php _e( 'The HTML code from this field will be printed at the beginning of the FOOTER section. Do not place plain text in this!', $text ); ?></p>
+                            <p class='help-text'>
+                                <?php _e( 'The HTML code from this field will be printed at the beginning of the FOOTER section.', $text ); ?>
+                                <?php _e( 'Do not place plain text in this!', $text ); ?>
+                            </p>
                             <textarea
                                 name="spacexchimp_p006_settings[footer_beginning]"
                                 id="spacexchimp_p006_settings[footer_beginning]"
                                 placeholder="<?php _e( 'Enter your custom HTML code here', $text ); ?>"
                             ><?php echo $footer_beginning; ?></textarea>
 
-                            <p class='help-text'><?php _e( 'The HTML code from this field will be printed at the end of the FOOTER section. Do not place plain text in this!', $text ); ?></p>
+                            <p class='help-text'>
+                                <?php _e( 'The HTML code from this field will be printed at the end of the FOOTER section.', $text ); ?>
+                                <?php _e( 'Do not place plain text in this!', $text ); ?>
+                            </p>
                             <textarea
                                 name="spacexchimp_p006_settings[footer_end]"
                                 id="spacexchimp_p006_settings[footer_end]"

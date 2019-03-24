@@ -15,15 +15,18 @@ function spacexchimp_p006_prepare( $option ) {
         return;
     }
 
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p006_plugin();
+
     // Retrieve options from database and declare variables
-    $options = get_option( SPACEXCHIMP_P006_SETTINGS . '_settings' );
+    $options = get_option( $plugin['settings'] . '_settings' );
     $data = !empty( $options[$option] ) ? $options[$option] : '';
 
     // Prepare a variable for storing the processed data
     $data_out = "";
 
     // If data is not empty...
-    if ( !empty( $data ) ) {
+    if ( ! empty( $data ) ) {
 
         $data_out .= $data;
 

@@ -5,7 +5,7 @@
  * Description: Easily and safely add your custom HTML code (plus JavaScript, CSS, etc.) to your WordPress website, directly out of the WordPress Admin Area, without the need to have an external editor.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 4.38
+ * Version: 4.39
  * License: GPL3
  * Text Domain: header-and-footer-scripts-inserter
  * Domain Path: /languages/
@@ -52,7 +52,7 @@ $plugin_data = get_file_data( __FILE__,
                             );
 function spacexchimp_p006_define_constants( $constant_name, $value ) {
     $constant_name = 'SPACEXCHIMP_P006_' . $constant_name;
-    if ( !defined( $constant_name ) )
+    if ( ! defined( $constant_name ) )
         define( $constant_name, $value );
 }
 spacexchimp_p006_define_constants( 'FILE', __FILE__ );
@@ -68,12 +68,37 @@ spacexchimp_p006_define_constants( 'PREFIX', 'spacexchimp_p006' );
 spacexchimp_p006_define_constants( 'SETTINGS', 'spacexchimp_p006' );
 
 /**
+ * A useful function that returns an array with the contents of plugin constants
+ */
+function spacexchimp_p006_plugin() {
+    $array = array(
+        'file'     => SPACEXCHIMP_P006_FILE,
+        'dir'      => SPACEXCHIMP_P006_DIR,
+        'base'     => SPACEXCHIMP_P006_BASE,
+        'url'      => SPACEXCHIMP_P006_URL,
+        'path'     => SPACEXCHIMP_P006_PATH,
+        'slug'     => SPACEXCHIMP_P006_SLUG,
+        'name'     => SPACEXCHIMP_P006_NAME,
+        'version'  => SPACEXCHIMP_P006_VERSION,
+        'text'     => SPACEXCHIMP_P006_TEXT,
+        'prefix'   => SPACEXCHIMP_P006_PREFIX,
+        'settings' => SPACEXCHIMP_P006_SETTINGS
+    );
+    return $array;
+}
+
+/**
+ * Put value of plugin constants into an array for easier access
+ */
+$plugin = spacexchimp_p006_plugin();
+
+/**
  * Load the plugin modules
  */
-require_once( SPACEXCHIMP_P006_PATH . 'inc/php/core.php' );
-require_once( SPACEXCHIMP_P006_PATH . 'inc/php/upgrade.php' );
-require_once( SPACEXCHIMP_P006_PATH . 'inc/php/versioning.php' );
-require_once( SPACEXCHIMP_P006_PATH . 'inc/php/enqueue.php' );
-require_once( SPACEXCHIMP_P006_PATH . 'inc/php/functional.php' );
-require_once( SPACEXCHIMP_P006_PATH . 'inc/php/page.php' );
-require_once( SPACEXCHIMP_P006_PATH . 'inc/php/messages.php' );
+require_once( $plugin['path'] . 'inc/php/core.php' );
+require_once( $plugin['path'] . 'inc/php/upgrade.php' );
+require_once( $plugin['path'] . 'inc/php/versioning.php' );
+require_once( $plugin['path'] . 'inc/php/enqueue.php' );
+require_once( $plugin['path'] . 'inc/php/functional.php' );
+require_once( $plugin['path'] . 'inc/php/page.php' );
+require_once( $plugin['path'] . 'inc/php/messages.php' );

@@ -57,7 +57,10 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                 placeholder="<?php _e( 'Enter your custom HTML code here', $plugin['text'] ); ?>"
                             ><?php echo $header_end; ?></textarea>
 
+                            <!-- SUBMIT -->
                             <input type="submit" name="submit" id="submit" class="btn btn-primary" value="<?php _e( 'Save changes', $plugin['text'] ); ?>">
+                            <!-- END SUBMIT -->
+
                         </div>
                     </div>
 
@@ -91,10 +94,14 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                 placeholder="<?php _e( 'Enter your custom HTML code here', $plugin['text'] ); ?>"
                             ><?php echo $footer_end; ?></textarea>
 
+                            <!-- SUBMIT -->
                             <input type="submit" name="submit" id="submit" class="btn btn-primary" value="<?php _e( 'Save changes', $plugin['text'] ); ?>">
+                            <!-- END SUBMIT -->
+
                         </div>
                     </div>
 
+                    <!-- SUPPORT -->
                     <div class="postbox" id="support-addition">
                         <h3 class="title"><?php _e( 'Support', $plugin['text'] ); ?></h3>
                         <div class="inside">
@@ -108,6 +115,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                             <p><?php _e( 'Thanks for your support!', $plugin['text'] ); ?></p>
                         </div>
                     </div>
+                    <!-- END SUPPORT -->
 
                 </form>
 

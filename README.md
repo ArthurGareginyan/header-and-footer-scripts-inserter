@@ -23,7 +23,7 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * Translation ready
 * Published on [WordPess.org](http://wordpess.org/)
 
-**Key features include...**
+**Key features include**
 
 * Insert custom HTML code into the site
 * Manage which HTML code load on HEAD or FOOTER
@@ -34,7 +34,7 @@ On the plugin page you find the code editor powered by CodeMirror. This code edi
 * Editor allow for Tab indentation
 * And much, much more!
 
-**PRO features include...**
+**PRO features include**
 
 * Ability to easily customize the code editor by selecting the desired settings
 * 56 themes for syntax highlighting

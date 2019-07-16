@@ -4,7 +4,7 @@ Tags: inject code, inject scripts, inject javascript, inject js, inject html, in
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.2
-Stable tag: 4.40
+Stable tag: 4.40.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -69,7 +69,7 @@ This plugin is ready for translation and has already been translated into severa
 * English (default)
 * Russian (translation by [Milena Kiseleva](https://www.instagram.com/milava_kiseleva/))
 * German (translation by Michael)
-* Polish
+* Polish (translation by Paweł K.)
 * Spanish (translation by Ramiro Garcés and Patricio Toledo)
 * Dutch (translation by Peter Leenders)
 * French (translation by Jean-Michel, Theophil Bethel and Hervé Bouzin)
@@ -219,6 +219,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.40.1 - Jul 16, 2019 =
+* Fixed: Prints a warning since PHP/7.1: "Notice: A non well formed numeric value encountered in /inc/php/versioning.php on line 43".
 
 = 4.40 - Mar 31, 2019 =
 * Framework updated: Code formatting improved.

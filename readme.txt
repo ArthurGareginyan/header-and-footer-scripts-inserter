@@ -3,8 +3,8 @@ Contributors: Arthur Gareginyan
 Tags: inject code, inject scripts, inject javascript, inject js, inject html, inject css, insert code, insert scripts, insert javascript, insert js, insert html, insert css, inject custom code, inject custom scripts, inject custom snippet, insert custom code, insert custom scripts, insert custom snippet, html, javascript, js, css, code, custom code, script, scripts, custom scripts, meta, meta tags, head, header, head section, head area, footer, footer section, footer area
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
-Tested up to: 5.2
-Stable tag: 4.41
+Tested up to: 5.3
+Stable tag: 4.42
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -219,6 +219,11 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.42 - Nov 11, 2019 =
+* Maintenance: Compatibility with upcoming WordPress 5.3.
+* Framework update: Bootstrap library updated to the latest version; v3.4.1.
+* Framework update: The list control has been redesigned.
 
 = 4.41 - Oct 2, 2019 =
 * French translation updated. (Thanks to Hervé Bouzin)

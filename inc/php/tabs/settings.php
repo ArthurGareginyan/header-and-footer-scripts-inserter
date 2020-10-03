@@ -94,6 +94,14 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                 placeholder="<?php _e( 'Enter your custom HTML code here', $plugin['text'] ); ?>"
                             ><?php echo $footer_end; ?></textarea>
 
+                            <!-- HIDDEN -->
+                            <?php
+                                spacexchimp_p006_control_hidden( 'hidden_scrollto',
+                                                                 '0'
+                                                               );
+                            ?>
+                            <!-- END HIDDEN -->
+
                             <!-- SUBMIT -->
                             <input type="submit" name="submit" id="submit" class="btn btn-primary" value="<?php _e( 'Save changes', $plugin['text'] ); ?>">
                             <!-- END SUBMIT -->

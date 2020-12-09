@@ -5,7 +5,7 @@ Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
 Tested up to: 5.6
 Requires PHP: 5.6
-Stable tag: 4.48
+Stable tag: 4.49
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -223,6 +223,10 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 4.49 - Dec 8, 2020 =
+* Maintenance: Ensure compatibility with upcoming WordPress 5.6.
+* Maintenance: Every use of the hardcoded plugin slug has been replaced with a variable according to best coding standards.
 
 = 4.48 - Oct 23, 2020 =
 * Framework update: The CodeMirror library has been updated to the latest version v5.58.1.

@@ -7,6 +7,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Prepare the custom code
+ * @return string by using "echo"
  */
 function spacexchimp_p006_prepare( $option ) {
 

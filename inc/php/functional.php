@@ -46,7 +46,7 @@ function spacexchimp_p006_exec_footer_0() { spacexchimp_p006_prepare('footer_beg
 function spacexchimp_p006_exec_footer_1() { spacexchimp_p006_prepare('footer_end'); }
 
 /**
- * Inject the custom code into the website's frontend
+ * Inject the custom code into the website's frontend (head and footer sections)
  */
 add_action( 'wp_head', 'spacexchimp_p006_exec_head_0', 0 );
 add_action( 'wp_head', 'spacexchimp_p006_exec_head_1', 1000 );

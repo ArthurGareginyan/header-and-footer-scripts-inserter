@@ -17,8 +17,8 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     <?php settings_fields( $plugin['settings'] . '_settings_group' ); ?>
 
                     <?php
-                        // Retrieve options from database
-                        $options = get_option( $plugin['settings'] . '_settings' );
+                        // Put the value of the plugin options into an array for easier access
+                        $options = spacexchimp_p006_options();
 
                         // Set default value if option is empty
                         $header_beginning = !empty( $options['header_beginning'] ) ? esc_attr( $options['header_beginning'] ) : '';

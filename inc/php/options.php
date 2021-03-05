@@ -23,6 +23,9 @@ function spacexchimp_p006_options() {
     // Set default value if option is empty
     $array['hidden_scrollto'] = !empty( $options['hidden_scrollto'] ) ? $options['hidden_scrollto'] : '0';
 
+    // Sanitize data
+
+
     // Return the processed data
     return $array;
 }

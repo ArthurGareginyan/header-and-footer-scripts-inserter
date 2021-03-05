@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: inject code, inject scripts, inject javascript, inject js, inject html, inject css, insert code, insert scripts, insert javascript, insert js, insert html, insert css, inject custom code, inject custom scripts, inject custom snippet, insert custom code, insert custom scripts, insert custom snippet, html, javascript, js, css, code, custom code, script, scripts, custom scripts, meta, meta tags, head, header, head section, head area, footer, footer section, footer area
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
-Tested up to: 5.6
+Tested up to: 5.7
 Requires PHP: 5.6
 Stable tag: 4.50
 License: GPL3

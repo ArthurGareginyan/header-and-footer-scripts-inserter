@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Head and Footer Scripts Inserter\n"
-"POT-Creation-Date: 2021-01-02 21:03+0300\n"
+"POT-Creation-Date: 2021-03-09 01:10+0300\n"
 "PO-Revision-Date: 2016-01-30 11:39+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -80,7 +80,7 @@ msgstr ""
 msgid "F.A.Q."
 msgstr ""
 
-#: inc/php/page.php:46 inc/php/sidebar.php:56 inc/php/tabs/settings.php:114
+#: inc/php/page.php:46 inc/php/sidebar.php:56 inc/php/tabs/settings.php:108
 msgid "Support"
 msgstr ""
 
@@ -108,16 +108,16 @@ msgstr ""
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr ""
 
-#: inc/php/sidebar.php:58 inc/php/tabs/settings.php:116
+#: inc/php/sidebar.php:58 inc/php/tabs/settings.php:110
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr ""
 
-#: inc/php/sidebar.php:63 inc/php/tabs/settings.php:121
+#: inc/php/sidebar.php:63 inc/php/tabs/settings.php:115
 #: inc/php/tabs/support.php:25
 msgid "Donate with PayPal"
 msgstr ""
 
-#: inc/php/sidebar.php:65 inc/php/tabs/settings.php:123
+#: inc/php/sidebar.php:65 inc/php/tabs/settings.php:117
 msgid "Thanks for your support!"
 msgstr ""
 
@@ -533,53 +533,53 @@ msgstr ""
 msgid "But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr ""
 
-#: inc/php/tabs/settings.php:32
+#: inc/php/tabs/settings.php:26
 msgid "Head Section"
 msgstr ""
 
-#: inc/php/tabs/settings.php:34 inc/php/tabs/settings.php:71
+#: inc/php/tabs/settings.php:28 inc/php/tabs/settings.php:65
 msgid "NOT SAVED!"
 msgstr ""
 
-#: inc/php/tabs/settings.php:38
+#: inc/php/tabs/settings.php:32
 msgid "You can use the fields below to add your custom HTML code to the HEAD section of your website's front end."
 msgstr ""
 
-#: inc/php/tabs/settings.php:41
+#: inc/php/tabs/settings.php:35
 msgid "The HTML code from this field will be printed at the beginning of the HEAD section."
 msgstr ""
 
-#: inc/php/tabs/settings.php:42 inc/php/tabs/settings.php:52
-#: inc/php/tabs/settings.php:79 inc/php/tabs/settings.php:89
+#: inc/php/tabs/settings.php:36 inc/php/tabs/settings.php:46
+#: inc/php/tabs/settings.php:73 inc/php/tabs/settings.php:83
 msgid "Do not place plain text in this!"
 msgstr ""
 
-#: inc/php/tabs/settings.php:47 inc/php/tabs/settings.php:57
-#: inc/php/tabs/settings.php:84 inc/php/tabs/settings.php:94
+#: inc/php/tabs/settings.php:41 inc/php/tabs/settings.php:51
+#: inc/php/tabs/settings.php:78 inc/php/tabs/settings.php:88
 msgid "Enter your custom HTML code here"
 msgstr ""
 
-#: inc/php/tabs/settings.php:51
+#: inc/php/tabs/settings.php:45
 msgid "The HTML code from this field will be printed at the end of the HEAD section."
 msgstr ""
 
-#: inc/php/tabs/settings.php:61 inc/php/tabs/settings.php:106
+#: inc/php/tabs/settings.php:55 inc/php/tabs/settings.php:100
 msgid "Save changes"
 msgstr ""
 
-#: inc/php/tabs/settings.php:69
+#: inc/php/tabs/settings.php:63
 msgid "Footer Section"
 msgstr ""
 
-#: inc/php/tabs/settings.php:75
+#: inc/php/tabs/settings.php:69
 msgid "You can use the fields below to add your custom HTML code to the FOOTER section of your website's front end."
 msgstr ""
 
-#: inc/php/tabs/settings.php:78
+#: inc/php/tabs/settings.php:72
 msgid "The HTML code from this field will be printed at the beginning of the FOOTER section."
 msgstr ""
 
-#: inc/php/tabs/settings.php:88
+#: inc/php/tabs/settings.php:82
 msgid "The HTML code from this field will be printed at the end of the FOOTER section."
 msgstr ""
 

@@ -19,12 +19,6 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     <?php
                         // Put the value of the plugin options into an array for easier access
                         $options = spacexchimp_p006_options();
-
-                        // Set default value if option is empty
-                        $header_beginning = !empty( $options['header_beginning'] ) ? esc_attr( $options['header_beginning'] ) : '';
-                        $header_end = !empty( $options['header_end'] ) ? esc_attr( $options['header_end'] ) : '';
-                        $footer_beginning = !empty( $options['footer_beginning'] ) ? esc_attr( $options['footer_beginning'] ) : '';
-                        $footer_end = !empty( $options['footer_end'] ) ? esc_attr( $options['footer_end'] ) : '';
                     ?>
 
                     <div class="postbox" id="head">
@@ -45,7 +39,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                 name="spacexchimp_p006_settings[header_beginning]"
                                 id="spacexchimp_p006_settings[header_beginning]"
                                 placeholder="<?php _e( 'Enter your custom HTML code here', $plugin['text'] ); ?>"
-                            ><?php echo $header_beginning; ?></textarea>
+                            ><?php echo esc_attr( $options['header_beginning'] ); ?></textarea>
 
                             <p class='help-text'>
                                 <?php _e( 'The HTML code from this field will be printed at the end of the HEAD section.', $plugin['text'] ); ?>
@@ -55,7 +49,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                 name="spacexchimp_p006_settings[header_end]"
                                 id="spacexchimp_p006_settings[header_end]"
                                 placeholder="<?php _e( 'Enter your custom HTML code here', $plugin['text'] ); ?>"
-                            ><?php echo $header_end; ?></textarea>
+                            ><?php echo esc_attr( $options['header_end'] ); ?></textarea>
 
                             <!-- SUBMIT -->
                             <input type="submit" name="submit" id="submit" class="btn btn-primary" value="<?php _e( 'Save changes', $plugin['text'] ); ?>">
@@ -82,7 +76,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                 name="spacexchimp_p006_settings[footer_beginning]"
                                 id="spacexchimp_p006_settings[footer_beginning]"
                                 placeholder="<?php _e( 'Enter your custom HTML code here', $plugin['text'] ); ?>"
-                            ><?php echo $footer_beginning; ?></textarea>
+                            ><?php echo esc_attr( $options['footer_beginning'] ); ?></textarea>
 
                             <p class='help-text'>
                                 <?php _e( 'The HTML code from this field will be printed at the end of the FOOTER section.', $plugin['text'] ); ?>
@@ -92,7 +86,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                 name="spacexchimp_p006_settings[footer_end]"
                                 id="spacexchimp_p006_settings[footer_end]"
                                 placeholder="<?php _e( 'Enter your custom HTML code here', $plugin['text'] ); ?>"
-                            ><?php echo $footer_end; ?></textarea>
+                            ><?php echo esc_attr( $options['footer_end'] ); ?></textarea>
 
                             <!-- HIDDEN -->
                             <?php

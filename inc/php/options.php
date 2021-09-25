@@ -27,11 +27,11 @@ function spacexchimp_p006_options() {
 
     // Set default value if option is empty
     $list = array(
-        'footer_beginning' => '', // custom
-        'footer_end' => '', // custom
-        'header_beginning' => '', // custom
-        'header_end' => '', // custom
-        'hidden_scrollto' => '0', // _control_hidden
+        'footer_beginning' => (string) '', // custom
+        'footer_end' => (string) '', // custom
+        'header_beginning' => (string) '', // custom
+        'header_end' => (string) '', // custom
+        'hidden_scrollto' => (integer) '0', // _control_hidden
     );
     foreach ( $list as $name => $default ) {
         $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;

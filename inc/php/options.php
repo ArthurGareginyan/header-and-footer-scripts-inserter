@@ -24,8 +24,6 @@ function spacexchimp_p006_options() {
 
     // Create an array with options
     $array = $options;
-
-    // Set default value if option is empty
     $list = array(
         'footer_beginning' => (string) '', // custom
         'footer_end' => (string) '', // custom
@@ -34,6 +32,8 @@ function spacexchimp_p006_options() {
         'hidden_scrollto' => (integer) '0', // _control_hidden
     );
     foreach ( $list as $name => $default ) {
+
+        // Set default value if option is empty
         $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;
     }
 

@@ -51,7 +51,6 @@ function spacexchimp_p006_options() {
     //$array['footer_end'] = esc_textarea( $array['footer_end'] );
     //$array['header_beginning'] = esc_textarea( $array['header_beginning'] );
     //$array['header_end'] = esc_textarea( $array['header_end'] );
-    //$array['hidden_scrollto'] = esc_textarea( $array['hidden_scrollto'] );
 
     // Modify data
 

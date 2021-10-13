@@ -12,7 +12,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 function spacexchimp_p006_prepare( $option ) {
 
     // Ignore admin, feed, robots or trackbacks
-    if (is_admin() || is_feed() || is_robots() || is_trackback()) {
+    if ( is_admin() || is_feed() || is_robots() || is_trackback() ) {
         return;
     }
 
